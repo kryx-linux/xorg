@@ -45,6 +45,7 @@ drwxr-xr-x	root/root	usr/share/X11/xkb/geometry/digital_vndr/
 -rw-r--r--	root/root	usr/share/X11/xkb/geometry/macintosh
 -rw-r--r--	root/root	usr/share/X11/xkb/geometry/microsoft
 -rw-r--r--	root/root	usr/share/X11/xkb/geometry/nec
+-rw-r--r--	root/root	usr/share/X11/xkb/geometry/nokia
 -rw-r--r--	root/root	usr/share/X11/xkb/geometry/northgate
 -rw-r--r--	root/root	usr/share/X11/xkb/geometry/pc
 drwxr-xr-x	root/root	usr/share/X11/xkb/geometry/sgi_vndr/
@@ -232,7 +233,6 @@ drwxr-xr-x	root/root	usr/share/X11/xkb/symbols/macintosh_vndr/
 -rw-r--r--	root/root	usr/share/X11/xkb/symbols/macintosh_vndr/ch
 -rw-r--r--	root/root	usr/share/X11/xkb/symbols/macintosh_vndr/de
 -rw-r--r--	root/root	usr/share/X11/xkb/symbols/macintosh_vndr/dk
--rw-r--r--	root/root	usr/share/X11/xkb/symbols/macintosh_vndr/es
 -rw-r--r--	root/root	usr/share/X11/xkb/symbols/macintosh_vndr/fi
 -rw-r--r--	root/root	usr/share/X11/xkb/symbols/macintosh_vndr/fr
 -rw-r--r--	root/root	usr/share/X11/xkb/symbols/macintosh_vndr/gb
@@ -257,6 +257,10 @@ drwxr-xr-x	root/root	usr/share/X11/xkb/symbols/nec_vndr/
 -rw-r--r--	root/root	usr/share/X11/xkb/symbols/ng
 -rw-r--r--	root/root	usr/share/X11/xkb/symbols/nl
 -rw-r--r--	root/root	usr/share/X11/xkb/symbols/no
+drwxr-xr-x	root/root	usr/share/X11/xkb/symbols/nokia_vndr/
+-rw-r--r--	root/root	usr/share/X11/xkb/symbols/nokia_vndr/rx-44
+-rw-r--r--	root/root	usr/share/X11/xkb/symbols/nokia_vndr/rx-51
+-rw-r--r--	root/root	usr/share/X11/xkb/symbols/nokia_vndr/su-8w
 -rw-r--r--	root/root	usr/share/X11/xkb/symbols/np
 -rw-r--r--	root/root	usr/share/X11/xkb/symbols/olpc
 -rw-r--r--	root/root	usr/share/X11/xkb/symbols/pc
@@ -332,6 +336,7 @@ drwxr-xr-x	root/root	usr/share/X11/xkb/types/
 -rw-r--r--	root/root	usr/share/X11/xkb/types/iso9995
 -rw-r--r--	root/root	usr/share/X11/xkb/types/level5
 -rw-r--r--	root/root	usr/share/X11/xkb/types/mousekeys
+-rw-r--r--	root/root	usr/share/X11/xkb/types/nokia
 -rw-r--r--	root/root	usr/share/X11/xkb/types/numpad
 -rw-r--r--	root/root	usr/share/X11/xkb/types/pc
 lrwxrwxrwx	root/root	usr/share/X11/xkb/xkbcomp -> /usr/bin/xkbcomp
