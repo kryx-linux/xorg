@@ -5,6 +5,8 @@ drwxr-xr-x	root/root	usr/lib/xorg/modules/
 drwxr-xr-x	root/root	usr/lib/xorg/modules/drivers/
 -rwxr-xr-x	root/root	usr/lib/xorg/modules/drivers/vmware_drv.la
 -rwxr-xr-x	root/root	usr/lib/xorg/modules/drivers/vmware_drv.so
+-rwxr-xr-x	root/root	usr/lib/xorg/modules/drivers/vmwlegacy_drv.la
+-rwxr-xr-x	root/root	usr/lib/xorg/modules/drivers/vmwlegacy_drv.so
 drwxr-xr-x	root/root	usr/man/
 drwxr-xr-x	root/root	usr/man/man4/
 -rw-r--r--	root/root	usr/man/man4/vmware.4.gz
