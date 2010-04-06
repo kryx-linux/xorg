@@ -1,2 +1,4 @@
-9fe8ec184c7f78691e43c4c0a7f97d56  MesaDemos-7.8.tar.bz2
-85cb891eecb89aae4fdd3499cccd934b  MesaLib-7.8.tar.bz2
+1ef1b3af508887003a0e0076c5d2cc74  Makefile
+25ec15f8e41fde6d206118cc786dbac4  MesaLib-7.8.1.tar.bz2
+2ce4a8684cea9529a6e72c7220b1192f  glxgears.c
+9f306d954d8c135ee326887707bc0fb1  glxinfo.c
