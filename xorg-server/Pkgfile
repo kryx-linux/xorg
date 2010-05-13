@@ -4,7 +4,7 @@
 # Depends on: mesa3d, xorg-bdftopcf, xorg-mkfontdir, xorg-mkfontscale, xorg-xf86driproto, xorg-dri2proto, xorg-libxkbui, xorg-xcmiscproto, xorg-scrnsaverproto, xorg-bigreqsproto, xorg-libxtst, xorg-libdmx, xorg-libxxf86misc, xorg-libxaw, xorg-libxvmc, xorg-libxi, xorg-libxres, xorg-libxcomposite, xorg-libxinerama, xorg-libxrandr, xorg-libxft, xorg-libxcursor, xorg-libxxf86dga, xorg-libpixman, xorg-libpciaccess
 
 name=xorg-server
-version=1.7.6
+version=1.8.1
 release=1
 source=(http://xorg.freedesktop.org/releases/individual/xserver/$name-$version.tar.bz2)
 
@@ -13,10 +13,15 @@ build() {
 
 	./configure --prefix=/usr --enable-dri \
 	            --localstatedir=/var --mandir=/usr/man \
-	            --with-xkb-output=/var/lib/xkb
+	            --with-xkb-output=/var/lib/xkb \
+	            --with-fontrootdir=/usr/lib/X11/fonts \
+	            --with-sha1=libcrypto \
+	            --disable-config-dbus
 
 	make
 	make DESTDIR=$PKG install
 
 	rmdir $PKG/var/log
+
+	install -m 755 -d $PKG/etc/X11/xorg.conf.d
 }
