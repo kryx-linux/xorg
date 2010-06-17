@@ -673,7 +673,7 @@ drwxr-xr-x	root/root	usr/man/man3/
 -rw-r--r--	root/root	usr/man/man3/XkbGetCompatMap.3.gz
 -rw-r--r--	root/root	usr/man/man3/XkbGetControls.3.gz
 -rw-r--r--	root/root	usr/man/man3/XkbGetControlsChanges.3.gz
--rw-r--r--	root/root	usr/man/man3/XkbGetDetectableAutorepeat.3.gz
+-rw-r--r--	root/root	usr/man/man3/XkbGetDetectableAutoRepeat.3.gz
 -rw-r--r--	root/root	usr/man/man3/XkbGetDeviceButtonActions.3.gz
 -rw-r--r--	root/root	usr/man/man3/XkbGetDeviceInfo.3.gz
 -rw-r--r--	root/root	usr/man/man3/XkbGetDeviceInfoChanges.3.gz
@@ -766,7 +766,7 @@ drwxr-xr-x	root/root	usr/man/man3/
 -rw-r--r--	root/root	usr/man/man3/XkbSetCompatMap.3.gz
 -rw-r--r--	root/root	usr/man/man3/XkbSetControls.3.gz
 -rw-r--r--	root/root	usr/man/man3/XkbSetDebuggingFlags.3.gz
--rw-r--r--	root/root	usr/man/man3/XkbSetDetectableAutorepeat.3.gz
+-rw-r--r--	root/root	usr/man/man3/XkbSetDetectableAutoRepeat.3.gz
 -rw-r--r--	root/root	usr/man/man3/XkbSetDeviceButtonActions.3.gz
 -rw-r--r--	root/root	usr/man/man3/XkbSetDeviceInfo.3.gz
 -rw-r--r--	root/root	usr/man/man3/XkbSetIgnoreLockMods.3.gz
@@ -849,6 +849,7 @@ drwxr-xr-x	root/root	usr/man/man3/
 -rw-r--r--	root/root	usr/man/man3/XwcTextPropertyToTextList.3.gz
 drwxr-xr-x	root/root	usr/man/man5/
 -rw-r--r--	root/root	usr/man/man5/Compose.5.gz
+-rw-r--r--	root/root	usr/man/man5/XCompose.5.gz
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/X11/
 -rw-r--r--	root/root	usr/share/X11/XErrorDB
