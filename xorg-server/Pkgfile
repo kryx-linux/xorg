@@ -5,7 +5,7 @@
 
 name=xorg-server
 version=1.8.1
-release=1
+release=2
 source=(http://xorg.freedesktop.org/releases/individual/xserver/$name-$version.tar.bz2)
 
 build() {
@@ -14,7 +14,6 @@ build() {
 	./configure --prefix=/usr --enable-dri \
 	            --localstatedir=/var --mandir=/usr/man \
 	            --with-xkb-output=/var/lib/xkb \
-	            --with-fontrootdir=/usr/lib/X11/fonts \
 	            --with-sha1=libcrypto \
 	            --disable-config-dbus
 
