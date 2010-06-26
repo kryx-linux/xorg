@@ -4,8 +4,8 @@
 # Depends on: xorg-mkfontdir, xorg-mkfontscale, fontconfig
 
 name=xorg-font-bitstream-type1
-version=1.0.0
-release=2
+version=1.0.1
+release=1
 source=(http://xorg.freedesktop.org/releases/individual/font/font-bitstream-type1-$version.tar.bz2)
 
 build() {
@@ -16,5 +16,5 @@ build() {
 	make
 	make DESTDIR=$PKG install
 
-	rm -f $PKG/usr/lib/X11/fonts/Type1/fonts.{dir,scale,cache-1}
+	rm $PKG/usr/share/fonts/X11/Type1/fonts.{dir,scale}
 }
