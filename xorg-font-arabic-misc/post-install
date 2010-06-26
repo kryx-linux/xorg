@@ -1,4 +1,4 @@
 #!/bin/sh
 
-mkfontdir /usr/lib/X11/fonts/misc
-mkfontscale /usr/lib/X11/fonts/misc
+mkfontdir /usr/share/fonts/X11/misc
+mkfontscale /usr/share/fonts/X11/misc
