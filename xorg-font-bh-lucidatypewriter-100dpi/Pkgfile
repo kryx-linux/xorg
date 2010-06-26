@@ -4,8 +4,8 @@
 # Depends on: xorg-mkfontdir, xorg-mkfontscale
 
 name=xorg-font-bh-lucidatypewriter-100dpi
-version=1.0.0
-release=2
+version=1.0.1
+release=1
 source=(http://xorg.freedesktop.org/releases/individual/font/font-bh-lucidatypewriter-100dpi-$version.tar.bz2)
 
 build() {
@@ -16,5 +16,5 @@ build() {
 	make
 	make DESTDIR=$PKG install
 
-	rm -f $PKG/usr/lib/X11/fonts/100dpi/fonts.{dir,scale}
+	rm $PKG/usr/share/fonts/X11/100dpi/fonts.dir
 }
