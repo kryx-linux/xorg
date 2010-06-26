@@ -1,4 +1,4 @@
 #!/bin/sh
 
-mkfontdir /usr/lib/X11/fonts/100dpi
-mkfontscale /usr/lib/X11/fonts/100dpi
+mkfontdir /usr/share/fonts/X11/100dpi
+mkfontscale /usr/share/fonts/X11/100dpi
