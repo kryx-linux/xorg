@@ -4,8 +4,8 @@
 # Depends on: mesa3d, xorg-bdftopcf, xorg-mkfontdir, xorg-mkfontscale, xorg-xf86driproto, xorg-dri2proto, xorg-libxkbui, xorg-xcmiscproto, xorg-scrnsaverproto, xorg-bigreqsproto, xorg-libxtst, xorg-libdmx, xorg-libxxf86misc, xorg-libxaw, xorg-libxvmc, xorg-libxi, xorg-libxres, xorg-libxcomposite, xorg-libxinerama, xorg-libxrandr, xorg-libxft, xorg-libxcursor, xorg-libxxf86dga, xorg-libpixman, xorg-libpciaccess
 
 name=xorg-server
-version=1.8.2
-release=2
+version=1.9.0
+release=1
 source=(http://xorg.freedesktop.org/releases/individual/xserver/$name-$version.tar.bz2)
 
 build() {
@@ -24,4 +24,5 @@ build() {
 	rmdir $PKG/var/log
 
 	install -m 755 -d $PKG/etc/X11/xorg.conf.d
+	rmdir $PKG/usr/share/doc/{xorg-server,}
 }
