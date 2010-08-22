@@ -3,7 +3,7 @@
 # Maintainer: Tilman Sauerbeck, tilman at crux dot nu
 
 name=xorg-xextproto
-version=7.1.1
+version=7.1.2
 release=1
 source=(http://xorg.freedesktop.org/releases/individual/proto/xextproto-$version.tar.bz2)
 
@@ -14,4 +14,7 @@ build() {
 
 	make
 	make DESTDIR=$PKG install
+
+	rm $PKG/usr/share/doc/xextproto/*.xml
+	rmdir $PKG/usr/share/{doc/xextproto,doc,}
 }
