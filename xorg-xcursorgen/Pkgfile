@@ -5,11 +5,14 @@
 
 name=xorg-xcursorgen
 version=1.0.3
-release=1
-source=(http://xorg.freedesktop.org/releases/individual/app/xcursorgen-$version.tar.bz2)
+release=2
+source=(http://xorg.freedesktop.org/releases/individual/app/xcursorgen-$version.tar.bz2
+        $name.diff)
 
 build() {
 	cd xcursorgen-$version
+
+	patch -p1 -i $SRC/$name.diff
 
 	./configure --prefix=/usr --mandir=/usr/man
 
