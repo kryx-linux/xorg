@@ -147,6 +147,7 @@ drwxr-xr-x	root/root	usr/man/man3/
 -rw-r--r--	root/root	usr/man/man3/XCloseOM.3.gz
 -rw-r--r--	root/root	usr/man/man3/XColor.3.gz
 -rw-r--r--	root/root	usr/man/man3/XColormapEvent.3.gz
+-rw-r--r--	root/root	usr/man/man3/XCompose.3.gz
 -rw-r--r--	root/root	usr/man/man3/XConfigureEvent.3.gz
 -rw-r--r--	root/root	usr/man/man3/XConfigureRequestEvent.3.gz
 -rw-r--r--	root/root	usr/man/man3/XConfigureWindow.3.gz
@@ -853,7 +854,6 @@ drwxr-xr-x	root/root	usr/man/man5/
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/X11/
 -rw-r--r--	root/root	usr/share/X11/XErrorDB
--rw-r--r--	root/root	usr/share/X11/XKeysymDB
 drwxr-xr-x	root/root	usr/share/X11/locale/
 drwxr-xr-x	root/root	usr/share/X11/locale/C/
 -rw-r--r--	root/root	usr/share/X11/locale/C/Compose (EMPTY)
