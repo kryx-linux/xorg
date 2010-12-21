@@ -5,11 +5,13 @@
 
 name=xorg-server
 version=1.9.3
-release=1
-source=(http://xorg.freedesktop.org/releases/individual/xserver/$name-$version.tar.bz2)
+release=2
+source=(http://xorg.freedesktop.org/releases/individual/xserver/$name-$version.tar.bz2 $name.diff)
 
 build() {
 	cd $name-$version
+
+	patch -Rp1 -i $SRC/$name.diff
 
 	./configure --prefix=/usr --enable-dri \
 	            --localstatedir=/var --mandir=/usr/man \
