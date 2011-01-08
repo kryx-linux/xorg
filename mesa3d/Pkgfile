@@ -16,7 +16,6 @@ build() {
 	mv $SRC/{Makefile,glx{gears,info}.c} progs/xdemos
 
 	./configure --prefix=/usr \
-	            --with-demos=xdemos \
 	            --with-driver=dri \
 	            --with-dri-driverdir=/usr/lib/dri
 
