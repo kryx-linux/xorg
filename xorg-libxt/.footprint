@@ -92,6 +92,7 @@ drwxr-xr-x	root/root	usr/man/man3/
 -rw-r--r--	root/root	usr/man/man3/XtAppUnlock.3.gz
 -rw-r--r--	root/root	usr/man/man3/XtAppWarning.3.gz
 -rw-r--r--	root/root	usr/man/man3/XtAppWarningMsg.3.gz
+-rw-r--r--	root/root	usr/man/man3/XtAsprintf.3.gz
 -rw-r--r--	root/root	usr/man/man3/XtAugmentTranslations.3.gz
 -rw-r--r--	root/root	usr/man/man3/XtBuildEventMask.3.gz
 -rw-r--r--	root/root	usr/man/man3/XtCallAcceptFocus.3.gz
