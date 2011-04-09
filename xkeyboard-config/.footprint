@@ -157,6 +157,7 @@ drwxr-xr-x	root/root	usr/share/X11/xkb/symbols/
 -rw-r--r--	root/root	usr/share/X11/xkb/symbols/al
 -rw-r--r--	root/root	usr/share/X11/xkb/symbols/altwin
 -rw-r--r--	root/root	usr/share/X11/xkb/symbols/am
+-rw-r--r--	root/root	usr/share/X11/xkb/symbols/apl
 -rw-r--r--	root/root	usr/share/X11/xkb/symbols/ara
 -rw-r--r--	root/root	usr/share/X11/xkb/symbols/at
 -rw-r--r--	root/root	usr/share/X11/xkb/symbols/az
@@ -190,12 +191,6 @@ drwxr-xr-x	root/root	usr/share/X11/xkb/symbols/digital_vndr/
 -rw-r--r--	root/root	usr/share/X11/xkb/symbols/es
 -rw-r--r--	root/root	usr/share/X11/xkb/symbols/et
 -rw-r--r--	root/root	usr/share/X11/xkb/symbols/eurosign
-drwxr-xr-x	root/root	usr/share/X11/xkb/symbols/extras/
--rw-r--r--	root/root	usr/share/X11/xkb/symbols/extras/apl
--rw-r--r--	root/root	usr/share/X11/xkb/symbols/extras/ir
--rw-r--r--	root/root	usr/share/X11/xkb/symbols/extras/rs
--rw-r--r--	root/root	usr/share/X11/xkb/symbols/extras/ru
--rw-r--r--	root/root	usr/share/X11/xkb/symbols/extras/us
 -rw-r--r--	root/root	usr/share/X11/xkb/symbols/fi
 -rw-r--r--	root/root	usr/share/X11/xkb/symbols/fo
 -rw-r--r--	root/root	usr/share/X11/xkb/symbols/fr
@@ -333,6 +328,7 @@ drwxr-xr-x	root/root	usr/share/X11/xkb/symbols/sun_vndr/
 -rw-r--r--	root/root	usr/share/X11/xkb/symbols/tj
 -rw-r--r--	root/root	usr/share/X11/xkb/symbols/tm
 -rw-r--r--	root/root	usr/share/X11/xkb/symbols/tr
+-rw-r--r--	root/root	usr/share/X11/xkb/symbols/tw
 -rw-r--r--	root/root	usr/share/X11/xkb/symbols/typo
 -rw-r--r--	root/root	usr/share/X11/xkb/symbols/tz
 -rw-r--r--	root/root	usr/share/X11/xkb/symbols/ua
