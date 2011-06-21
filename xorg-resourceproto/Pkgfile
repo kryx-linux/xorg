@@ -3,7 +3,7 @@
 # Maintainer: Tilman Sauerbeck, tilman at crux dot nu
 
 name=xorg-resourceproto
-version=1.1.1
+version=1.2.0
 release=1
 source=(http://xorg.freedesktop.org/releases/individual/proto/resourceproto-$version.tar.bz2)
 
@@ -14,4 +14,7 @@ build() {
 
 	make
 	make DESTDIR=$PKG install
+
+	rm $PKG/usr/share/doc/resourceproto/resproto.txt
+	find $PKG/usr/share -type d -delete
 }
