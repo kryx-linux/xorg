@@ -248,7 +248,7 @@ drwxr-xr-x	root/root	usr/man/man3/
 -rw-r--r--	root/root	usr/man/man3/XFreeFontPath.3.gz
 -rw-r--r--	root/root	usr/man/man3/XFreeFontSet.3.gz
 -rw-r--r--	root/root	usr/man/man3/XFreeGC.3.gz
--rw-r--r--	root/root	usr/man/man3/XFreeModifierMap.3.gz
+-rw-r--r--	root/root	usr/man/man3/XFreeModifiermap.3.gz
 -rw-r--r--	root/root	usr/man/man3/XFreePixmap.3.gz
 -rw-r--r--	root/root	usr/man/man3/XFreeStringList.3.gz
 -rw-r--r--	root/root	usr/man/man3/XGCValues.3.gz
