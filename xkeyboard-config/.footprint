@@ -174,6 +174,7 @@ drwxr-xr-x	root/root	usr/share/X11/xkb/symbols/
 -rw-r--r--	root/root	usr/share/X11/xkb/symbols/capslock
 -rw-r--r--	root/root	usr/share/X11/xkb/symbols/cd
 -rw-r--r--	root/root	usr/share/X11/xkb/symbols/ch
+-rw-r--r--	root/root	usr/share/X11/xkb/symbols/cm
 -rw-r--r--	root/root	usr/share/X11/xkb/symbols/cn
 -rw-r--r--	root/root	usr/share/X11/xkb/symbols/compose
 -rw-r--r--	root/root	usr/share/X11/xkb/symbols/ctrl
