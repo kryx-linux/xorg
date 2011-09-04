@@ -30,6 +30,7 @@ drwxr-xr-x	root/root	usr/include/xorg/
 -rw-r--r--	root/root	usr/include/xorg/Xprintf.h
 -rw-r--r--	root/root	usr/include/xorg/bt829.h
 -rw-r--r--	root/root	usr/include/xorg/callback.h
+-rw-r--r--	root/root	usr/include/xorg/client.h
 -rw-r--r--	root/root	usr/include/xorg/closestr.h
 -rw-r--r--	root/root	usr/include/xorg/closure.h
 -rw-r--r--	root/root	usr/include/xorg/colormap.h
