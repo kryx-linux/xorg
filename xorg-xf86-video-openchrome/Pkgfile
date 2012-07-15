@@ -1,10 +1,10 @@
 # Description: xorg driver xf86-video-openchrome
 # URL: http://www.openchrome.org
-# Maintainer: Tilman Sauerbeck, tilman at crux dot nu
+# Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
 # Depends on: xorg-server
 
 name=xorg-xf86-video-openchrome
-version=0.2.904
+version=0.2.906
 release=1
 source=(http://www.openchrome.org/releases/xf86-video-openchrome-$version.tar.bz2)
 
