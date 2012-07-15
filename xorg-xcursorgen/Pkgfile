@@ -1,10 +1,10 @@
 # Description: Utility to create X cursors
 # URL: http://xorg.freedesktop.org
-# Maintainer: Tilman Sauerbeck, tilman at crux dot nu
+# Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
 # Depends on: xorg-libxcursor, libpng
 
 name=xorg-xcursorgen
-version=1.0.4
+version=1.0.5
 release=1
 source=(http://xorg.freedesktop.org/releases/individual/app/xcursorgen-$version.tar.bz2)
 
