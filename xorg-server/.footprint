@@ -100,6 +100,7 @@ drwxr-xr-x	root/root	usr/include/xorg/
 -rw-r--r--	root/root	usr/include/xorg/mizerarc.h
 -rw-r--r--	root/root	usr/include/xorg/msp3430.h
 -rw-r--r--	root/root	usr/include/xorg/opaque.h
+-rw-r--r--	root/root	usr/include/xorg/optionstr.h
 -rw-r--r--	root/root	usr/include/xorg/os.h
 -rw-r--r--	root/root	usr/include/xorg/panoramiX.h
 -rw-r--r--	root/root	usr/include/xorg/panoramiXsrv.h
@@ -154,6 +155,7 @@ drwxr-xr-x	root/root	usr/include/xorg/
 -rw-r--r--	root/root	usr/include/xorg/xf86Modes.h
 -rw-r--r--	root/root	usr/include/xorg/xf86Module.h
 -rw-r--r--	root/root	usr/include/xorg/xf86Opt.h
+-rw-r--r--	root/root	usr/include/xorg/xf86Optionstr.h
 -rw-r--r--	root/root	usr/include/xorg/xf86Optrec.h
 -rw-r--r--	root/root	usr/include/xorg/xf86Parser.h
 -rw-r--r--	root/root	usr/include/xorg/xf86Pci.h
