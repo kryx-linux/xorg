@@ -1,6 +1,6 @@
 # Description: xorg proto randrproto
 # URL: http://xorg.freedesktop.org
-# Maintainer: Tilman Sauerbeck, tilman at crux dot nu
+# Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
 
 name=xorg-randrproto
 version=1.3.2
