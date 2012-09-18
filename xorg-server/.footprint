@@ -72,6 +72,7 @@ drwxr-xr-x	root/root	usr/include/xorg/
 -rw-r--r--	root/root	usr/include/xorg/geext.h
 -rw-r--r--	root/root	usr/include/xorg/geint.h
 -rw-r--r--	root/root	usr/include/xorg/globals.h
+-rw-r--r--	root/root	usr/include/xorg/glx_extinit.h
 -rw-r--r--	root/root	usr/include/xorg/glyphstr.h
 -rw-r--r--	root/root	usr/include/xorg/hotplug.h
 -rw-r--r--	root/root	usr/include/xorg/i2c_def.h
@@ -143,8 +144,6 @@ drwxr-xr-x	root/root	usr/include/xorg/
 -rw-r--r--	root/root	usr/include/xorg/wfbrename.h
 -rw-r--r--	root/root	usr/include/xorg/window.h
 -rw-r--r--	root/root	usr/include/xorg/windowstr.h
--rw-r--r--	root/root	usr/include/xorg/xaa.h
--rw-r--r--	root/root	usr/include/xorg/xaalocal.h
 -rw-r--r--	root/root	usr/include/xorg/xaarop.h
 -rw-r--r--	root/root	usr/include/xorg/xace.h
 -rw-r--r--	root/root	usr/include/xorg/xacestr.h
@@ -173,6 +172,7 @@ drwxr-xr-x	root/root	usr/include/xorg/
 -rw-r--r--	root/root	usr/include/xorg/xf86fbman.h
 -rw-r--r--	root/root	usr/include/xorg/xf86i2c.h
 -rw-r--r--	root/root	usr/include/xorg/xf86int10.h
+-rw-r--r--	root/root	usr/include/xorg/xf86platformBus.h
 -rw-r--r--	root/root	usr/include/xorg/xf86sbusBus.h
 -rw-r--r--	root/root	usr/include/xorg/xf86str.h
 -rw-r--r--	root/root	usr/include/xorg/xf86xv.h
@@ -195,18 +195,8 @@ drwxr-xr-x	root/root	usr/lib/pkgconfig/
 drwxr-xr-x	root/root	usr/lib/xorg/
 drwxr-xr-x	root/root	usr/lib/xorg/modules/
 drwxr-xr-x	root/root	usr/lib/xorg/modules/extensions/
--rwxr-xr-x	root/root	usr/lib/xorg/modules/extensions/libdbe.la
--rwxr-xr-x	root/root	usr/lib/xorg/modules/extensions/libdbe.so
--rwxr-xr-x	root/root	usr/lib/xorg/modules/extensions/libdri.la
--rwxr-xr-x	root/root	usr/lib/xorg/modules/extensions/libdri.so
--rwxr-xr-x	root/root	usr/lib/xorg/modules/extensions/libdri2.la
--rwxr-xr-x	root/root	usr/lib/xorg/modules/extensions/libdri2.so
--rwxr-xr-x	root/root	usr/lib/xorg/modules/extensions/libextmod.la
--rwxr-xr-x	root/root	usr/lib/xorg/modules/extensions/libextmod.so
 -rwxr-xr-x	root/root	usr/lib/xorg/modules/extensions/libglx.la
 -rwxr-xr-x	root/root	usr/lib/xorg/modules/extensions/libglx.so
--rwxr-xr-x	root/root	usr/lib/xorg/modules/extensions/librecord.la
--rwxr-xr-x	root/root	usr/lib/xorg/modules/extensions/librecord.so
 -rwxr-xr-x	root/root	usr/lib/xorg/modules/libexa.la
 -rwxr-xr-x	root/root	usr/lib/xorg/modules/libexa.so
 -rwxr-xr-x	root/root	usr/lib/xorg/modules/libfb.la
@@ -225,8 +215,6 @@ drwxr-xr-x	root/root	usr/lib/xorg/modules/extensions/
 -rwxr-xr-x	root/root	usr/lib/xorg/modules/libvgahw.so
 -rwxr-xr-x	root/root	usr/lib/xorg/modules/libwfb.la
 -rwxr-xr-x	root/root	usr/lib/xorg/modules/libwfb.so
--rwxr-xr-x	root/root	usr/lib/xorg/modules/libxaa.la
--rwxr-xr-x	root/root	usr/lib/xorg/modules/libxaa.so
 drwxr-xr-x	root/root	usr/lib/xorg/modules/multimedia/
 -rwxr-xr-x	root/root	usr/lib/xorg/modules/multimedia/bt829_drv.la
 -rwxr-xr-x	root/root	usr/lib/xorg/modules/multimedia/bt829_drv.so
