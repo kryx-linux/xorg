@@ -1,7 +1,7 @@
 # Description: XCB utilities library
 # URL: http://xcb.freedesktop.org
 # Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
-# Depends on: xorg-libxcb gperf
+# Depends on: xorg-libxcb
 
 name=xorg-xcb-util-image
 version=0.3.9
