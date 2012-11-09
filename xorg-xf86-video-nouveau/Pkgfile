@@ -4,13 +4,13 @@
 # Depends on:  udev libdrm libpthread-stubs
 
 name=xorg-xf86-video-nouveau
-version=1.0.3
+version=1.0.4
 release=1
 source=(http://xorg.freedesktop.org/archive/individual/driver/xf86-video-nouveau-$version.tar.bz2)
 
 build() {
     cd xf86-video-nouveau-$version
-    ./configure --prefix=/usr
+    ./configure --prefix=/usr --mandir=/usr/man
     make
     make DESTDIR=$PKG install
 }
