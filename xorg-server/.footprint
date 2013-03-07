@@ -80,7 +80,6 @@ drwxr-xr-x	root/root	usr/include/xorg/
 -rw-r--r--	root/root	usr/include/xorg/inputstr.h
 -rw-r--r--	root/root	usr/include/xorg/list.h
 -rw-r--r--	root/root	usr/include/xorg/mi.h
--rw-r--r--	root/root	usr/include/xorg/mibstore.h
 -rw-r--r--	root/root	usr/include/xorg/micmap.h
 -rw-r--r--	root/root	usr/include/xorg/micoord.h
 -rw-r--r--	root/root	usr/include/xorg/mifillarc.h
