@@ -41,6 +41,8 @@ drwxr-xr-x	root/root	usr/man/man3/
 -rw-r--r--	root/root	usr/man/man3/XGrabDevice.3.gz
 -rw-r--r--	root/root	usr/man/man3/XGrabDeviceButton.3.gz
 -rw-r--r--	root/root	usr/man/man3/XGrabDeviceKey.3.gz
+-rw-r--r--	root/root	usr/man/man3/XIBarrierReleasePointer.3.gz
+-rw-r--r--	root/root	usr/man/man3/XIBarrierReleasePointers.3.gz
 -rw-r--r--	root/root	usr/man/man3/XIChangeHierarchy.3.gz
 -rw-r--r--	root/root	usr/man/man3/XIChangeProperty.3.gz
 -rw-r--r--	root/root	usr/man/man3/XIDefineCursor.3.gz
