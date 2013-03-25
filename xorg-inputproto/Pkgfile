@@ -5,13 +5,13 @@
 
 name=xorg-inputproto
 version=2.3
-release=1
+release=2
 source=(http://xorg.freedesktop.org/releases/individual/proto/inputproto-$version.tar.bz2)
 
 build() {
 	cd inputproto-$version
 
-	./configure --prefix=/usr
+	./configure --prefix=/usr --without-asciidoc
 
 	make
 	make DESTDIR=$PKG install
