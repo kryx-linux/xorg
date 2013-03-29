@@ -4,7 +4,7 @@
 # Depends on: libpthread-stubs xorg-libpciaccess 
 
 name=libdrm
-version=2.4.42
+version=2.4.43
 release=1
 source=(http://dri.freedesktop.org/libdrm/libdrm-$version.tar.bz2)
 
@@ -13,5 +13,5 @@ build() {
     ./configure --prefix=/usr --mandir=/usr/man
     make
     make DESTDIR=$PKG install
-    rm -r $PKG/usr/man
+    rm -r $PKG/usr/{bin,man}
 }
