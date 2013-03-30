@@ -16,4 +16,3 @@ drwxr-xr-x	root/root	usr/lib/xorg/modules/drivers/
 drwxr-xr-x	root/root	usr/man/
 drwxr-xr-x	root/root	usr/man/man4/
 -rw-r--r--	root/root	usr/man/man4/openchrome.4.gz
-drwxr-xr-x	root/root	usr/sbin/
