@@ -975,6 +975,10 @@ drwxr-xr-x	root/root	usr/share/X11/locale/ja_JP.UTF-8/
 -rw-r--r--	root/root	usr/share/X11/locale/ja_JP.UTF-8/Compose
 -rw-r--r--	root/root	usr/share/X11/locale/ja_JP.UTF-8/XI18N_OBJS
 -rw-r--r--	root/root	usr/share/X11/locale/ja_JP.UTF-8/XLC_LOCALE
+drwxr-xr-x	root/root	usr/share/X11/locale/km_KH.UTF-8/
+-rw-r--r--	root/root	usr/share/X11/locale/km_KH.UTF-8/Compose
+-rw-r--r--	root/root	usr/share/X11/locale/km_KH.UTF-8/XI18N_OBJS
+-rw-r--r--	root/root	usr/share/X11/locale/km_KH.UTF-8/XLC_LOCALE (EMPTY)
 drwxr-xr-x	root/root	usr/share/X11/locale/ko/
 -rw-r--r--	root/root	usr/share/X11/locale/ko/Compose
 -rw-r--r--	root/root	usr/share/X11/locale/ko/XI18N_OBJS
@@ -1025,6 +1029,10 @@ drwxr-xr-x	root/root	usr/share/X11/locale/ru_RU.UTF-8/
 -rw-r--r--	root/root	usr/share/X11/locale/ru_RU.UTF-8/Compose
 -rw-r--r--	root/root	usr/share/X11/locale/ru_RU.UTF-8/XI18N_OBJS
 -rw-r--r--	root/root	usr/share/X11/locale/ru_RU.UTF-8/XLC_LOCALE
+drwxr-xr-x	root/root	usr/share/X11/locale/sr_CS.UTF-8/
+-rw-r--r--	root/root	usr/share/X11/locale/sr_CS.UTF-8/Compose
+-rw-r--r--	root/root	usr/share/X11/locale/sr_CS.UTF-8/XI18N_OBJS
+-rw-r--r--	root/root	usr/share/X11/locale/sr_CS.UTF-8/XLC_LOCALE (EMPTY)
 drwxr-xr-x	root/root	usr/share/X11/locale/tatar-cyr/
 -rw-r--r--	root/root	usr/share/X11/locale/tatar-cyr/Compose (EMPTY)
 -rw-r--r--	root/root	usr/share/X11/locale/tatar-cyr/XI18N_OBJS
