@@ -4,7 +4,7 @@
 # Depends on: xorg-xkbcomp, intltool
 
 name=xkeyboard-config
-version=2.9
+version=2.10.1
 release=1
 source=(http://xorg.freedesktop.org/releases/individual/data/$name/$name-$version.tar.bz2)
 
@@ -13,13 +13,12 @@ build() {
 
 	./configure --prefix=/usr \
 	            --mandir=/usr/man \
+	            --disable-nls \
 	            --with-xkb-base=/usr/share/X11/xkb \
 	            --with-xkb-rules-symlink=xorg
 
 	make -j1
 	make DESTDIR=$PKG install
-
-	rm -rf $PKG/usr/share/locale
 
 	ln -s /var/lib/xkb $PKG/usr/share/X11/xkb/compiled
 	find $PKG -name README -delete
