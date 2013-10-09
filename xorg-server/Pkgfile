@@ -5,11 +5,14 @@
 
 name=xorg-server
 version=1.14.3
-release=1
-source=(http://xorg.freedesktop.org/releases/individual/xserver/$name-$version.tar.bz2)
+release=2
+source=(http://xorg.freedesktop.org/releases/individual/xserver/$name-$version.tar.bz2
+	cve-2013-4396.patch)
 
 build() {
     cd $name-$version
+
+	 patch -p1 -i $SRC/cve-2013-4396.patch
 
     ./configure --prefix=/usr \
                 --mandir=/usr/man \
