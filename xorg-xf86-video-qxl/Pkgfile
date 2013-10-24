@@ -1,7 +1,7 @@
 # Description: ATI Radeon video driver for the Xorg X server
 # URL: http://xorg.freedesktop.org
 # Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
-# Depends on: xorg-server
+# Depends on: xorg-server spice-protocol
 
 name=xorg-xf86-video-qxl
 version=0.1.1
