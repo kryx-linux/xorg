@@ -6,7 +6,9 @@ drwxr-xr-x	root/root	usr/include/xcb/
 -rw-r--r--	root/root	usr/include/xcb/damage.h
 -rw-r--r--	root/root	usr/include/xcb/dpms.h
 -rw-r--r--	root/root	usr/include/xcb/dri2.h
+-rw-r--r--	root/root	usr/include/xcb/dri3.h
 -rw-r--r--	root/root	usr/include/xcb/glx.h
+-rw-r--r--	root/root	usr/include/xcb/present.h
 -rw-r--r--	root/root	usr/include/xcb/randr.h
 -rw-r--r--	root/root	usr/include/xcb/record.h
 -rw-r--r--	root/root	usr/include/xcb/render.h
@@ -51,11 +53,21 @@ lrwxrwxrwx	root/root	usr/lib/libxcb-dpms.so.0 -> libxcb-dpms.so.0.0.0
 lrwxrwxrwx	root/root	usr/lib/libxcb-dri2.so -> libxcb-dri2.so.0.0.0
 lrwxrwxrwx	root/root	usr/lib/libxcb-dri2.so.0 -> libxcb-dri2.so.0.0.0
 -rwxr-xr-x	root/root	usr/lib/libxcb-dri2.so.0.0.0
+-rw-r--r--	root/root	usr/lib/libxcb-dri3.a
+-rwxr-xr-x	root/root	usr/lib/libxcb-dri3.la
+lrwxrwxrwx	root/root	usr/lib/libxcb-dri3.so -> libxcb-dri3.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libxcb-dri3.so.0 -> libxcb-dri3.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libxcb-dri3.so.0.0.0
 -rw-r--r--	root/root	usr/lib/libxcb-glx.a
 -rwxr-xr-x	root/root	usr/lib/libxcb-glx.la
 lrwxrwxrwx	root/root	usr/lib/libxcb-glx.so -> libxcb-glx.so.0.0.0
 lrwxrwxrwx	root/root	usr/lib/libxcb-glx.so.0 -> libxcb-glx.so.0.0.0
 -rwxr-xr-x	root/root	usr/lib/libxcb-glx.so.0.0.0
+-rw-r--r--	root/root	usr/lib/libxcb-present.a
+-rwxr-xr-x	root/root	usr/lib/libxcb-present.la
+lrwxrwxrwx	root/root	usr/lib/libxcb-present.so -> libxcb-present.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libxcb-present.so.0 -> libxcb-present.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libxcb-present.so.0.0.0
 -rw-r--r--	root/root	usr/lib/libxcb-randr.a
 -rwxr-xr-x	root/root	usr/lib/libxcb-randr.la
 lrwxrwxrwx	root/root	usr/lib/libxcb-randr.so -> libxcb-randr.so.0.1.0
@@ -146,7 +158,9 @@ drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/xcb-damage.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/xcb-dpms.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/xcb-dri2.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/xcb-dri3.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/xcb-glx.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/xcb-present.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/xcb-randr.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/xcb-record.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/xcb-render.pc
