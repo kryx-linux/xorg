@@ -1,24 +1,23 @@
 # Description: Mesa 3D Graphics Library
 # URL: http://www.mesa3d.org
 # Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
-# Depends on: expat libdrm libxml2-python talloc xorg-dri2proto xorg-glproto xorg-libxdamage xorg-libxt xorg-libxvmc xorg-libxxf86vm xorg-makedepend
+# Depends on: libdrm, xorg-makedepend, xorg-glproto, xorg-xextproto, xorg-dri2proto, xorg-libx11, xorg-xf86vidmodeproto, xorg-libxext, xorg-libxxf86vm, xorg-libxt, xorg-libxdamage, xorg-libpciaccess, expat, talloc, libxml2-python, elfutils, xorg-presentproto, xorg-libxshmfence
 
 name=mesa3d
-version=9.2.5
+version=10.0.0
 release=1
-source=(ftp://ftp.freedesktop.org/pub/mesa/$version/MesaLib-$version.tar.bz2)
+source=(ftp://ftp.freedesktop.org/pub/mesa/10.0/MesaLib-$version.zip)
 
 build() {
-	cd Mesa-$version
+    cd Mesa-$version
 
-	autoreconf --install --symlink
-	./configure \
-		--prefix=/usr \
-		--with-dri-drivers=i915,i965,r200,radeon,swrast,nouveau \
-		--with-gallium-drivers=i915,r600,svga,nouveau \
-		--enable-texture-float \
-		--enable-osmesa
-
-	make
-	make DESTDIR=$PKG install
+    #sed -i 's/-Werror//' configure.ac
+    autoreconf --install --symlink
+    ./configure --prefix=/usr \
+		--enable-gbm --enable-glx-tls --with-egl-platforms=drm \
+		--with-llvm-shared-libs --enable-gallium-gbm --enable-gallium-egl \
+		--enable-gles1 --enable-gles2 --enable-texture-float \
+		--with-gallium-drivers=r300,r600,svga,swrast,radeonsi,nouveau
+    make
+    make DESTDIR=$PKG install
 }
