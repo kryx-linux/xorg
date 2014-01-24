@@ -1,10 +1,10 @@
 # Description: ATI Radeon video driver for the Xorg X server
 # URL: http://xorg.freedesktop.org
 # Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
-# Depends on: xorg-server
+# Depends on: xorg-server, xorg-glamor-egl
 
 name=xorg-xf86-video-ati
-version=7.2.0
+version=7.3.0
 release=1
 source=(http://xorg.freedesktop.org/releases/individual/driver/xf86-video-ati-$version.tar.bz2)
 
