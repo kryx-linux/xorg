@@ -11,7 +11,6 @@ source=(ftp://ftp.freedesktop.org/pub/mesa/$version/MesaLib-$version.tar.bz2)
 build() {
     cd Mesa-$version
 
-    #sed -i 's/-Werror//' configure.ac
     autoreconf --install --symlink
     ./configure --prefix=/usr \
 		--enable-gbm --enable-glx-tls --with-egl-platforms=drm \
