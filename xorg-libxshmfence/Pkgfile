@@ -1,0 +1,16 @@
+# Description: X shared memory fences
+# URL: http://xorg.freedesktop.org
+# Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
+# Depends on:
+
+name=xorg-libxshmfence
+version=1.1
+release=1
+source=(http://xorg.freedesktop.org/archive/individual/lib/libxshmfence-$version.tar.bz2)
+
+build() {
+	cd libxshmfence-$version
+	./configure --prefix=/usr
+	make
+	make DESTDIR=$PKG install
+}
