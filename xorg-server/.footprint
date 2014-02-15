@@ -52,7 +52,6 @@ drwxr-xr-x	root/root	usr/include/xorg/
 -rw-r--r--	root/root	usr/include/xorg/dixstruct.h
 -rw-r--r--	root/root	usr/include/xorg/dri.h
 -rw-r--r--	root/root	usr/include/xorg/dri2.h
--rw-r--r--	root/root	usr/include/xorg/dri3.h
 -rw-r--r--	root/root	usr/include/xorg/dristruct.h
 -rw-r--r--	root/root	usr/include/xorg/edid.h
 -rw-r--r--	root/root	usr/include/xorg/events.h
