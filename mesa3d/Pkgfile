@@ -18,4 +18,5 @@ build() {
 		--enable-gles1 --enable-gles2 --enable-texture-float \
 		--with-gallium-drivers=r300,r600,svga,swrast,radeonsi,nouveau
     make
+    make DESTDIR=$PKG install
 }
