@@ -1,7 +1,7 @@
 # Description: X Window System server
 # URL: http://xorg.freedesktop.org
 # Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
-# Depends on: udev util-linux mesa3d xorg-bdftopcf xorg-bigreqsproto xorg-libdmx xorg-libpixman xorg-libxaw xorg-libxcomposite xorg-libxcursor xorg-libxft xorg-libxinerama xorg-libxkbfile xorg-libxrandr xorg-libxres xorg-libxtst xorg-libxvmc xorg-libxxf86dga xorg-mkfontdir xorg-mkfontscale xorg-scrnsaverproto xorg-xcmiscproto xorg-xf86driproto
+# Depends on: eudev util-linux mesa3d xorg-bdftopcf xorg-bigreqsproto xorg-libdmx xorg-libpixman xorg-libxaw xorg-libxcomposite xorg-libxcursor xorg-libxft xorg-libxinerama xorg-libxkbfile xorg-libxrandr xorg-libxres xorg-libxtst xorg-libxvmc xorg-libxxf86dga xorg-mkfontdir xorg-mkfontscale xorg-scrnsaverproto xorg-xcmiscproto xorg-xf86driproto
 
 name=xorg-server
 version=1.15.0
