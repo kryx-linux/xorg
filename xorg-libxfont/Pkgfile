@@ -6,10 +6,12 @@
 name=xorg-libxfont
 version=1.4.7
 release=1
-source=(http://xorg.freedesktop.org/releases/individual/lib/libXfont-$version.tar.bz2)
+source=(http://xorg.freedesktop.org/releases/individual/lib/libXfont-$version.tar.bz2 \
+	$name-const.diff)
 
 build() {
 	cd libXfont-$version
+	patch -p1 -i $SRC/$name-const.diff
 
 	./configure --prefix=/usr
 
