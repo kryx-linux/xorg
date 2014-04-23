@@ -1,10 +1,10 @@
 # Description: Mesa 3D Graphics Library
 # URL: http://www.mesa3d.org
 # Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
-# Depends on: elfutils expat libdrm libxml2-python llvm talloc xorg-dri2proto xorg-glproto xorg-libxdamage xorg-libxshmfence xorg-libxt xorg-libxvmc xorg-libxxf86vm xorg-makedepend xorg-presentproto
+# Depends on: elfutils expat libdrm libxml2-python llvm talloc xorg-dri2proto xorg-dri3proto xorg-glproto xorg-libxdamage xorg-libxshmfence xorg-libxt xorg-libxvmc xorg-libxxf86vm xorg-makedepend xorg-presentproto
 
 name=mesa3d
-version=10.0.4
+version=10.1.1
 release=1
 source=(ftp://ftp.freedesktop.org/pub/mesa/$version/MesaLib-$version.tar.bz2)
 
