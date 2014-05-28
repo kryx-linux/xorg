@@ -12,11 +12,14 @@ build() {
 	cd Mesa-$version
 
 	autoreconf --install --symlink
+
 	./configure \
 		--prefix=/usr \
+		--disable-gallium-llvm \
 		--with-dri-drivers=i915,i965,r200,radeon,swrast,nouveau \
 		--with-gallium-drivers=i915,r600,svga,nouveau \
-		--enable-texture-float --enable-glx-tls \
+		--enable-texture-float \
+		--enable-glx-tls \
 		--enable-osmesa
 
 	make
