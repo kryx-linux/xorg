@@ -4,8 +4,8 @@
 # Depends on: xorg-util-macros
 
 name=xorg-inputproto
-version=2.3
-release=2
+version=2.3.1
+release=1
 source=(http://xorg.freedesktop.org/releases/individual/proto/inputproto-$version.tar.bz2)
 
 build() {
