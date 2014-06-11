@@ -5,7 +5,7 @@
 
 name=mesa3d
 version=10.2.1
-release=2
+release=1
 source=(ftp://ftp.freedesktop.org/pub/mesa/$version/MesaLib-$version.tar.bz2)
 
 build() {
@@ -25,8 +25,8 @@ build() {
 		--enable-osmesa \
 		--enable-texture-float \
 		--enable-xa \
-		--enable-llvm-shared-libs \
 		--with-egl-platforms=drm \
+		--with-llvm-shared-libs \
 		--with-gallium-drivers=r300,r600,svga,swrast,radeonsi,nouveau
 
 	make
