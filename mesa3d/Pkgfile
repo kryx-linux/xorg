@@ -6,7 +6,7 @@
 name=mesa3d
 version=9.2.5
 release=2
-source=(ftp://ftp.freedesktop.org/pub/mesa/$version/MesaLib-$version.tar.bz2)
+source=(ftp://ftp.freedesktop.org/pub/mesa/older-versions/9.x/$version/MesaLib-$version.tar.bz2)
 
 build() {
 	cd Mesa-$version
