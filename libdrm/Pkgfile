@@ -4,14 +4,12 @@
 # Depends on: libpthread-stubs xorg-libpciaccess 
 
 name=libdrm
-version=2.4.55
+version=2.4.56
 release=1
-source=(http://dri.freedesktop.org/libdrm/libdrm-$version.tar.bz2
-	drm-header-path.patch)
+source=(http://dri.freedesktop.org/libdrm/libdrm-$version.tar.bz2)
 
 build() {
 	cd $name-$version
-	patch -p 1 -i $SRC/drm-header-path.patch
 
 	./configure \
 		--prefix=/usr \
