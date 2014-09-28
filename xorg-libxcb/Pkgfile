@@ -1,7 +1,7 @@
-# Description: XCB library
+# Description: X11 client-side library
 # URL: http://xcb.freedesktop.org
 # Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
-# Depends on: xorg-xcb-proto, xorg-libxdmcp, xorg-libxau, libxslt, libpthread-stubs, xorg-xcb-proto
+# Depends on: xorg-xcb-proto xorg-libxdmcp xorg-libxau libxslt libpthread-stubs
 
 name=xorg-libxcb
 version=1.11
