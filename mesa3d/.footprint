@@ -5,11 +5,13 @@ drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/EGL/
 -rw-r--r--	root/root	usr/include/EGL/egl.h
 -rw-r--r--	root/root	usr/include/EGL/eglext.h
+-rw-r--r--	root/root	usr/include/EGL/eglextchromium.h
 -rw-r--r--	root/root	usr/include/EGL/eglmesaext.h
 -rw-r--r--	root/root	usr/include/EGL/eglplatform.h
 drwxr-xr-x	root/root	usr/include/GL/
 -rw-r--r--	root/root	usr/include/GL/gl.h
 -rw-r--r--	root/root	usr/include/GL/gl_mangle.h
+-rw-r--r--	root/root	usr/include/GL/glcorearb.h
 -rw-r--r--	root/root	usr/include/GL/glext.h
 -rw-r--r--	root/root	usr/include/GL/glx.h
 -rw-r--r--	root/root	usr/include/GL/glx_mangle.h
@@ -43,37 +45,19 @@ drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/dri/
 -rwxr-xr-x	root/root	usr/lib/dri/i915_dri.so
 -rwxr-xr-x	root/root	usr/lib/dri/i965_dri.so
--rwxr-xr-x	root/root	usr/lib/dri/nouveau_dri.la
+-rwxr-xr-x	root/root	usr/lib/dri/kms_swrast_dri.so
 -rwxr-xr-x	root/root	usr/lib/dri/nouveau_dri.so
 -rwxr-xr-x	root/root	usr/lib/dri/nouveau_vieux_dri.so
 -rwxr-xr-x	root/root	usr/lib/dri/r200_dri.so
--rwxr-xr-x	root/root	usr/lib/dri/r300_dri.la
 -rwxr-xr-x	root/root	usr/lib/dri/r300_dri.so
--rwxr-xr-x	root/root	usr/lib/dri/r600_dri.la
 -rwxr-xr-x	root/root	usr/lib/dri/r600_dri.so
 -rwxr-xr-x	root/root	usr/lib/dri/radeon_dri.so
--rwxr-xr-x	root/root	usr/lib/dri/radeonsi_dri.la
 -rwxr-xr-x	root/root	usr/lib/dri/radeonsi_dri.so
--rwxr-xr-x	root/root	usr/lib/dri/swrast_dri.la
 -rwxr-xr-x	root/root	usr/lib/dri/swrast_dri.so
--rwxr-xr-x	root/root	usr/lib/dri/vmwgfx_dri.la
 -rwxr-xr-x	root/root	usr/lib/dri/vmwgfx_dri.so
 drwxr-xr-x	root/root	usr/lib/egl/
 -rwxr-xr-x	root/root	usr/lib/egl/egl_gallium.la
 -rwxr-xr-x	root/root	usr/lib/egl/egl_gallium.so
-drwxr-xr-x	root/root	usr/lib/gallium-pipe/
--rwxr-xr-x	root/root	usr/lib/gallium-pipe/pipe_nouveau.la
--rwxr-xr-x	root/root	usr/lib/gallium-pipe/pipe_nouveau.so
--rwxr-xr-x	root/root	usr/lib/gallium-pipe/pipe_r300.la
--rwxr-xr-x	root/root	usr/lib/gallium-pipe/pipe_r300.so
--rwxr-xr-x	root/root	usr/lib/gallium-pipe/pipe_r600.la
--rwxr-xr-x	root/root	usr/lib/gallium-pipe/pipe_r600.so
--rwxr-xr-x	root/root	usr/lib/gallium-pipe/pipe_radeonsi.la
--rwxr-xr-x	root/root	usr/lib/gallium-pipe/pipe_radeonsi.so
--rwxr-xr-x	root/root	usr/lib/gallium-pipe/pipe_swrast.la
--rwxr-xr-x	root/root	usr/lib/gallium-pipe/pipe_swrast.so
--rwxr-xr-x	root/root	usr/lib/gallium-pipe/pipe_vmwgfx.la
--rwxr-xr-x	root/root	usr/lib/gallium-pipe/pipe_vmwgfx.so
 drwxr-xr-x	root/root	usr/lib/gbm/
 -rwxr-xr-x	root/root	usr/lib/gbm/gbm_gallium_drm.la
 -rwxr-xr-x	root/root	usr/lib/gbm/gbm_gallium_drm.so
@@ -119,15 +103,15 @@ drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/osmesa.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/xatracker.pc
 drwxr-xr-x	root/root	usr/lib/vdpau/
--rwxr-xr-x	root/root	usr/lib/vdpau/libvdpau_nouveau.la
 lrwxrwxrwx	root/root	usr/lib/vdpau/libvdpau_nouveau.so -> libvdpau_nouveau.so.1.0.0
 lrwxrwxrwx	root/root	usr/lib/vdpau/libvdpau_nouveau.so.1 -> libvdpau_nouveau.so.1.0.0
+lrwxrwxrwx	root/root	usr/lib/vdpau/libvdpau_nouveau.so.1.0 -> libvdpau_nouveau.so.1.0.0
 -rwxr-xr-x	root/root	usr/lib/vdpau/libvdpau_nouveau.so.1.0.0
--rwxr-xr-x	root/root	usr/lib/vdpau/libvdpau_r600.la
 lrwxrwxrwx	root/root	usr/lib/vdpau/libvdpau_r600.so -> libvdpau_r600.so.1.0.0
 lrwxrwxrwx	root/root	usr/lib/vdpau/libvdpau_r600.so.1 -> libvdpau_r600.so.1.0.0
+lrwxrwxrwx	root/root	usr/lib/vdpau/libvdpau_r600.so.1.0 -> libvdpau_r600.so.1.0.0
 -rwxr-xr-x	root/root	usr/lib/vdpau/libvdpau_r600.so.1.0.0
--rwxr-xr-x	root/root	usr/lib/vdpau/libvdpau_radeonsi.la
 lrwxrwxrwx	root/root	usr/lib/vdpau/libvdpau_radeonsi.so -> libvdpau_radeonsi.so.1.0.0
 lrwxrwxrwx	root/root	usr/lib/vdpau/libvdpau_radeonsi.so.1 -> libvdpau_radeonsi.so.1.0.0
+lrwxrwxrwx	root/root	usr/lib/vdpau/libvdpau_radeonsi.so.1.0 -> libvdpau_radeonsi.so.1.0.0
 -rwxr-xr-x	root/root	usr/lib/vdpau/libvdpau_radeonsi.so.1.0.0
