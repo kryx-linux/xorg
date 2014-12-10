@@ -5,7 +5,7 @@
 
 name=xorg-server
 version=1.16.2.901
-release=1
+release=2
 source=(http://xorg.freedesktop.org/releases/individual/xserver/$name-$version.tar.bz2)
 
 build() {
@@ -19,7 +19,8 @@ build() {
                 --enable-dri \
                 --with-sha1=libcrypto \
                 --disable-config-dbus \
-		--enable-glamor
+                --disable-systemd-logind \
+                --enable-glamor
 
     make
     make DESTDIR=$PKG install
