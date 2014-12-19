@@ -4,7 +4,7 @@
 # Depends on: xorg-libxext xorg-dri2proto
 
 name=libvdpau
-version=0.8
+version=0.9
 release=1
 source=(http://people.freedesktop.org/~aplattner/vdpau/$name-$version.tar.gz)
 
