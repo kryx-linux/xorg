@@ -4,7 +4,7 @@
 # Depends on: xorg-util-macros xorg-xproto
 
 name=xorg-libxshmfence
-version=1.1
+version=1.2
 release=1
 source=(http://xorg.freedesktop.org/archive/individual/lib/libxshmfence-$version.tar.bz2)
 
