@@ -4,19 +4,18 @@
 # Depends on: elfutils expat libdrm libvdpau libxml2-python llvm talloc xorg-dri2proto xorg-dri3proto xorg-glproto xorg-libxdamage xorg-libxshmfence xorg-libxt xorg-libxvmc xorg-libxxf86vm xorg-makedepend xorg-presentproto
 
 name=mesa3d
-version=10.3.7
+version=10.4.2
 release=1
-source=(ftp://ftp.freedesktop.org/pub/mesa/$version/MesaLib-$version.tar.bz2
-	mesa3d-10.3.6-xmlconfig-path.patch)
+source=(ftp://ftp.freedesktop.org/pub/mesa/$version/MesaLib-$version.tar.bz2)
 
 build() {
 	cd Mesa-$version
 
-	patch -p1 -i $SRC/mesa3d-10.3.6-xmlconfig-path.patch
 	autoreconf --install --symlink
 
 	./configure \
 		--prefix=/usr \
+		--sysconfdir=/etc \
 		--enable-gallium-egl \
 		--enable-gallium-gbm \
 		--enable-gallium-llvm \
