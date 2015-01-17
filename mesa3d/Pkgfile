@@ -5,7 +5,7 @@
 
 name=mesa3d
 version=10.4.2
-release=1
+release=2
 source=(ftp://ftp.freedesktop.org/pub/mesa/$version/MesaLib-$version.tar.bz2)
 
 build() {
@@ -16,8 +16,7 @@ build() {
 	./configure \
 		--prefix=/usr \
 		--sysconfdir=/etc \
-		--enable-gallium-egl \
-		--enable-gallium-gbm \
+		--enable-gbm \
 		--enable-gallium-llvm \
 		--enable-gbm \
 		--enable-gles1 \
