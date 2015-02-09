@@ -1,0 +1,17 @@
+POST-INSTALL
+
+  After upgrading xorg-server, always rebuild video and input packages:
+
+gl-select use xorg
+prt-get update -fr $(prt-get listinst | egrep 'xorg-xf86-(input|video)')
+
+  If you use nvidia you also need to do this:
+
+prt-get update -fr $(prt-get listinst | grep 'nvidia')
+gl-select use nvidia
+
+  To avoid rebooting you can do this:
+
+rmmod nvidia
+depmod -a
+
