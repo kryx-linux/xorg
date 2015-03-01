@@ -20,7 +20,7 @@ POST-INSTALL
   eg, 1.16.0 -> 1.17.0.
 
 prt-get update -fr $(prt-get listinst | egrep '^xorg-xf86-(input|video)') \
-$(prt-get listinst | egrep '^nvidia')
+$(prt-get listinst | egrep '^mesa3d')
 
   If you use nvidia you also need to do this:
 
