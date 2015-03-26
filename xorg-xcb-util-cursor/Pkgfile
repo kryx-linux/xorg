@@ -4,7 +4,7 @@
 # Depends on:  xorg-xcb-util-renderutil xorg-xcb-util-image
 
 name=xorg-xcb-util-cursor
-version=0.1.1
+version=0.1.2
 release=1
 source=(http://xcb.freedesktop.org/dist/xcb-util-cursor-$version.tar.bz2)
 
