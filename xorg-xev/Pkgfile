@@ -1,10 +1,10 @@
 # Description: Print contents of X events
 # URL: http://xorg.freedesktop.org
 # Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
-# Depends on: xorg-libx11
+# Depends on: xorg-xrandr
 
 name=xorg-xev
-version=1.2.1
+version=1.2.2
 release=1
 source=(http://xorg.freedesktop.org/releases/individual/app/xev-$version.tar.bz2)
 
