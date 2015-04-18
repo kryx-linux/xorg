@@ -13,13 +13,14 @@ WARNING:
 PRE-INSTALL
 
 	xorg-server 1.16 new dependency libepoxy
+	xorg-server 1.16 removed dependency xorg-glamor-egl
 	xorg-server 1.17 new dependency xorg-xcb-util-keysyms
 	xorg-server 1.17 removed dependency xorg-xf86-video-modesetting
 
 	The current version of xorg-server needs these packages sorted out before 
 	a prt-get sysup from crux 3.1 release is done.
 
-prt-get remove xorg-xf86-video-modesetting
+prt-get remove xorg-xf86-video-modesetting xorg-glamor-egl
 prt-get depinst libepoxy xorg-xcb-util-keysyms
 
 POST-INSTALL
