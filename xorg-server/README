@@ -31,18 +31,8 @@ POST-INSTALL
   NOTE: This only applies on ABI changes between major versions
   eg, 1.16.0 -> 1.17.0.
 
-prt-get update -fr $(prt-get listinst | egrep '^xorg-xf86-(input|video)|^mesa3d')
+prt-get update -fr $(prt-get listinst --regex '^xorg-xf86-(input|video)|^mesa3d')
 
   If you use nvidia you also need to do this:
 
-gl-select use xorg
-prt-get update -fr $(prt-get listinst | egrep '^nvidia')
-gl-select use nvidia
-
-  To avoid rebooting you can do this:
-
-  NOTE: you have to exit xorg to do this.
-
-rmmod nvidia
-depmod -a
-
+gl-select use xorg && gl-select use nvidia
