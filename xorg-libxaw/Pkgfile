@@ -11,11 +11,12 @@ source=(http://xorg.freedesktop.org/releases/individual/lib/libXaw-$version.tar.
 build() {
 	cd libXaw-$version
 
-	./configure --prefix=/usr --mandir=/usr/man --disable-docs
+	./configure \
+		--prefix=/usr \
+		--mandir=/usr/man \
+		--disable-specs \
+		--without-{xmlto,fop,xsltproc} 
 
 	make
 	make DESTDIR=$PKG install
-
-	rm -rf $PKG/usr/share/doc
-	rmdir $PKG/usr/share
 }
