@@ -1,7 +1,7 @@
 # Description: xorg lib libXpm
 # URL: http://xorg.freedesktop.org
 # Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
-# Depends on: xorg-xproto, xorg-libx11, xorg-libxt, xorg-xextproto, xorg-libxext
+# Depends on: xorg-libxext xorg-libxt
 
 name=xorg-libxpm
 version=3.5.11
