@@ -14,8 +14,7 @@ build() {
 	./configure \
 		--prefix=/usr \
 		--mandir=/usr/man \
-		--disable-specs \
-		--without-{xmlto,fop,xsltproc} 
+		--disable-specs 
 
 	make
 	make DESTDIR=$PKG install
