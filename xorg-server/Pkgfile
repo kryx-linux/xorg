@@ -4,7 +4,7 @@
 # Depends on: libepoxy util-linux xorg-bdftopcf xorg-bigreqsproto xorg-libdmx xorg-libpixman xorg-libxaw xorg-libxcomposite xorg-libxcursor xorg-libxft xorg-libxinerama xorg-libxkbfile xorg-libxrandr xorg-libxres xorg-libxtst xorg-libxxf86dga xorg-mkfontdir xorg-mkfontscale xorg-scrnsaverproto xorg-xcb-util-keysyms xorg-xcmiscproto xorg-xf86driproto xorg-xf86vidmodeproto
 
 name=xorg-server
-version=1.17.1
+version=1.17.2
 release=1
 source=(http://xorg.freedesktop.org/releases/individual/xserver/$name-$version.tar.bz2)
 
