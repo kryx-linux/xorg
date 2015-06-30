@@ -4,7 +4,7 @@
 # Depends on: libpthread-stubs xorg-libpciaccess 
 
 name=libdrm
-version=2.4.61
+version=2.4.62
 release=1
 source=(http://dri.freedesktop.org/libdrm/libdrm-$version.tar.bz2)
 
@@ -15,6 +15,7 @@ build() {
 		--prefix=/usr \
 		--mandir=/usr/man \
 		--disable-manpages \
+		--disable-valgrind \
 		--disable-cairo-tests
 
 	make
