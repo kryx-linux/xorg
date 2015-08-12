@@ -5,13 +5,13 @@
 
 name=xorg-xbacklight
 version=1.2.1
-release=1
+release=2
 source=(http://xorg.freedesktop.org/releases/individual/app/xbacklight-$version.tar.bz2)
 
 build() {
 	cd xbacklight-$version
 
-	./configure --prefix=/usr --mandir=/usr/man
+	./configure --prefix=/usr
 
 	make
 	make DESTDIR=$PKG install
