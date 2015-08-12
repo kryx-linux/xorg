@@ -5,13 +5,13 @@
 
 name=xorg-libxscrnsaver
 version=1.2.2
-release=1
+release=2
 source=(http://xorg.freedesktop.org/releases/individual/lib/libXScrnSaver-$version.tar.bz2)
 
 build() {
 	cd libXScrnSaver-$version
 
-	./configure --prefix=/usr --mandir=/usr/man
+	./configure --prefix=/usr
 
 	make
 	make DESTDIR=$PKG install
