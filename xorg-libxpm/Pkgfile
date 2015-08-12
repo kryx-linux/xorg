@@ -5,13 +5,13 @@
 
 name=xorg-libxpm
 version=3.5.11
-release=1
+release=2
 source=(http://xorg.freedesktop.org/releases/individual/lib/libXpm-$version.tar.bz2)
 
 build() {
 	cd libXpm-$version
 
-	./configure --prefix=/usr --mandir=/usr/man
+	./configure --prefix=/usr
 
 	make
 	make DESTDIR=$PKG install
