@@ -5,13 +5,13 @@
 
 name=xorg-xmag
 version=1.0.6
-release=1
+release=2
 source=(http://xorg.freedesktop.org/releases/individual/app/xmag-$version.tar.bz2)
 
 build() {
 	cd xmag-$version
 
-	./configure --prefix=/usr --mandir=/usr/man
+	./configure --prefix=/usr
 
 	make
 	make DESTDIR=$PKG install
