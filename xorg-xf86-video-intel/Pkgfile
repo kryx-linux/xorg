@@ -5,18 +5,17 @@
 
 name=xorg-xf86-video-intel
 version=2.99.917
-release=1
+release=2
 source=(http://xorg.freedesktop.org/releases/individual/driver/xf86-video-intel-$version.tar.bz2)
 
 build() {
 	cd xf86-video-intel-$version
 
 	./configure --prefix=/usr \
-                --mandir=/usr/man \
                 --libexecdir=/usr/lib/xf86-video-intel
 
 	make
 	make DESTDIR=$PKG install
 
-    rm -r $PKG/usr/share
+	find $PKG/usr/share/* -maxdepth 0 -type d \! -name "man" -exec rm -r '{}' \;
 }
