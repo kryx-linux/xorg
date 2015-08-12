@@ -4,13 +4,13 @@
 
 name=xorg-mkfontdir
 version=1.0.7
-release=1
+release=2
 source=(http://xorg.freedesktop.org/releases/individual/app/mkfontdir-$version.tar.bz2)
 
 build() {
 	cd mkfontdir-$version
 
-	./configure --prefix=/usr --mandir=/usr/man
+	./configure --prefix=/usr
 
 	make
 	make DESTDIR=$PKG install
