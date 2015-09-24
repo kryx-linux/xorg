@@ -13,7 +13,7 @@ build() {
 	# don't build test programs
 	sed -i -e 's|^SUBDIRS *=.*|SUBDIRS = pixman|' Makefile.in
 
-	./configure --prefix=/usr --mandir=/usr/man
+	./configure --prefix=/usr
 
 	make
 	make DESTDIR=$PKG install
