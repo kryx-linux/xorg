@@ -10,7 +10,6 @@ source=(ftp://ftp.freedesktop.org/pub/mesa/$version/mesa-$version.tar.xz)
 
 build() {
 	cd mesa-$version
-	#autoreconf --force --install --symlink
 
 	./configure \
 		--prefix=/usr \
