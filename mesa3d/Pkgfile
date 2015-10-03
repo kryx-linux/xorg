@@ -5,7 +5,7 @@
 
 name=mesa3d
 version=11.0.2
-release=1
+release=2
 source=(ftp://ftp.freedesktop.org/pub/mesa/$version/mesa-$version.tar.xz)
 
 build() {
@@ -25,7 +25,7 @@ build() {
 		--enable-vdpau \
 		--enable-llvm-shared-libs \
 		--disable-dependency-tracking \
-		--with-egl-platforms=drm \
+		--with-egl-platforms=x11,drm \
 		--with-gallium-drivers=r300,r600,svga,swrast,radeonsi,nouveau
 
 	make
