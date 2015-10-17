@@ -1,5 +1,5 @@
 # Description: Nouveau graphics video driver
-# URL:         http://nouveau.freedesktop.org/wiki/FrontPage
+# URL:         http://nouveau.freedesktop.org/wiki/
 # Maintainer:  CRUX Xorg Team, xorg-ports at crux dot nu
 # Depends on:  eudev libdrm xorg-server
 
