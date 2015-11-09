@@ -84,6 +84,7 @@ drwxr-xr-x	root/root	usr/include/xorg/
 -rw-r--r--	root/root	usr/include/xorg/misyncshm.h
 -rw-r--r--	root/root	usr/include/xorg/misyncstr.h
 -rw-r--r--	root/root	usr/include/xorg/mizerarc.h
+-rw-r--r--	root/root	usr/include/xorg/nonsdk_extinit.h
 -rw-r--r--	root/root	usr/include/xorg/opaque.h
 -rw-r--r--	root/root	usr/include/xorg/optionstr.h
 -rw-r--r--	root/root	usr/include/xorg/os.h
@@ -115,14 +116,11 @@ drwxr-xr-x	root/root	usr/include/xorg/
 -rw-r--r--	root/root	usr/include/xorg/shadowfb.h
 -rw-r--r--	root/root	usr/include/xorg/shmint.h
 -rw-r--r--	root/root	usr/include/xorg/site.h
--rw-r--r--	root/root	usr/include/xorg/swaprep.h
--rw-r--r--	root/root	usr/include/xorg/swapreq.h
 -rw-r--r--	root/root	usr/include/xorg/syncsdk.h
 -rw-r--r--	root/root	usr/include/xorg/validate.h
 -rw-r--r--	root/root	usr/include/xorg/vbe.h
 -rw-r--r--	root/root	usr/include/xorg/vbeModes.h
 -rw-r--r--	root/root	usr/include/xorg/vgaHW.h
--rw-r--r--	root/root	usr/include/xorg/vidmodeproc.h
 -rw-r--r--	root/root	usr/include/xorg/wfbrename.h
 -rw-r--r--	root/root	usr/include/xorg/window.h
 -rw-r--r--	root/root	usr/include/xorg/windowstr.h
@@ -159,7 +157,6 @@ drwxr-xr-x	root/root	usr/include/xorg/
 -rw-r--r--	root/root	usr/include/xorg/xf86xv.h
 -rw-r--r--	root/root	usr/include/xorg/xf86xvmc.h
 -rw-r--r--	root/root	usr/include/xorg/xf86xvpriv.h
--rw-r--r--	root/root	usr/include/xorg/xfixes.h
 -rw-r--r--	root/root	usr/include/xorg/xisb.h
 -rw-r--r--	root/root	usr/include/xorg/xkbfile.h
 -rw-r--r--	root/root	usr/include/xorg/xkbrules.h
@@ -205,7 +202,6 @@ drwxr-xr-x	root/root	usr/lib/xorg/modules/extensions/
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/X11/
 drwxr-xr-x	root/root	usr/share/X11/xorg.conf.d/
--rw-r--r--	root/root	usr/share/X11/xorg.conf.d/10-evdev.conf
 -rw-r--r--	root/root	usr/share/X11/xorg.conf.d/10-quirks.conf
 drwxr-xr-x	root/root	usr/share/aclocal/
 -rw-r--r--	root/root	usr/share/aclocal/xorg-server.m4
