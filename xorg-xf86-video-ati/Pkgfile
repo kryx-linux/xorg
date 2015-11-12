@@ -4,9 +4,9 @@
 # Depends on: xorg-server
 
 name=xorg-xf86-video-ati
-version=20151026
+version=7.6.1
 release=1
-source=(http://crux.nu/files/distfiles/xf86-video-ati-$version.tar.xz)
+source=(http://xorg.freedesktop.org/archive/individual/driver/xf86-video-ati-$version.tar.bz2)
 
 build() {
 	cd xf86-video-ati-$version
