@@ -1,0 +1,26 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/libinput-debug-events
+-rwxr-xr-x	root/root	usr/bin/libinput-list-devices
+drwxr-xr-x	root/root	usr/include/
+-rw-r--r--	root/root	usr/include/libinput.h
+drwxr-xr-x	root/root	usr/lib/
+-rwxr-xr-x	root/root	usr/lib/libinput.la
+lrwxrwxrwx	root/root	usr/lib/libinput.so -> libinput.so.10.6.1
+lrwxrwxrwx	root/root	usr/lib/libinput.so.10 -> libinput.so.10.6.1
+-rwxr-xr-x	root/root	usr/lib/libinput.so.10.6.1
+drwxr-xr-x	root/root	usr/lib/pkgconfig/
+-rw-r--r--	root/root	usr/lib/pkgconfig/libinput.pc
+drwxr-xr-x	root/root	usr/lib/udev/
+drwxr-xr-x	root/root	usr/lib/udev/hwdb.d/
+-rw-r--r--	root/root	usr/lib/udev/hwdb.d/90-libinput-model-quirks.hwdb
+-rwxr-xr-x	root/root	usr/lib/udev/libinput-device-group
+-rwxr-xr-x	root/root	usr/lib/udev/libinput-model-quirks
+drwxr-xr-x	root/root	usr/lib/udev/rules.d/
+-rw-r--r--	root/root	usr/lib/udev/rules.d/80-libinput-device-groups.rules
+-rw-r--r--	root/root	usr/lib/udev/rules.d/90-libinput-model-quirks.rules
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/man/
+drwxr-xr-x	root/root	usr/share/man/man1/
+-rw-r--r--	root/root	usr/share/man/man1/libinput-debug-events.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/libinput-list-devices.1.gz
