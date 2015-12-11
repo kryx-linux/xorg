@@ -4,13 +4,12 @@
 # Depends on:  eudev libdrm xorg-server
 
 name=xorg-xf86-video-nouveau
-version=20150913
+version=1.0.12
 release=1
-source=(http://crux.nu/files/distfiles/xf86-video-nouveau-$version.tar.xz)
+source=(http://xorg.freedesktop.org/archive/individual/driver/xf86-video-nouveau-$version.tar.bz2)
 
 build() {
     cd xf86-video-nouveau-$version
-    autoreconf --install
     ./configure --prefix=/usr
     make
     make DESTDIR=$PKG install
