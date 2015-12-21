@@ -4,7 +4,7 @@
 # Depends on: xorg-server xorg-xcb-util
 
 name=xorg-xf86-video-intel
-version=20150923
+version=20151215
 release=1
 source=(http://crux.nu/files/distfiles/xf86-video-intel-$version.tar.xz)
 
