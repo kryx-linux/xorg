@@ -65,6 +65,7 @@ drwxr-xr-x	root/root	usr/share/X11/xkb/keycodes/digital_vndr/
 -rw-r--r--	root/root	usr/share/X11/xkb/keycodes/fujitsu
 -rw-r--r--	root/root	usr/share/X11/xkb/keycodes/hp
 -rw-r--r--	root/root	usr/share/X11/xkb/keycodes/ibm
+-rw-r--r--	root/root	usr/share/X11/xkb/keycodes/jolla
 -rw-r--r--	root/root	usr/share/X11/xkb/keycodes/macintosh
 -rw-r--r--	root/root	usr/share/X11/xkb/keycodes/olpc
 drwxr-xr-x	root/root	usr/share/X11/xkb/keycodes/sgi_vndr/
@@ -154,6 +155,8 @@ drwxr-xr-x	root/root	usr/share/X11/xkb/symbols/hp_vndr/
 -rw-r--r--	root/root	usr/share/X11/xkb/symbols/ir
 -rw-r--r--	root/root	usr/share/X11/xkb/symbols/is
 -rw-r--r--	root/root	usr/share/X11/xkb/symbols/it
+drwxr-xr-x	root/root	usr/share/X11/xkb/symbols/jolla_vndr/
+-rw-r--r--	root/root	usr/share/X11/xkb/symbols/jolla_vndr/sbj
 -rw-r--r--	root/root	usr/share/X11/xkb/symbols/jp
 -rw-r--r--	root/root	usr/share/X11/xkb/symbols/ke
 -rw-r--r--	root/root	usr/share/X11/xkb/symbols/keypad
@@ -269,6 +272,7 @@ drwxr-xr-x	root/root	usr/share/X11/xkb/symbols/sun_vndr/
 -rw-r--r--	root/root	usr/share/X11/xkb/symbols/sun_vndr/us
 -rw-r--r--	root/root	usr/share/X11/xkb/symbols/sy
 -rw-r--r--	root/root	usr/share/X11/xkb/symbols/terminate
+-rw-r--r--	root/root	usr/share/X11/xkb/symbols/tg
 -rw-r--r--	root/root	usr/share/X11/xkb/symbols/th
 -rw-r--r--	root/root	usr/share/X11/xkb/symbols/tj
 -rw-r--r--	root/root	usr/share/X11/xkb/symbols/tm
