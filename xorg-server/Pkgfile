@@ -4,14 +4,12 @@
 # Depends on: libepoxy util-linux xorg-bdftopcf xorg-bigreqsproto xorg-libdmx xorg-libpixman xorg-libxaw xorg-libxcomposite xorg-libxcursor xorg-libxft xorg-libxinerama xorg-libxkbfile xorg-libxrandr xorg-libxres xorg-libxtst xorg-libxxf86dga xorg-mkfontdir xorg-mkfontscale xorg-scrnsaverproto xorg-xcb-util-keysyms xorg-xcmiscproto xorg-xf86driproto xorg-xf86vidmodeproto
 
 name=xorg-server
-version=1.18.2
-release=2
-source=(http://xorg.freedesktop.org/releases/individual/xserver/$name-$version.tar.bz2
-	0001-glamor-swizzle-RED-to-0-for-alpha-textures.patch)
+version=1.18.3
+release=1
+source=(http://xorg.freedesktop.org/releases/individual/xserver/$name-$version.tar.bz2)
 
 build() {
     cd $name-$version
-    patch -p1 -i $SRC/0001-glamor-swizzle-RED-to-0-for-alpha-textures.patch
 
     ./configure --prefix=/usr \
                 --localstatedir=/var \
