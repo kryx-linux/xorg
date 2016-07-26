@@ -4,7 +4,7 @@
 # Depends on: xorg-mkfontdir xorg-mkfontscale fontconfig
 
 name=xorg-font-dejavu-ttf
-version=2.35
+version=2.36
 release=1
 source=(http://downloads.sourceforge.net/project/dejavu/dejavu/$version/dejavu-fonts-ttf-$version.tar.bz2)
 
