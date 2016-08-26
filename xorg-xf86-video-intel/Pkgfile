@@ -4,7 +4,7 @@
 # Depends on: xorg-server xorg-xcb-util xorg-libxscrnsaver
 
 name=xorg-xf86-video-intel
-version=20160601
+version=20160823
 release=1
 source=(http://crux.nu/files/distfiles/xf86-video-intel-$version.tar.xz)
 
