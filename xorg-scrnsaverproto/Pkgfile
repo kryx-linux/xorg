@@ -1,6 +1,7 @@
-# Description: xorg proto scrnsaverproto
+# Description: X11 Screen Saver extension wire protocol.
 # URL: http://xorg.freedesktop.org
 # Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
+# Depends on: xorg-util-macros
 
 name=xorg-scrnsaverproto
 version=1.2.2
@@ -15,6 +16,6 @@ build() {
 	make
 	make DESTDIR=$PKG install
 
-	rm $PKG/usr/share/doc/scrnsaverproto/saver.xml
-	find $PKG/usr/share -type d -delete
+	rm -r $PKG/usr/share/doc
+	rmdir $PKG/usr/share
 }
