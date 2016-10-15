@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xorg.pub
+RWTSGWF5Q7TndO9BwV8moYndh3ZarOVDG+lpePJ3PGtQAn9wVCMiEgqVDtV0uCySKDp9YKm27lIDu1j8HygazsRSKYyZ7K49Gwg=
+SHA256 (Pkgfile) = 151f1398f6a368372b7315512866af99a279d9e9f2fd58c8a2c4eb88692df0cf
+SHA256 (.footprint) = 5741ea714696be9208d58fabf9adbc4ad94bf2afe073765cb315f15dd64a39df
+SHA256 (dri2proto-2.8.tar.bz2) = f9b55476def44fc7c459b2537d17dbc731e36ed5d416af7ca0b1e2e676f8aa04

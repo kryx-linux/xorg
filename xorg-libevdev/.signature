@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xorg.pub
+RWTSGWF5Q7TndFbVT4kD591HkPSnzW3YtkClNcXe/7vly50y7k5VLXr2V7tyT83aQgKR9Ar+xbgKOqLMkc6nm1KQCQoTHJ7wTAk=
+SHA256 (Pkgfile) = 424d34ea3831a5d9f699f3ce56284c6a7a3ab3601689993b50e1dc45f4dd04f2
+SHA256 (.footprint) = 370187881eaf545cee5ea13ba48d58eb5f42816878f009d8c309740c51938c79
+SHA256 (libevdev-1.2.tar.xz) = 4195618067c01d915f67ad3034e89aaa597f5d548dbdd31fa12c569d4bf5a440

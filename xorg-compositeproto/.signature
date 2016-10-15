@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xorg.pub
+RWTSGWF5Q7TndLiD5MBRZjPga4VjCw9e9gxxzGUdnoAS8PS651yCgQTxcD086ygWwAWYE6Tbs4BG0EvFhfRW7j/N9PRNecVuYQI=
+SHA256 (Pkgfile) = 7621b9ff0261e0bf73871b8d8d12a120c741ac5e58b06e300d289d7a14becde8
+SHA256 (.footprint) = a02b0ecf8cd00f8a32c99949b7dee3778c221875df8aa4553979c5c9b10d44d1
+SHA256 (compositeproto-0.4.2.tar.bz2) = 049359f0be0b2b984a8149c966dd04e8c58e6eade2a4a309cf1126635ccd0cfc

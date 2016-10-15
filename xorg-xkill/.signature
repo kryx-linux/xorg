@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xorg.pub
+RWTSGWF5Q7TndBvtpvBje3k6sJ/8uOzVn9X8zLuZ7efBpZ2E+3qxfpaF4cfIqXHjWVSKXTDyduUFYlg9mfRBNgGc1Y7L/DZ0BQA=
+SHA256 (Pkgfile) = a61e3cb3d572864f454e2c38a0f966222eb16e131ef93fcf3b8cf7396e7d57ab
+SHA256 (.footprint) = cda9d6ab770146a9c51bce46990b62127bd4e3b324390852e2bc0236acfa0502
+SHA256 (xkill-1.0.4.tar.bz2) = 88ef2a304f32f24b255e879f03c1dcd3a2be3e71d5562205414f267d919f812e

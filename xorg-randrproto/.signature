@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xorg.pub
+RWTSGWF5Q7TndEWA5uR0Y9n1jrufD2N8DKGpB8msXgS9xCa0yQrgTsMW0enIP7EkrO4d66pmFq7JbuCzn3/r1QtGiJ6VdI/HlgU=
+SHA256 (Pkgfile) = d389ca1d8f8352d551149e00544d1f8d97976a2e1ec70597781b773f2131536e
+SHA256 (.footprint) = f0cbc70ae9f0ee9f2a246c40603ae7c46c82c71750cb0f47ea9538bdd74a1676
+SHA256 (randrproto-1.5.0.tar.bz2) = 4c675533e79cd730997d232c8894b6692174dce58d3e207021b8f860be498468

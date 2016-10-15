@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/xorg.pub
+RWTSGWF5Q7TndOTGxEbNbVjin4W2y+F1bNdDciXfLuM6kfN1jSAi3eYOWQ4MVRdIs3c/HJUEYJR2VdDr0cx7R0E61nrIt3ritQo=
+SHA256 (Pkgfile) = ed64351fb38eeec1af4c2deb9cc2df93e75b4255112e2775e28605fbc4437ae0
+SHA256 (.footprint) = e87499043e26a7a3df5ac39eb6ea67e75ad60dca7381ae4869c0ab3e634f9b80
+SHA256 (xf86-video-glint-1.2.8.tar.bz2) = 657f883bb3a4e4278399eba73840862c3642706ae8b0a4798ec97a31b3524221
+SHA256 (mibstore.patch) = 07325599c036c1c566a14b5090a2a239577b5b0be32abbbde82f395bcc592e88

@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xorg.pub
+RWTSGWF5Q7TndIiubbjbOZaj+kcA/a4dJ26qAbYyVh2hKMLntyB0is86oeL2/g7cieenrQX6Dxblg0hj2MCb1KqL9tFoXhwDDAs=
+SHA256 (Pkgfile) = 49824854226c0db6007a61e8b63c6c39fb6cd3e6cda29f9d071f41e6ff2575a9
+SHA256 (.footprint) = d1012d46f801324d2bb8d65958b854a263065e24c1179865c89e05c33ac3eee9
+SHA256 (xineramaproto-1.2.1.tar.bz2) = 977574bb3dc192ecd9c55f59f991ec1dff340be3e31392c95deff423da52485b

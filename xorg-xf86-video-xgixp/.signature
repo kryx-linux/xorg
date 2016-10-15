@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/xorg.pub
+RWTSGWF5Q7TndKswyprWuQxAxEOCFA1iiwLm0x+clrmG3r1P8X9rD79sF4C09H8r7v2/QhfKCrX0k430JEiHTOLFtUheXcKnVQw=
+SHA256 (Pkgfile) = 767f13294cb3ee04f1569879d61494c0e3ab6d3c9ffa9b39aab5daca755656a3
+SHA256 (.footprint) = 75d479b204d24e927d0c34b13a7f1d881a1ad71280ec51648d9af5f0262ebfd4
+SHA256 (xf86-video-xgixp-1.8.1.tar.bz2) = e1c6cbbc5756c8bac92334b77863ef406ad8e5ddf07c8af89204299ca0c41d55
+SHA256 (mibstore.patch) = 0af4646c4e673157e75b9304544f4c99df1e1d51b90c1fa22061c1d16dfb6e74

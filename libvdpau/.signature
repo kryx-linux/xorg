@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xorg.pub
+RWTSGWF5Q7TndA+ZPniJ7DvMJtvMZe7zETEMQtUsIvXGn7CiJnbZbXSslA1pAkrdIxUjpE5lQqznG5OaWOVfYpfD5lzIxpE7sAg=
+SHA256 (Pkgfile) = 6284694474cad94f00b2750b347d572c2acb1821881f21c11ac34ae643826d77
+SHA256 (.footprint) = 1b8d4695c3605b2e845221eba5373bb20784d07be22827815d225c5f6716add8
+SHA256 (libvdpau-1.1.1.tar.bz2) = 857a01932609225b9a3a5bf222b85e39b55c08787d0ad427dbd9ec033d58d736

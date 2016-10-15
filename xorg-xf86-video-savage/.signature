@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xorg.pub
+RWTSGWF5Q7TndCH4BGThtpEBGXolYME+//QNDEKIiYQ6sJGODtzkHfNnNAWbs2ixPB7T+vVPMlvIp0+pmKi84xN5YaGlyzLceg0=
+SHA256 (Pkgfile) = 782e8a34e43ded4b42685d68b8170269bbd3bc7aa734602323e5fe6de8152c9a
+SHA256 (.footprint) = b4ea8d2bf3024528d8bdc71477787492036b27f1972055cc7438e67d9b642249
+SHA256 (xf86-video-savage-2.3.8.tar.bz2) = fdcea4a86532bceb50095eaf0fe2f38bbfa160e98463b815f4b549eb9985fa63

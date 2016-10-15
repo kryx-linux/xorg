@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xorg.pub
+RWTSGWF5Q7TndIEiLVyzMUm9J9Apr7hqzEtK2AG8S+fJ37LMv4h4BYZrSR2x2aDTKBHTgk/fhajHquZze8xtSOKDGgLg5m3hgAc=
+SHA256 (Pkgfile) = 03b90a41c3f4753b8179bf5ff23ec286418b46ef9c55c9a399b9e5b7233d732f
+SHA256 (.footprint) = b371fe96739c3665c851ef82562ef810f46f7c728c2df2ba9519d83a8e32fa74
+SHA256 (libdmx-1.1.3.tar.bz2) = c97da36d2e56a2d7b6e4f896241785acc95e97eb9557465fd66ba2a155a7b201

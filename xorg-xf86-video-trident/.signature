@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xorg.pub
+RWTSGWF5Q7TndGgYv4K0TZLI1wuLAERGTu/EdN1ZCHeqwW/FpJfdamM9xAhXl2PrH7wQoaIC1VnWWiCefNqo+a+LTOO+pQI4kw4=
+SHA256 (Pkgfile) = 07e397d4b40af48e9f778f581da195fe61b753c1bcb8e3a075e39b532b1053f8
+SHA256 (.footprint) = 121158cdfb2dc2c94b319ef6a5fa19f8e6fc4f4ab7603cfef575b96c557dd5d6
+SHA256 (xf86-video-trident-1.3.7.tar.bz2) = ecd518de627a0d49e17c158bfc72ab657386c6907c91ef89fa09332558e413ae

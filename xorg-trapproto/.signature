@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xorg.pub
+RWTSGWF5Q7TndLbjZEtelci3PuXNVBSa/L3s2cqHQ1ldwD+y++L9w/KC9qijZ18ZjYcjycz1z5vcXcXCTwDHOgaXMkyEaTebswE=
+SHA256 (Pkgfile) = 8781e5e7e19160beb3173fe695cb88b0e7d50b26a41d3222dae49eeb0283284b
+SHA256 (.footprint) = 350cd089afc1c10a005d384ee16c1ea86752b006b80ee452590c9823367afd17
+SHA256 (trapproto-3.4.3.tar.bz2) = ff32a0d3bc696cadc3457be9c85e9818af2b6daa2f159188bb01aad7e932a0e1

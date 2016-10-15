@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xorg.pub
+RWTSGWF5Q7TndPYXxSg3sfXTl3rkK4CTSWm/G99cxke+JNkbgeibHiK4/mJnxVPnbCVVDHii1l1ITijOEupkGfta8wj1ts47wQo=
+SHA256 (Pkgfile) = c8b3c89177b0d3abb000c19eb44d12b974f65de5c2d5c2618a4d22fa5b955ae3
+SHA256 (.footprint) = 8a9cc636bf2f995811a261d1dbfa3bdf45534a7fb79719b23ed5afd6be856f62
+SHA256 (xf86driproto-2.1.1.tar.bz2) = 9c4b8d7221cb6dc4309269ccc008a22753698ae9245a398a59df35f1404d661f

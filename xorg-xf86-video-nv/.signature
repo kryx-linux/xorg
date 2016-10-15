@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/xorg.pub
+RWTSGWF5Q7TndIoJO0zIFgeMwDd3Qx1oflA6LFxRn9ODhZ8ThMLJVNpm86tNdepNlcfj0a2crtdwfala0PbD5dB91U1YQLbfPQk=
+SHA256 (Pkgfile) = 766ae6908dded9327667f1e571b75b9a93037c01e1de91c435074b343e429498
+SHA256 (.footprint) = 4e8ce0e048b0f2d52f64295da1f26367c5151a3dfb7bf836b28458970f3ecb03
+SHA256 (xf86-video-nv-2.1.20.tar.bz2) = 8395f65501f16f9cbaae8f598b02c6f18e78f4d3d30a08cb8d547dc2e00c10bf
+SHA256 (mibstore.patch) = 083ffb466bbfceb693c3962698e8d62a22ed334d1b4a480cc72747b5e1e1172a

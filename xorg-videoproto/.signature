@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xorg.pub
+RWTSGWF5Q7TndDrhWccD0X/7olCKVKGSvujA7RdtKMbHstuYqtpxXRkzALTnl2DKNXGJVxn/oRHOWLgVq8wjRX/LPs1PJDbpbAI=
+SHA256 (Pkgfile) = 7bef98eeacf049716c24d8cb51d76aa9371c6dacb54cf0d7eb99b6c3a6d46f04
+SHA256 (.footprint) = ec330657d5746c6bec375cce9131a1896de33439047e3aa3512e091041ef478b
+SHA256 (videoproto-2.3.3.tar.bz2) = c7803889fd08e6fcaf7b68cc394fb038b2325d1f315e571a6954577e07cca702

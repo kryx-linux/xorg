@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xorg.pub
+RWTSGWF5Q7TndGYCiGMPhCHFoIKZPFjcZtC6NLfAF6DeTaQtuFiUExaalcCc36JjqQacM2CcKCrc1XZM9FBKqsKJWg1bFSgxCAs=
+SHA256 (Pkgfile) = d49f9dfa637f87ada65e6be35288082ed704330f4a880a2bed59749fc6405162
+SHA256 (.footprint) = d552d40c490a1ae43aab06d7c669c7b007579c313af83621158e02782b65e570
+SHA256 (xf86-input-synaptics-1.8.3.tar.bz2) = d39f100c74f3673778b53f17bab7690161925e25dd998a15dd8cc69b52e83f01

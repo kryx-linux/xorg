@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xorg.pub
+RWTSGWF5Q7TndGicxnvyxCoG3vWj1uZ6HsZwrIX73RuXA3oJJDEg3Vu/PV3YoDIA6+Y44pV4mZPCJOwGR4Z2tmCmtggyBLnnGwQ=
+SHA256 (Pkgfile) = 25021f73aa8de16776433f25e85b24eee3c505d7b802b436688d5f6055df5c76
+SHA256 (.footprint) = 3d4ee75bf8ab56da17012a805f45bf92a726ce58e87fff3cc177fd6e670e4b62
+SHA256 (dri3proto-1.0.tar.bz2) = 01be49d70200518b9a6b297131f6cc71f4ea2de17436896af153226a774fc074

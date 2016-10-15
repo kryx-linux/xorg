@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xorg.pub
+RWTSGWF5Q7TndHQNfmmmv9fT6ikfuQsA0zweHyhCZ4FSiB9DRt13Rw4zDKkDgkH/XYw5S8sTJDf5ycPGHETyPvLJG4AweTpMGAY=
+SHA256 (Pkgfile) = a9db9ceed6215a60482ec639071c7d716e7da3a0c59f7d5f40edc277b8dddabc
+SHA256 (.footprint) = d8eecb04c907727bc184c83a212245fc6bdf4dccd3034d58c9d37675c8b7f4a9
+SHA256 (resourceproto-1.2.0.tar.bz2) = 3c66003a6bdeb0f70932a9ed3cf57cc554234154378d301e0c5cfa189d8f6818
