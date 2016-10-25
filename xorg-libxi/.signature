@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xorg.pub
-RWTSGWF5Q7TndK1ERIDGVPdrrAa5OElFyvJk71bPEVntn6PoEwcC1SV2dBFjz9Glr8eO+NzmoN+ENiljtHUfRVqgT0bo5zFQ7ws=
-SHA256 (Pkgfile) = dd248443d2dc81ce6f1ffd63dff5a1fe130e0a24c97762205e8f0c5a7cec84f8
+RWTSGWF5Q7TndGkrTiVL4ineOb4tV/gA6c6xJR9zQx/tF0upPq1EdwodTgK+128Rs3XRdlO4VM0kyfEXthITinGywKP7RomGiAM=
+SHA256 (Pkgfile) = 0b06d136d158e6ad91f36b1cd6fe600fdd9e9f18ddd8a7776743d008f5af00f3
 SHA256 (.footprint) = bf05b5cc2c24c3baed9650dbe327956727c222cd39523d3f6e8dc3748128f5ba
-SHA256 (libXi-1.7.7.tar.bz2) = 996f834fa57b9b33ba36690f6f5c6a29320bc8213022943912462d8015b1e030
+SHA256 (libXi-1.7.8.tar.bz2) = d8f2fa8d53141c41ff521627df9b2fa9c05f6f142fd9881152bab36549ac27bb
