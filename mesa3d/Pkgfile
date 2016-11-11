@@ -4,13 +4,14 @@
 # Depends on: openssl elfutils expat libdrm libvdpau llvm xorg-dri3proto xorg-glproto xorg-libxdamage xorg-libxshmfence xorg-libxvmc xorg-presentproto xorg-libxxf86vm
 
 name=mesa3d
-version=12.0.3
-release=2
+version=13.0.0
+release=1
 source=(ftp://ftp.freedesktop.org/pub/mesa/$version/mesa-$version.tar.xz)
 
 build() {
 	cd mesa-$version
 
+	CONFIG_SHELL=/bin/bash \
 	./configure \
 		--prefix=/usr \
 		--sysconfdir=/etc \
@@ -27,7 +28,8 @@ build() {
 		--disable-dependency-tracking \
 		--with-sha1=libcrypto \
 		--with-egl-platforms=x11,drm \
-		--with-gallium-drivers=r300,r600,svga,swrast,radeonsi,nouveau
+		--with-gallium-drivers=r300,r600,svga,swrast,radeonsi,nouveau  \
+		--with-vulkan-drivers=intel,radeon
 
 	make
 	make DESTDIR=$PKG install
