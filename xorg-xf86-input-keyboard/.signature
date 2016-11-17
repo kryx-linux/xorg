@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xorg.pub
-RWTSGWF5Q7TndNvMcmBz2T5ptu0NfGM8jID7iqZte4Nl1Wl2wtMS1Fkv/lxRVHQviVjKHcETtVXD9ocKEioilzTrhOAqzdRFRQc=
-SHA256 (Pkgfile) = b5a003323c571b629da8a38912b60f15020aa2161dea86f95523513d01697e2e
+RWTSGWF5Q7TndHTTzJM0gzK0c5QK2UGruvJdTQHZZmmaBKapq0+VrJJAfbdBXfOc9+WWo+hKljxAFlka4zlJ9naXns2Yh+irCAo=
+SHA256 (Pkgfile) = ff6ee5da0b28703e879410e1e17f5f231638ff61570e5364fa1a47b46a662ace
 SHA256 (.footprint) = 591add46a5f809fd1162ef0f26f88db62ccf7a8d962d4ce53d242dfab31bfeba
-SHA256 (xf86-input-keyboard-1.8.1.tar.bz2) = 1ac8ff39bf9da7d2fc7fd6c24515726e8138340c0518ab8c606e008cf93ca211
+SHA256 (xf86-input-keyboard-1.9.0.tar.bz2) = f7c900f21752683402992b288d5a2826de7a6c0c0abac2aadd7e8a409e170388
