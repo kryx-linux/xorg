@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xorg.pub
-RWTSGWF5Q7TndKjokk0dBN9xNppHJ4ZsnFl1+oGnWyboH/ZrCzLEVgGZhWwHO7obLuPZ7Hmyq5qISs+WIrSB0kHWY48C79S0yg0=
-SHA256 (Pkgfile) = d1d425a19a98a9eec5c4ecddf0a7574d98fe267b2cf52ac85e3c0badfa584049
-SHA256 (.footprint) = 87ed6aad6b131e1f4c9271e73b21e0483c2c237d1739308d82a04ef954b22b2d
-SHA256 (libinput-1.5.1.tar.xz) = d4f63933b0967bd691735af5e3919e2d29c2121d4e05867cc4e10ff3ae8e2dd8
+RWTSGWF5Q7TndDUmw8h4pN880Rk/gFMtrlRHuyKLQ/ShAfvyW621CeBz0gbtT5/SYrNo13dKsPRXPDAThcIsaQgWvjITEv9PKQM=
+SHA256 (Pkgfile) = a3cd1cc99a4dccd6372fa9cf585f60aad8f674e49521da0548dc1bce313fa458
+SHA256 (.footprint) = 1723e7b608777bfa17e4c514f5c5626066d4f702b27db4d01c891323b4132903
+SHA256 (libinput-1.5.2.tar.xz) = ba26e2bc64ed551eaef193178ed06b07b97a09ac6f4e442f5f15bbc3f3174682
