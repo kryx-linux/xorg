@@ -4,8 +4,8 @@
 # Depends on: xorg-libxext xorg-libxt
 
 name=xorg-libxpm
-version=3.5.11
-release=2
+version=3.5.12
+release=1
 source=(http://xorg.freedesktop.org/releases/individual/lib/libXpm-$version.tar.bz2)
 
 build() {
