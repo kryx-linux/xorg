@@ -4,7 +4,7 @@
 # Depends on: mtdev xorg-libevdev
 
 name=libinput
-version=1.5.3
+version=1.5.4
 release=1
 source=(http://www.freedesktop.org/software/$name/$name-$version.tar.xz)
 
@@ -13,8 +13,12 @@ build() {
 
 	./configure \
 		--prefix=/usr \
+		--with-udev-dir=/lib/udev \
 		--disable-libwacom
 
 	make
 	make DESTDIR=$PKG install
+
+	install -d $PKG/etc/udev
+	mv $PKG/lib/udev/hwdb.d $PKG/etc/udev
 }
