@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xorg.pub
-RWTSGWF5Q7TndMrpfUScQq3QOfYoBLuQC4UbHQ8YA5jzh1kagYHqGnXMXK8xnGPiqm9hCG7DbA3jA8IqOXQkPVAiv1e8Jgryzwc=
-SHA256 (Pkgfile) = 5994787b0eda5f739db13ec056f74c83bf613248982f55cf5f32bc59955977d6
+RWTSGWF5Q7TndIEYVRM8x+x7uzVzb3+NVyLh7C+M/TopuAlW2RTwMbIUEKcRcRxINmtZY1kZeIgueBMaNeH9VcZ0C04fF2qsSwg=
+SHA256 (Pkgfile) = e0fd3efce3b142be1a59a0e0b8df321c60d5dd83002d5ee52e77448036083985
 SHA256 (.footprint) = df1ae6e3a9f3e621d463d3b99146baac165b4c770fd112150ef3562bba7f719f
-SHA256 (xf86-input-evdev-2.10.4.tar.bz2) = bbf6a03fbce1a6c0c7d874eef519fd0a854bf01b515c745d41fa551ce6490cc2
+SHA256 (xf86-input-evdev-2.10.5.tar.bz2) = 9edaa6205baf6d2922cc4db3d8e54a7e7773b5f733b0ae90f6be7725f983b70d
