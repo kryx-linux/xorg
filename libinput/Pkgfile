@@ -4,7 +4,7 @@
 # Depends on: mtdev xorg-libevdev
 
 name=libinput
-version=1.6.0
+version=1.6.1
 release=1
 source=(http://www.freedesktop.org/software/$name/$name-$version.tar.xz)
 
