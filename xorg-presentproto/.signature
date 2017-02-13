@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xorg.pub
-RWTSGWF5Q7TndAMgxAfhXddLxfeHZYRqXUdCmCXZJIk22Xl/y69Dn4Jn9tj/+iCpP0QXPxgPLGkTLl8zEupN4bPryLbeyqdYHQo=
-SHA256 (Pkgfile) = 087cb10d43fa7ad116e324084e0e1ca4a7fa7b066d21fffeb764e9da4fe69d3e
+RWTSGWF5Q7TndDwFFiPEdAAz9Xqy8/NCk7xLBqvfewYfTijGqImiZ9Dj0T1bv2gd+unX+nd+Ylr5oXlQlMnuW6ogFVyg7BmoAgs=
+SHA256 (Pkgfile) = d32fc8da26a3c49ee4418b9a0cc516275e8cda00285bd8ac9dbe605e1568134b
 SHA256 (.footprint) = ea5418f45e4dd828f4a3d4c458d0b47d2c2de316ec880d62844346224914f45b
-SHA256 (presentproto-1.0.tar.bz2) = 812c7d48721f909a0f7a2cb1e91f6eead76159a36c4712f4579ca587552839ce
+SHA256 (presentproto-1.1.tar.bz2) = f69b23a8869f78a5898aaf53938b829c8165e597cda34f06024d43ee1e6d26b9
