@@ -38,8 +38,6 @@ drwxr-xr-x	root/root	usr/include/KHR/
 -rw-r--r--	root/root	usr/include/KHR/khrplatform.h
 -rw-r--r--	root/root	usr/include/gbm.h
 drwxr-xr-x	root/root	usr/include/vulkan/
--rw-r--r--	root/root	usr/include/vulkan/vk_platform.h
--rw-r--r--	root/root	usr/include/vulkan/vulkan.h
 -rw-r--r--	root/root	usr/include/vulkan/vulkan_intel.h
 -rw-r--r--	root/root	usr/include/xa_composite.h
 -rw-r--r--	root/root	usr/include/xa_context.h
