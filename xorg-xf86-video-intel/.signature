@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xorg.pub
-RWTSGWF5Q7TndGoTpjRSIaZUz03rEgh7bPXz+7ol8Vm0675tfpkZGMg4d0V50eixoH2kEoVXFzAaFjwh0At0H2iekZVvAlt9KQM=
-SHA256 (Pkgfile) = d89b41a9127de5ae959b046086cabf7a4223396a0ceddd3f1ae023fb6cf63d5a
+RWTSGWF5Q7TndBdu7GkJwD1UzipNJUny7sIx033zAmeeEAruilv4+DvhZfQ3RIAl7t7D2HrVcpLdPlsy0+kalgTPs7jRL/hWowA=
+SHA256 (Pkgfile) = ea8664782a156de4a72b991515c76e624d45c82bfe650dab89162349318aac58
 SHA256 (.footprint) = ebc72fc7d4269f8e40b9c6b3c253a8bd2f3d713a4a51617498030feedbb26ed7
-SHA256 (xf86-video-intel-20170216.tar.xz) = 23ef4738d6636f88ec0f92ea9efe74aa00a8e9768a546388f98d742093a2ab6d
+SHA256 (xf86-video-intel-2.99.917-770.tar.xz) = e325dbbb9ec50c5653712f305902fa9d157319880062577fe421c3e4a4fbd206
