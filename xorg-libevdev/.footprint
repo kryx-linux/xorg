@@ -1,5 +1,7 @@
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/libevdev-tweak-device
+-rwxr-xr-x	root/root	usr/bin/mouse-dpi-tool
 -rwxr-xr-x	root/root	usr/bin/touchpad-edge-detector
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/libevdev-1.0/
@@ -9,9 +11,9 @@ drwxr-xr-x	root/root	usr/include/libevdev-1.0/libevdev/
 drwxr-xr-x	root/root	usr/lib/
 -rw-r--r--	root/root	usr/lib/libevdev.a
 -rwxr-xr-x	root/root	usr/lib/libevdev.la
-lrwxrwxrwx	root/root	usr/lib/libevdev.so -> libevdev.so.2.0.2
-lrwxrwxrwx	root/root	usr/lib/libevdev.so.2 -> libevdev.so.2.0.2
--rwxr-xr-x	root/root	usr/lib/libevdev.so.2.0.2
+lrwxrwxrwx	root/root	usr/lib/libevdev.so -> libevdev.so.2.1.19
+lrwxrwxrwx	root/root	usr/lib/libevdev.so.2 -> libevdev.so.2.1.19
+-rwxr-xr-x	root/root	usr/lib/libevdev.so.2.1.19
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/libevdev.pc
 drwxr-xr-x	root/root	usr/share/
