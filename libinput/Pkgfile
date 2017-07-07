@@ -5,7 +5,7 @@
 
 name=libinput
 version=1.8.0
-release=1
+release=2
 source=(http://www.freedesktop.org/software/$name/$name-$version.tar.xz)
 
 build() {
@@ -13,9 +13,10 @@ build() {
 
 	./configure \
 		--prefix=/usr \
-		--libexecdir=/usr/lib/libinput \
+		--libexecdir=/usr/lib \
 		--with-udev-dir=/lib/udev \
 		--disable-documentation \
+		--disable-debug-gui \
 		--disable-tests \
 		--disable-libwacom
 
