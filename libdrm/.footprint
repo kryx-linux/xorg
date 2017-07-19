@@ -79,3 +79,6 @@ drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/libdrm_nouveau.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/libdrm_radeon.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/libkms.pc
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/libdrm/
+-rw-r--r--	root/root	usr/share/libdrm/amdgpu.ids
