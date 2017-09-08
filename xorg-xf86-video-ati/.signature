@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xorg.pub
-RWTSGWF5Q7TndI6fJUB0pMg8s2P+seI2zNxcMuYSVt/mq7UJEBnB0wzkJnTQYISUtck9BesXDPuoT2ifvU2y3ya1ja8Bpke/9AA=
-SHA256 (Pkgfile) = b8f43e225ff5ceb38b13c09602ff67c592e2915aba0b50abd8eb0f04d9e6611a
+RWTSGWF5Q7TndBoYpLNSUYyUJLufUMA3P2sD3668fJGdtutygNi/+Lv+6wNEke7Up9kwAi/N9Q/AlnGQXIcuLUCS+fnJqXRhjAQ=
+SHA256 (Pkgfile) = 29b1b05f16dac5f12f21439f42d639aa47f0a01e6b05a155cfe496961094a59d
 SHA256 (.footprint) = d642b90858126478a42ee1b9fd9730e51d6ef1852765c75c7ec6985fbbbcae0a
-SHA256 (xf86-video-ati-7.9.0.tar.bz2) = 3cad872e6330afb1707da11e4e959e6887ebe5bcd81854b4d2e496c52c059875
+SHA256 (xf86-video-ati-7.10.0.tar.bz2) = ee51d642e3105cb5424f02622dc2966b87b42d498bb34104a70fcf6d4a8f4e79
