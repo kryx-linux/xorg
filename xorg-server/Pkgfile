@@ -4,10 +4,9 @@
 # Depends on: libepoxy util-linux xorg-bdftopcf xorg-bigreqsproto xorg-font-util xorg-libdmx xorg-libxaw xorg-libxcomposite xorg-libxcursor xorg-libxfont2 xorg-libxft xorg-libxinerama xorg-libxkbfile xorg-libxrandr xorg-libxres xorg-libxtst xorg-libxxf86dga xorg-mkfontdir xorg-mkfontscale xorg-scrnsaverproto xorg-xcb-util-keysyms xorg-xcmiscproto xorg-xf86driproto
 
 name=xorg-server
-version=1.19.3-47
+version=1.19.4
 release=1
-#source=(http://xorg.freedesktop.org/releases/individual/xserver/$name-$version.tar.bz2)
-source=(https://crux.nu/files/distfiles/$name-$version.tar.xz)
+source=(http://xorg.freedesktop.org/releases/individual/xserver/$name-$version.tar.bz2)
 
 build() {
     cd $name-$version
