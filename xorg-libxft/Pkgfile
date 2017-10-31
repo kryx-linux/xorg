@@ -1,7 +1,7 @@
 # Description: X font rendering client library
 # URL: http://xorg.freedesktop.org
 # Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
-# Depends on: xorg-libxrender, freetype, fontconfig, harfbuzz
+# Depends on: harfbuzz
 
 name=xorg-libxft
 version=2.3.2

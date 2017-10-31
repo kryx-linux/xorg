@@ -1,7 +1,7 @@
 # Description: Query or set X gamma correction
 # URL: http://xorg.freedesktop.org
 # Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
-# Depends on: xorg-libx11, xorg-libxxf86vm
+# Depends on: xorg-libxxf86vm
 
 name=xorg-xgamma
 version=1.0.6

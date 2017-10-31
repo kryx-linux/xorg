@@ -1,7 +1,7 @@
 # Description: Property displayer for X
 # URL: http://xorg.freedesktop.org
 # Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
-# Depends on: xorg-libxmu, xorg-libx11
+# Depends on: xorg-libxmu
 
 name=xorg-xprop
 version=1.2.2
