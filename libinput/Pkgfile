@@ -1,28 +1,30 @@
 # Description: A library that handles input devices for display servers
-# URL: http://wayland.freedesktop.org/libinput/doc/latest/index.html
-# Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
-# Depends on: mtdev xorg-libevdev
+# URL:         http://wayland.freedesktop.org/libinput/doc/latest/index.html
+# Maintainer:  CRUX Xorg Team, xorg-ports at crux dot nu
+# Depends on:  mtdev xorg-libevdev meson ninja
 
 name=libinput
-version=1.8.3
+version=1.9.1
 release=1
 source=(http://www.freedesktop.org/software/$name/$name-$version.tar.xz)
 
 build() {
 	cd $name-$version
 
-	./configure \
-		--prefix=/usr \
-		--libexecdir=/usr/lib \
-		--with-udev-dir=/lib/udev \
-		--disable-documentation \
-		--disable-debug-gui \
-		--disable-tests \
-		--disable-libwacom
+	meson build \
+		--prefix /usr \
+		--libexecdir /usr/lib \
+		--buildtype release \
+		-Ddebug-gui=false \
+		-Ddocumentation=false \
+		-Dtests=false \
+		-Dlibwacom=false \
+		-Dudev-dir=/lib/udev
 
-	make
-	make DESTDIR=$PKG install
+	DESTDIR=$PKG ninja -C build install
 
 	install -d $PKG/etc/udev
 	mv $PKG/lib/udev/hwdb.d $PKG/etc/udev
+
+	chmod -R g-w $PKG
 }
