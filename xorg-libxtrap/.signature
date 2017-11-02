@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xorg.pub
+RWTSGWF5Q7TndJt2XE2w0JD/aeCeKo3Zj9yCt1d8jqjnNei0WLQssAbt4CMJML6J3h4imChufqthjIJunWPqRSYRkK3+jhlTngg=
+SHA256 (Pkgfile) = 982f3e2c4a5f1b70a694b4e1fddb3ebb97c95e74d9b126d83a98c97f3e6b37c8
+SHA256 (.footprint) = 0ec92be9b29368674e2d7e2bbe805264cd4f259a7848198809f52954492b11ce
+SHA256 (libXTrap-1.0.1.tar.bz2) = 8f373d55985676b893d61bd5a255ec9f214be4682ec1167d30356e6564e7252e
