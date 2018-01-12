@@ -37,8 +37,6 @@ drwxr-xr-x	root/root	usr/include/GLES3/
 drwxr-xr-x	root/root	usr/include/KHR/
 -rw-r--r--	root/root	usr/include/KHR/khrplatform.h
 -rw-r--r--	root/root	usr/include/gbm.h
-drwxr-xr-x	root/root	usr/include/vulkan/
--rw-r--r--	root/root	usr/include/vulkan/vulkan_intel.h
 -rw-r--r--	root/root	usr/include/xa_composite.h
 -rw-r--r--	root/root	usr/include/xa_context.h
 -rw-r--r--	root/root	usr/include/xa_tracker.h
@@ -92,10 +90,6 @@ lrwxrwxrwx	root/root	usr/lib/libgbm.so.1 -> libgbm.so.1.0.0
 lrwxrwxrwx	root/root	usr/lib/libglapi.so -> libglapi.so.0.0.0
 lrwxrwxrwx	root/root	usr/lib/libglapi.so.0 -> libglapi.so.0.0.0
 -rwxr-xr-x	root/root	usr/lib/libglapi.so.0.0.0
--rwxr-xr-x	root/root	usr/lib/libvulkan_intel.la
--rwxr-xr-x	root/root	usr/lib/libvulkan_intel.so
--rwxr-xr-x	root/root	usr/lib/libvulkan_radeon.la
--rwxr-xr-x	root/root	usr/lib/libvulkan_radeon.so
 -rwxr-xr-x	root/root	usr/lib/libxatracker.la
 lrwxrwxrwx	root/root	usr/lib/libxatracker.so -> libxatracker.so.2.3.0
 lrwxrwxrwx	root/root	usr/lib/libxatracker.so.2 -> libxatracker.so.2.3.0
@@ -126,8 +120,3 @@ lrwxrwxrwx	root/root	usr/lib/vdpau/libvdpau_radeonsi.so -> libvdpau_radeonsi.so.
 lrwxrwxrwx	root/root	usr/lib/vdpau/libvdpau_radeonsi.so.1 -> libvdpau_radeonsi.so.1.0.0
 lrwxrwxrwx	root/root	usr/lib/vdpau/libvdpau_radeonsi.so.1.0 -> libvdpau_radeonsi.so.1.0.0
 -rwxr-xr-x	root/root	usr/lib/vdpau/libvdpau_radeonsi.so.1.0.0
-drwxr-xr-x	root/root	usr/share/
-drwxr-xr-x	root/root	usr/share/vulkan/
-drwxr-xr-x	root/root	usr/share/vulkan/icd.d/
--rw-r--r--	root/root	usr/share/vulkan/icd.d/intel_icd.x86_64.json
--rw-r--r--	root/root	usr/share/vulkan/icd.d/radeon_icd.x86_64.json
