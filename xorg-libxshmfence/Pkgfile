@@ -5,11 +5,16 @@
 
 name=xorg-libxshmfence
 version=1.2
-release=1
-source=(http://xorg.freedesktop.org/archive/individual/lib/libxshmfence-$version.tar.bz2)
+release=2
+source=(http://xorg.freedesktop.org/archive/individual/lib/libxshmfence-$version.tar.bz2 \
+	memfd_create.patch)
 
 build() {
 	cd libxshmfence-$version
+
+	patch -p1 -i $SRC/memfd_create.patch
+
+	autoreconf -v --install
 	./configure --prefix=/usr
 	make
 	make DESTDIR=$PKG install
