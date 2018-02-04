@@ -1,16 +1,18 @@
 # Description: A library for handling OpenGL function pointer management
 # URL: https://github.com/anholt/libepoxy
 # Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
-# Depends on: mesa3d
+# Depends on: mesa3d, meson, ninja
 
 name=libepoxy
-version=1.4.2
+version=1.4.3
 release=1
 source=(https://github.com/anholt/libepoxy/releases/download/$version/libepoxy-$version.tar.xz)
 
 build() {
 	cd libepoxy-$version
-	./configure --prefix=/usr
-	make
-	make DESTDIR=$PKG install
+
+	mkdir _build && cd _build
+	meson --prefix /usr
+	ninja
+	DESTDIR=$PKG ninja install
 }
