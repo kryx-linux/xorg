@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xorg.pub
-RWTSGWF5Q7TndJfqG8z3Bz04+S/PagLChU7jJVJzlc9nYSPPP86pOp3tPAYpUGR5vTAWO2wZb9UWowhS8zqtSe3/ojyoB+uS9AE=
-SHA256 (Pkgfile) = ca87213283c68778c709a7ef0977fcfae17d5e67740de45110e40c56077e5936
+RWTSGWF5Q7TndEk/9Dx3kSzMpfu0uQjiV5+nI+7LcEnwHJ65b8FVzzXismKdCePxnpiGl/yWq1gkTHpB4kDuoxUC9WTEgvyH6g0=
+SHA256 (Pkgfile) = 841531ae4500b1efc5b3cfac37adcf5e23ada2717639ae705a76af6cd4698c86
 SHA256 (.footprint) = 994adfe24a13e15c88a9ef2abf83e0b313660861d7433e7ed2aac61d8984c470
 SHA256 (libXtst-1.2.3.tar.bz2) = 4655498a1b8e844e3d6f21f3b2c4e2b571effb5fd83199d428a6ba7ea4bf5204

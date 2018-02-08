@@ -1,7 +1,7 @@
 # Description: X Window System RGB database
 # URL: http://xorg.freedesktop.org
 # Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
-# Depends on: xorg-xproto
+# Depends on: xorg-xorgproto
 
 name=xorg-rgb
 version=1.0.6

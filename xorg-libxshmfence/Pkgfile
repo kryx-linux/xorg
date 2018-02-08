@@ -1,7 +1,7 @@
 # Description: X shared memory fences
 # URL: http://xorg.freedesktop.org
 # Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
-# Depends on: xorg-util-macros xorg-xproto
+# Depends on: xorg-util-macros xorg-xorgproto
 
 name=xorg-libxshmfence
 version=1.2

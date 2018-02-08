@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xorg.pub
-RWTSGWF5Q7TndHlV8u2apoU9kowp8brOUXzrAngWB87FKoBlOxm+IpK4WHrWF/ApqIbVlxb2Xp/XtNoUyzyp0ybxflwjOmUCWgs=
-SHA256 (Pkgfile) = 6abf582cd42ca72270323b3d43a707a897176c283300cc564505dc5aa5a69566
+RWTSGWF5Q7TndEy+V0CCE1FYy+hcVSfBzK7opHOXGdZi6OtmwodvjByoGsrsRMSAcBtJUVo9bR0Ub8RpFdcIJ/whGKWM3ACjcgs=
+SHA256 (Pkgfile) = 440a09e5c6bef2901f0ae5d46fe780a6f30ebfdeb743edb679a476235bad7471
 SHA256 (.footprint) = ba416a99a3364f9408b1dff8ce74398565b08998241e204f8a6ce70bbbffd302
 SHA256 (libXres-1.2.0.tar.bz2) = ff75c1643488e64a7cfbced27486f0f944801319c84c18d3bd3da6bf28c812d4
