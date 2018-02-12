@@ -4,7 +4,7 @@
 # Depends on:
 
 name=xorg-xorgproto
-version=2018.1
+version=2018.2
 release=1
 source=(https://xorg.freedesktop.org/archive/individual/proto/xorgproto-$version.tar.bz2)
 
