@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xorg.pub
-RWTSGWF5Q7TndJr9rV7iDqhBMVnJ2fStdorJbfWsMg2UMIUtMfEz5h1A4wlzU7+Vo7EujtidOffAGVRhyeWU9IXUnrtCMgQ1mwo=
-SHA256 (Pkgfile) = 0a438ee713448d873ccf3e216025e5792ca7c2f3284c0f96a1176f73b72162e4
+RWTSGWF5Q7TndGRjwJB9UhrEe5lF3h+xGf1kn9Q4O8fI2fqodjhu0ZkGe0hRZ+/XE5BbXaU6weIqifVQGMRDFaskkGvCwqvv1w8=
+SHA256 (Pkgfile) = 9401130aeaa52b6c1b5877ce8ab664885c3efad1bf7affc76a1a76d691768a4c
 SHA256 (.footprint) = 675c57efe7d575ea018b062e903e7f3cb28b5815783c7886347364c13063b04f
-SHA256 (xf86-video-vesa-2.3.4.tar.bz2) = 7bddf4d879dd6f67088ecb203a31e12334aab980174bd0909930a21f32e251c1
+SHA256 (xf86-video-vesa-2.4.0.tar.bz2) = bf443c94d7bf6cd4e248f8a3147f4647be04dc4c80250d9405006263bbdee38c
