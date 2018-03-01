@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xorg.pub
-RWTSGWF5Q7TndButtg2uH7z1r5G61S278MBi2EESX96IzcHTGl8f36fjPueDPXrvURemF1Pack7dCl+t9KiHq0Tzjy6H3TkasQw=
-SHA256 (Pkgfile) = c407bfda1ffd68f5d73f4c049c2eca1b384a722ca6ddc967ee9ab080dd2c5a04
+RWTSGWF5Q7TndOQ3VrosFyCDPmXscaUebbZ1p5EKDw3zEOwZEPXNT0ogPvbtSZv3qOR7/5bkrP3BJGxCEkGRpKkCpwkof9DP4wg=
+SHA256 (Pkgfile) = 8f0e55916c7cbec49ac31391eae35fd1f6267b5f2088bd114f08a925d9486142
 SHA256 (.footprint) = 1e6b66ba558fb5096dd622909782db968ba3363369d1a2a9c003557df53cf54e
-SHA256 (xorgproto-2018.3.tar.bz2) = a883cc21fefbd3f79e8835bf6ecbe9ee1903239481a8c8a9f7e7be6091e0b0e5
+SHA256 (xorgproto-2018.4.tar.bz2) = fee885e0512899ea5280c593fdb2735beb1693ad170c22ebcc844470eec415a0
