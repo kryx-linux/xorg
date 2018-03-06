@@ -7,6 +7,7 @@ drwxr-xr-x	root/root	usr/include/xcb/
 -rw-r--r--	root/root	usr/include/xcb/dpms.h
 -rw-r--r--	root/root	usr/include/xcb/dri2.h
 -rw-r--r--	root/root	usr/include/xcb/dri3.h
+-rw-r--r--	root/root	usr/include/xcb/ge.h
 -rw-r--r--	root/root	usr/include/xcb/glx.h
 -rw-r--r--	root/root	usr/include/xcb/present.h
 -rw-r--r--	root/root	usr/include/xcb/randr.h
@@ -123,6 +124,11 @@ lrwxrwxrwx	root/root	usr/lib/libxcb-xfixes.so.0 -> libxcb-xfixes.so.0.0.0
 lrwxrwxrwx	root/root	usr/lib/libxcb-xinerama.so -> libxcb-xinerama.so.0.0.0
 lrwxrwxrwx	root/root	usr/lib/libxcb-xinerama.so.0 -> libxcb-xinerama.so.0.0.0
 -rwxr-xr-x	root/root	usr/lib/libxcb-xinerama.so.0.0.0
+-rw-r--r--	root/root	usr/lib/libxcb-xinput.a
+-rwxr-xr-x	root/root	usr/lib/libxcb-xinput.la
+lrwxrwxrwx	root/root	usr/lib/libxcb-xinput.so -> libxcb-xinput.so.0.1.0
+lrwxrwxrwx	root/root	usr/lib/libxcb-xinput.so.0 -> libxcb-xinput.so.0.1.0
+-rwxr-xr-x	root/root	usr/lib/libxcb-xinput.so.0.1.0
 -rw-r--r--	root/root	usr/lib/libxcb-xkb.a
 -rwxr-xr-x	root/root	usr/lib/libxcb-xkb.la
 lrwxrwxrwx	root/root	usr/lib/libxcb-xkb.so -> libxcb-xkb.so.1.0.0
@@ -167,6 +173,7 @@ drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/xcb-xf86dri.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/xcb-xfixes.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/xcb-xinerama.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/xcb-xinput.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/xcb-xkb.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/xcb-xtest.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/xcb-xv.pc
