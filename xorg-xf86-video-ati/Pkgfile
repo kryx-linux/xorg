@@ -4,7 +4,7 @@
 # Depends on: xorg-server
 
 name=xorg-xf86-video-ati
-version=18.0.0
+version=18.0.1
 release=1
 source=(http://xorg.freedesktop.org/archive/individual/driver/xf86-video-ati-$version.tar.bz2)
 
