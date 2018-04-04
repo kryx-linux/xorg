@@ -4,7 +4,7 @@
 # Depends on: elfutils libdrm libvdpau llvm xorg-xorgproto xorg-libxdamage xorg-libxshmfence xorg-libxvmc xorg-libxxf86vm
 
 name=mesa3d
-version=17.3.7
+version=17.3.8
 release=1
 source=(https://mesa.freedesktop.org/archive/mesa-$version.tar.xz)
 
