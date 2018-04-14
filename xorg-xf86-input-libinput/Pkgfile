@@ -1,7 +1,7 @@
 # Description: xorg driver xf86-input-libinput
 # URL: http://xorg.freedesktop.org
 # Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
-# Depends on: xorg-server libinput
+# Depends on: xorg-server
 
 name=xorg-xf86-input-libinput
 version=0.27.1

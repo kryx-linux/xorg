@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xorg.pub
-RWTSGWF5Q7TndCnp/EEU9dIyxvJ7lGxp2p8hX2Y0Vq8wF+ICMYL7UqIuqNxjlFtm+yXr6CcmbrpPpKUnFnSJdmFc+QTh1WOVTQk=
-SHA256 (Pkgfile) = 160660d844ef396305446aeaacb1ff5f4d03ea5e1b0c30b4c991a804c3009a83
+RWTSGWF5Q7TndNlN3uPbdmwz10H7bzUNRYUPsWqYCzzMi7/oHAG2L0P+RV7RHPCI/jtruqzln/1uReYkeC7tF1grC3eq0nHLqAE=
+SHA256 (Pkgfile) = f8ce84d82e7f88c29bfcacc03be337034ce3c73a4236a2bb0d1ce68b8c5f8a35
 SHA256 (.footprint) = 70de83fb607e7df8c9f3ffa5231b5a87fcc3402da7897d6371c4a72b2a2e2090
 SHA256 (xf86-input-synaptics-1.9.0.tar.bz2) = afba3289d7a40217a19d90db98ce181772f9ca6d77e1898727b0afcf02073b5a

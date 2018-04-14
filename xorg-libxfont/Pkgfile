@@ -1,7 +1,7 @@
 # Description: xorg lib libXfont
 # URL: http://xorg.freedesktop.org
 # Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
-# Depends on: freetype, xorg-xtrans, xorg-xorgproto, xorg-libfontenc
+# Depends on: freetype xorg-libfontenc xorg-xtrans
 
 name=xorg-libxfont
 version=1.5.4
