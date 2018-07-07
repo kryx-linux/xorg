@@ -4,9 +4,9 @@
 # Depends on: xorg-libxext xorg-xorgproto
 
 name=xorg-libxscrnsaver
-version=1.2.2
-release=2
-source=(http://xorg.freedesktop.org/releases/individual/lib/libXScrnSaver-$version.tar.bz2)
+version=1.2.3
+release=1
+source=(https://www.x.org/releases/individual/lib/libXScrnSaver-$version.tar.bz2)
 
 build() {
 	cd libXScrnSaver-$version
