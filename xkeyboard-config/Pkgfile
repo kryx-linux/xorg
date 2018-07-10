@@ -1,10 +1,10 @@
 # Description: X keyboard configuration database
-# URL: http://www.freedesktop.org/wiki/Software_2fXKeyboardConfig
+# URL: https://cgit.freedesktop.org/xkeyboard-config/
 # Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
 # Depends on: xorg-xkbcomp, intltool
 
 name=xkeyboard-config
-version=2.23.1
+version=2.24
 release=1
 source=(http://xorg.freedesktop.org/releases/individual/data/$name/$name-$version.tar.bz2)
 
