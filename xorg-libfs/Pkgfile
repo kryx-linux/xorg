@@ -1,7 +1,7 @@
 # Description: X Font Service client library
 # URL: http://xorg.freedesktop.org
 # Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
-# Depends on: xorg-xorgproto xorg-fontsproto xorg-xtrans
+# Depends on: xorg-xorgproto xorg-xtrans
 
 name=xorg-libfs
 version=1.0.7
