@@ -1,7 +1,7 @@
 # Description: X Trap extension client library
 # URL: http://xorg.freedesktop.org
 # Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
-# Depends on: xorg-libxt, xorg-trapproto,, xorg-libxext
+# Depends on: xorg-libxt, xorg-libxext
 
 name=xorg-libxtrap
 version=1.0.1
