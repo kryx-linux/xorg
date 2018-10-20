@@ -1,7 +1,7 @@
 # Description: xorg lib libXxf86misc
 # URL: http://xorg.freedesktop.org
 # Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
-# Depends on: xorg-libxext, xorg-xf86miscproto
+# Depends on: xorg-libxext
 
 name=xorg-libxxf86misc
 version=1.0.4
