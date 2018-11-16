@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xorg.pub
-RWTSGWF5Q7TndKybno3sZg2m0H0a1YvAqgVyf5RNgxWFtWRUEbT8dPyn406mwDLBOupGMVTZUEWV3g1mD67eda1fRc4xMZnVSAw=
-SHA256 (Pkgfile) = 438db1f0176398b109f40fa9dbe504b134dfadaa4cda4a86c19317dcaf94d45d
+RWTSGWF5Q7TndOYlF/PxzSMrj0kmRz60cxDDR+wMp3g0aGo3MfZ3TF79hlNgM/hVtxBAIueo19WgHPK7yWWchtZKvxFh30HlAQ4=
+SHA256 (Pkgfile) = e7d595c8469e3afc0b023aa0f54a90c4a56ea15db7c51bc88237d953bf08ed40
 SHA256 (.footprint) = 34364562b14c32bc7601d0ac3024cdb845df46a306b2acee2ad36671fd06d05e
-SHA256 (mesa-18.2.4.tar.xz) = 621d1aebb57876d5b6a5d2dcf4eb7e0620e650c6fe5cf3655c65e243adc9cb4e
+SHA256 (mesa-18.2.5.tar.xz) = b12c32872832e5353155e1e8026e1f1ab75bba9dc5b178d712045684d26c2b73
