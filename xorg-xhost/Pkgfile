@@ -4,8 +4,8 @@
 # Depends on: xorg-libxmu
 
 name=xorg-xhost
-version=1.0.7
-release=2
+version=1.0.8
+release=1
 source=(http://xorg.freedesktop.org/releases/individual/app/xhost-$version.tar.bz2)
 
 build() {
