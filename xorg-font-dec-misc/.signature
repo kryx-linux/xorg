@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xorg.pub
-RWTSGWF5Q7TndGZNjcnvhNl0euttION1fIRtAQGw45zD4Yij79V+udEYOL+FKFRcMHowJgpjtD1OL5k/VN95u6A+GgVkFiwWFg4=
-SHA256 (Pkgfile) = 3043c9112b7d0e7f9483ce3a30e8a7450850415ccc184b3ab988a97e9d34c78a
+RWTSGWF5Q7TndAVMBXIegmqHXrp+hz96uG/NoVrIGw2obO+Q101avhWyDBeRm0bChWwOTpiSL5xIfZcBUM0DmvA9W0dgjCthNwI=
+SHA256 (Pkgfile) = c0a8a61bf3c389188a77725093a178ac0e6f57a4d056cdc418e6f8fb3aad4227
 SHA256 (.footprint) = eba02919c7c1b563ed80078593cc8ef5086d6f3e12c93cec1a4a2d80240e3552
 SHA256 (font-dec-misc-1.0.3.tar.bz2) = e19ddf8b5f8de914d81675358fdfe37762e9ce524887cc983adef34f2850ff7b
