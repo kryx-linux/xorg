@@ -87,6 +87,7 @@ drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/osmesa.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/xatracker.pc
 drwxr-xr-x	root/root	usr/lib/vdpau/
+lrwxrwxrwx	root/root	usr/lib/vdpau/libvdpau_gallium.so -> libvdpau_gallium.so.1.0.0
 lrwxrwxrwx	root/root	usr/lib/vdpau/libvdpau_nouveau.so -> libvdpau_nouveau.so.1.0.0
 lrwxrwxrwx	root/root	usr/lib/vdpau/libvdpau_nouveau.so.1 -> libvdpau_nouveau.so.1.0.0
 lrwxrwxrwx	root/root	usr/lib/vdpau/libvdpau_nouveau.so.1.0 -> libvdpau_nouveau.so.1.0.0
