@@ -4,7 +4,7 @@
 # Depends on: elfutils libdrm libglvnd libvdpau llvm python3-mako xorg-libxdamage xorg-libxrandr xorg-libxshmfence xorg-libxvmc xorg-libxxf86vm
 
 name=mesa3d
-version=19.0.6
+version=19.1.0
 release=1
 source=(https://mesa.freedesktop.org/archive/mesa-$version.tar.xz)
 
@@ -31,8 +31,4 @@ build() {
 
 	# indirect rendering symlink
 	ln -s libGLX_mesa.so.0 $PKG/usr/lib/libGLX_indirect.so.0
-
-	# remove libGLES* for libglvnd; see thread at
-	# https://lists.freedesktop.org/archives/mesa-maintainers/2017-March/000055.html
-	rm $PKG/usr/lib/libGLES*
 }
