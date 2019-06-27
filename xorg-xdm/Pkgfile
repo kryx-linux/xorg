@@ -7,7 +7,7 @@ name=xorg-xdm
 version=1.1.12
 release=1
 source=(https://www.x.org/releases/individual/app/xdm-$version.tar.bz2 \
-        xdm)
+        xdm xdm.pam)
 
 build() {
 	cd xdm-$version
@@ -20,4 +20,5 @@ build() {
 	make DESTDIR=$PKG install
 
 	install -D -m 755 $SRC/xdm $PKG/etc/rc.d/xdm
+	install -D -m 755 $SRC/xdm.pam $PKG/etc/pam.d/xdm
 }

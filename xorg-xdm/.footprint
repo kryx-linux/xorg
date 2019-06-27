@@ -5,6 +5,8 @@ drwxr-xr-x	root/root	etc/X11/xdm/
 -rw-r--r--	root/root	etc/X11/xdm/Xresources
 -rw-r--r--	root/root	etc/X11/xdm/Xservers
 -rw-r--r--	root/root	etc/X11/xdm/xdm-config
+drwxr-xr-x	root/root	etc/pam.d/
+-rwxr-xr-x	root/root	etc/pam.d/xdm
 drwxr-xr-x	root/root	etc/rc.d/
 -rwxr-xr-x	root/root	etc/rc.d/xdm
 drwxr-xr-x	root/root	usr/
