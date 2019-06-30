@@ -5,7 +5,7 @@
 
 name=xorg-xorgproto
 version=2019.1
-release=1
+release=2
 source=(https://xorg.freedesktop.org/archive/individual/proto/xorgproto-$version.tar.bz2)
 
 build() {
@@ -18,8 +18,7 @@ build() {
 	make
 	make DESTDIR=$PKG install
 
-	# conflict with xorg-xf86rushproto
-	rm $PKG/usr/include/X11/extensions/xf86rush*
-
+	rm $PKG/usr/include/X11/extensions/{apple,windows}*
+	rm $PKG/usr/share/pkgconfig/{apple,windows}wmproto.pc
 	rm -r $PKG/usr/share/doc
 }
