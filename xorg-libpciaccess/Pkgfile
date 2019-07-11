@@ -3,7 +3,7 @@
 # Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
 
 name=xorg-libpciaccess
-version=0.14
+version=0.15
 release=1
 source=(https://www.x.org/releases/individual/lib/libpciaccess-$version.tar.bz2)
 
