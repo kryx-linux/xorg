@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xorg.pub
-RWTSGWF5Q7TndDjY0o3bimakSTC8ecxyDRRuDdQt0535lQ8FIFxXbPckuDLVbfkexlc7c3UnTMVzPedFEMJLOU7z/2UtSyVnZwI=
-SHA256 (Pkgfile) = 5766bed0ddca0a4a14e3c8b1827d745506c9fbf7b4341d584886b341b69c07be
+RWTSGWF5Q7TndHF5LyFPrbQDiY1qeZIMh0m5Cd5IVsrLJUKAkOhsHBX5O55xt+DQkzHUpVC+kj+ybUpeRomjLGSlzVeiutrSwQE=
+SHA256 (Pkgfile) = 715abcacb43ba5dfe3692241d4c9be1c1aafdbf77958605e989b9eba7fe57c49
 SHA256 (.footprint) = fcfe4d7fcb43f270b89d4f8a3b54eb8dccee8dc68c6040e2657b874bf3df5698
-SHA256 (libICE-1.0.9.tar.bz2) = 8f7032f2c1c64352b5423f6b48a8ebdc339cc63064af34d66a6c9aa79759e202
+SHA256 (libICE-1.0.10.tar.bz2) = 6f86dce12cf4bcaf5c37dddd8b1b64ed2ddf1ef7b218f22b9942595fb747c348
