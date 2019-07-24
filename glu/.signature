@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xorg.pub
-RWTSGWF5Q7TndN1iX0VgAn/wynpHj0kTfkf+ONBwtGPKgzuhJBxnSHxjYEsCfKAZ5YgFKorUrap5xBj6aBLwtpHoLTw6nYHR7QQ=
-SHA256 (Pkgfile) = a633650280dcbfb918fefa1c51218b2328f92007a09f4ebe8114fd705f473cc4
+RWTSGWF5Q7TndJBtk/Lv24w/2LIUhG6EhVy8OIAJAebSkxStGABXxlgqKnjz7um2Q3jqpGG+PM7llEOmRGPjJnT8XxI5DDQafQg=
+SHA256 (Pkgfile) = b1d9595d273588fcb05eadf8869eaa23edc798a97998791e7b9e2c62749150c8
 SHA256 (.footprint) = bed9c2be3ed1d33d72654b944a27a73bcc4eaa913275e5d199981a2447dbe5f0
-SHA256 (glu-9.0.0.tar.bz2) = 1f7ad0d379a722fcbd303aa5650c6d7d5544fde83196b42a73d1193568a4df12
+SHA256 (glu-9.0.1.tar.xz) = fb5a4c2dd6ba6d1c21ab7c05129b0769544e1d68e1e3b0ffecb18e73c93055bc
