@@ -4,7 +4,7 @@
 # Depends on: xorg-server
 
 name=xorg-xf86-video-sis
-version=0.10.9
+version=0.11.0
 release=1
 source=(https://www.x.org/releases/individual/driver/xf86-video-sis-$version.tar.bz2)
 
