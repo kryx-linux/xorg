@@ -1,10 +1,10 @@
 drwxr-xr-x	root/root	lib/
 drwxr-xr-x	root/root	lib/udev/
 -rwxr-xr-x	root/root	lib/udev/libinput-device-group
--rwxr-xr-x	root/root	lib/udev/libinput-model-quirks
+-rwxr-xr-x	root/root	lib/udev/libinput-fuzz-override
 drwxr-xr-x	root/root	lib/udev/rules.d/
 -rw-r--r--	root/root	lib/udev/rules.d/80-libinput-device-groups.rules
--rw-r--r--	root/root	lib/udev/rules.d/90-libinput-model-quirks.rules
+-rw-r--r--	root/root	lib/udev/rules.d/90-libinput-fuzz-override.rules
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/libinput
@@ -35,9 +35,8 @@ drwxr-xr-x	root/root	usr/share/libinput/
 -rw-r--r--	root/root	usr/share/libinput/30-vendor-aiptek.quirks
 -rw-r--r--	root/root	usr/share/libinput/30-vendor-alps.quirks
 -rw-r--r--	root/root	usr/share/libinput/30-vendor-contour.quirks
--rw-r--r--	root/root	usr/share/libinput/30-vendor-cyapa.quirks
+-rw-r--r--	root/root	usr/share/libinput/30-vendor-cypress.quirks
 -rw-r--r--	root/root	usr/share/libinput/30-vendor-elantech.quirks
--rw-r--r--	root/root	usr/share/libinput/30-vendor-huion.quirks
 -rw-r--r--	root/root	usr/share/libinput/30-vendor-ibm.quirks
 -rw-r--r--	root/root	usr/share/libinput/30-vendor-kensington.quirks
 -rw-r--r--	root/root	usr/share/libinput/30-vendor-logitech.quirks
