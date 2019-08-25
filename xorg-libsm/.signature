@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xorg.pub
-RWTSGWF5Q7TndFUFRtstWNqguWGcs2l9+YJqX48TNOt1MUnS5vxdufug+Pfxu9fNWzxAXS6/h6aJ7+7GP+uaIN+C3gahHp3oNAM=
-SHA256 (Pkgfile) = a6a21a00b92a992acc8a17f6733503cfbc80e432d98ea9ec87479f3c0b3e6222
+RWTSGWF5Q7TndIkUHSrlPX1veWS95ZY3pqHMSjUdRnAzqJxDdpdz1dTzcGO73DnsHNxScAPU/lXTbFvec6jF5neDSLeFiFI69wk=
+SHA256 (Pkgfile) = f1fabd859555b0df5bf412d5a139ec9a478f90e8673aab72addfd9847f2794fd
 SHA256 (.footprint) = 1dc38e16a0e79dc9c30fca529fecfb9087330565ca7fa65f2be04538b89e150f
 SHA256 (libSM-1.2.3.tar.bz2) = 2d264499dcb05f56438dee12a1b4b71d76736ce7ba7aa6efbf15ebb113769cbb

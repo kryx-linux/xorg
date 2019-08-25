@@ -1,7 +1,7 @@
 # Description: Intel graphics video driver
 # URL: http://xorg.freedesktop.org
 # Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
-# Depends on: xorg-server xorg-libxscrnsaver
+# Depends on: xorg-libxscrnsaver xorg-server
 
 name=xorg-xf86-video-intel
 version=2.99.917-855

@@ -1,7 +1,7 @@
 # Description: A library that handles input devices for display servers
 # URL:         http://wayland.freedesktop.org/libinput/doc/latest/index.html
 # Maintainer:  CRUX Xorg Team, xorg-ports at crux dot nu
-# Depends on:  mtdev xorg-libevdev meson ninja
+# Depends on: eudev meson mtdev ninja xorg-libevdev
 
 name=libinput
 version=1.14.0

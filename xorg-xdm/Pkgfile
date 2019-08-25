@@ -1,7 +1,7 @@
 # Description: X display manager
 # URL: http://xorg.freedesktop.org
 # Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
-# Depends on: xorg-server, xorg-xrdb
+# Depends on: linux-pam xorg-server xorg-xrdb
 
 name=xorg-xdm
 version=1.1.12

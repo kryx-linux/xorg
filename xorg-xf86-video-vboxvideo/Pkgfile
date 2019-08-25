@@ -1,7 +1,7 @@
 # Description:	xorg driver xf86-video-vboxvideo
 # URL:		http://xorg.freedesktop.org
 # Maintainer:	CRUX Xorg Team, xorg-ports at crux dot nu
-# Depends on:	xorg-server
+# Depends on: xorg-server
 
 name=xorg-xf86-video-vboxvideo
 version=1.0.0

@@ -1,7 +1,7 @@
 # Description: BDF to PCF font file converter
 # URL: http://xorg.freedesktop.org
 # Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
-# Depends on: xorg-libxfont harfbuzz
+# Depends on: harfbuzz xorg-libxfont
 
 name=xorg-bdftopcf
 version=1.1

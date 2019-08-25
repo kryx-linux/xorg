@@ -1,7 +1,7 @@
 # Description: X keyboard configuration database
 # URL: https://cgit.freedesktop.org/xkeyboard-config/
 # Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
-# Depends on: xorg-xkbcomp, intltool
+# Depends on: intltool xorg-xkbcomp
 
 name=xkeyboard-config
 version=2.24

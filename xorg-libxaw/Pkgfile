@@ -1,7 +1,7 @@
 # Description: X Athena Widgets toolkit
 # URL: http://xorg.freedesktop.org
 # Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
-# Depends on: xorg-libxmu, xorg-libxpm
+# Depends on: xorg-libxmu xorg-libxpm
 
 name=xorg-libxaw
 version=1.0.13
