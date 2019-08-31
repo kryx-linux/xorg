@@ -10,7 +10,7 @@ source=(https://www.x.org/releases/individual/font/font-util-$version.tar.bz2)
 build() {
 	cd font-util-$version
 
-	./configure --prefix=/usr --with-fc-confdir=/etc/fonts
+	./configure --prefix=/usr
 
 	make
 	make DESTDIR=$PKG install
