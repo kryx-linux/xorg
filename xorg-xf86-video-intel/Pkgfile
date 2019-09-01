@@ -4,19 +4,18 @@
 # Depends on: xorg-libxscrnsaver xorg-server
 
 name=xorg-xf86-video-intel
-version=2.99.917-855
+version=2.99.917-870
 release=1
 source=(http://crux.nu/files/distfiles/xf86-video-intel-$version.tar.xz)
 
 build() {
 	cd xf86-video-intel-$version
 
-	./configure --prefix=/usr \
-                --libexecdir=/usr/lib/xf86-video-intel \
-                --enable-tools
+	./configure \
+		--prefix=/usr \
+		--libexecdir=/usr/lib/xf86-video-intel \
+		--enable-tools
 
 	make
 	make DESTDIR=$PKG install
-
-	find $PKG/usr/share/* -maxdepth 0 -type d \! -name "man" -exec rm -r '{}' \;
 }
