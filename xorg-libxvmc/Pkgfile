@@ -4,7 +4,7 @@
 # Depends on: xorg-libxv
 
 name=xorg-libxvmc
-version=1.0.11
+version=1.0.12
 release=1
 source=(https://www.x.org/releases/individual/lib/libXvMC-$version.tar.bz2)
 
@@ -17,4 +17,7 @@ build() {
 	make DESTDIR=$PKG install
 
 	rm -r $PKG/usr/share
+
+	# Provided by xorgproto
+	rm $PKG/usr/include/X11/extensions/vldXvMC.h
 }
