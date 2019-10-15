@@ -1,7 +1,7 @@
 # Description: X Video Motion Compensation extension client library
 # URL: http://xorg.freedesktop.org
 # Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
-# Depends on: xorg-libxext
+# Depends on: xorg-libxv
 
 name=xorg-libxvmc
 version=1.0.12
@@ -11,8 +11,7 @@ source=(https://www.x.org/releases/individual/lib/libXvMC-$version.tar.bz2)
 build() {
 	cd libXvMC-$version
 
-	# libxv is not needed
-	# https://gitlab.freedesktop.org/xorg/lib/libxvmc/commit/dd9ae03725990ee9c9336bca4b267dfbb696002f
+	# prevent linking against libxv
 	sed '/^PKG_CHECK_MODULES/s/xv / /' -i configure.ac
 	autoconf
 
