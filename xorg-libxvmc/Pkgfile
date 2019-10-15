@@ -12,8 +12,7 @@ build() {
 	cd libXvMC-$version
 
 	# prevent linking against libxv
-	sed '/^PKG_CHECK_MODULES/s/xv / /' -i configure.ac
-	autoconf
+	export XVMC_LIBS="-lX11 -lXext"
 
 	./configure --prefix=/usr
 	make
