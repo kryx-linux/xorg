@@ -34,4 +34,10 @@ lrwxrwxrwx	root/root	usr/lib/libOpenGL.so -> libOpenGL.so.0.0.0
 lrwxrwxrwx	root/root	usr/lib/libOpenGL.so.0 -> libOpenGL.so.0.0.0
 -rwxr-xr-x	root/root	usr/lib/libOpenGL.so.0.0.0
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
+-rw-r--r--	root/root	usr/lib/pkgconfig/egl.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/gl.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/glesv1_cm.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/glesv2.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/glx.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/libglvnd.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/opengl.pc
