@@ -4,8 +4,8 @@
 # Depends on: 
 
 name=xorg-xorgproto
-version=2019.1
-release=2
+version=2019.2
+release=1
 source=(https://xorg.freedesktop.org/archive/individual/proto/xorgproto-$version.tar.bz2)
 
 build() {
