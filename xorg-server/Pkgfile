@@ -6,10 +6,14 @@
 name=xorg-server
 version=1.20.5
 release=1
-source=(https://www.x.org/releases/individual/xserver/$name-$version.tar.bz2)
+source=(https://www.x.org/releases/individual/xserver/$name-$version.tar.bz2 \
+    $name-gl-version.patch)
 
 build() {
     cd $name-$version
+
+    patch -p1 -i $SRC/$name-gl-version.patch
+    autoreconf -if
 
     ./configure --prefix=/usr \
                 --localstatedir=/var \
