@@ -4,7 +4,7 @@
 # Depends on: intltool xorg-xkbcomp
 
 name=xkeyboard-config
-version=2.24
+version=2.28
 release=1
 source=(https://www.x.org/releases/individual/data/$name/$name-$version.tar.bz2)
 
