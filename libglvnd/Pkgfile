@@ -5,13 +5,13 @@
 
 name=libglvnd
 version=1.2.0
-release=1
+release=2
 source=(https://github.com/NVIDIA/$name/archive/v$version/$name-$version.tar.gz)
 
 build() {
 	cd $name-$version
 	./autogen.sh
-	./configure --prefix=/usr --disable-headers
+	./configure --prefix=/usr
 	make
 	make DESTDIR=$PKG install
 }
