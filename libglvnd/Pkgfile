@@ -5,13 +5,21 @@
 
 name=libglvnd
 version=1.2.0
-release=2
-source=(https://github.com/NVIDIA/$name/archive/v$version/$name-$version.tar.gz)
+release=3
+source=(https://github.com/NVIDIA/$name/archive/v$version/$name-$version.tar.gz \
+	update-gl_h-to-match-mesa.patch eglplatform.h)
 
 build() {
 	cd $name-$version
-	./autogen.sh
+
+	# https://gitlab.freedesktop.org/glvnd/libglvnd/merge_requests/195
+	patch -p1 -i $SRC/update-gl_h-to-match-mesa.patch
+
+	autoreconf -if
 	./configure --prefix=/usr
 	make
 	make DESTDIR=$PKG install
+
+	# replace EGL/eglplatform.h with the newer mesa version
+	install -m 0644 $SRC/eglplatform.h $PKG/usr/include/EGL/
 }
