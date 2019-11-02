@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xorg.pub
+RWTSGWF5Q7TndNqOnHB7M8D2/TkElTGbC1tUDVKgDsGTYzvHyK4kBNVyK0Davbe0rANoKQipZDvSjaWiemh1vGyoRCeTiG7wzwI=
+SHA256 (Pkgfile) = 42fcd98cd4ca2dc92d9b8069c328cd69962f5890ec188e2b3858d35478b2b51e
+SHA256 (.footprint) = ba95303649189fd47294eb99c37809e4d8ac4d7016b78b8b835d17b1ee9d3743
+SHA256 (libva-2.5.0.tar.bz2) = 3aa89cd369a506ac4dbe5de7c0ef5da4f3d220bf986403f02fa1f6f702af6878
