@@ -5,7 +5,7 @@
 # Optional: libva
 
 name=mesa3d
-version=19.2.4
+version=19.2.5
 release=1
 source=(https://mesa.freedesktop.org/archive/mesa-$version.tar.xz)
 
