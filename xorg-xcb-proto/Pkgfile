@@ -4,9 +4,9 @@
 # Depends on: python3
 
 name=xorg-xcb-proto
-version=1.13
-release=2
-source=(https://xcb.freedesktop.org/dist/xcb-proto-$version.tar.bz2)
+version=1.14
+release=1
+source=(https://xorg.freedesktop.org/archive/individual/proto/xcb-proto-$version.tar.xz)
 
 build() {
 	cd xcb-proto-$version
