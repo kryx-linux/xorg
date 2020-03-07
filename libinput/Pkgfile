@@ -4,7 +4,7 @@
 # Depends on:  eudev meson mtdev ninja xorg-libevdev
 
 name=libinput
-version=1.15.2
+version=1.15.3
 release=1
 source=(https://www.freedesktop.org/software/$name/$name-$version.tar.xz)
 
@@ -20,7 +20,7 @@ build() {
 		-Dtests=false \
 		-Dlibwacom=false \
 		-Dudev-dir=/lib/udev \
-        -Dzshcompletiondir=no
+		-Dzshcompletiondir=no
 
 	DESTDIR=$PKG ninja -C build -j ${JOBS:-1} install
 }
