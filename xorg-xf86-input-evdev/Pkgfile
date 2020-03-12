@@ -1,7 +1,7 @@
 # Description: xorg driver xf86-input-evdev
 # URL: http://xorg.freedesktop.org
 # Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
-# Depends on: xorg-server
+# Depends on: mtdev xorg-libevdev xorg-server
 
 name=xorg-xf86-input-evdev
 version=2.10.6
