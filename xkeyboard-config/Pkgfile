@@ -2,11 +2,13 @@
 # URL: https://cgit.freedesktop.org/xkeyboard-config/
 # Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
 # Depends on: intltool xorg-xkbcomp
+# Optional: libxslt
 
 name=xkeyboard-config
 version=2.28
-release=1
-source=(https://www.x.org/releases/individual/data/$name/$name-$version.tar.bz2)
+release=2
+source=(https://www.x.org/releases/individual/data/$name/$name-$version.tar.bz2
+	xkeyboard-config.7)
 
 build() {
 	cd $name-$version
@@ -21,4 +23,7 @@ build() {
 
 	ln -s /var/lib/xkb $PKG/usr/share/X11/xkb/compiled
 	find $PKG -name README -delete
+
+	[ -e '/usr/bin/xsltproc' ] || install -Dm 644 $SRC/xkeyboard-config.7 \
+		$PKG/usr/share/man/man7/xkeyboard-config.7
 }
