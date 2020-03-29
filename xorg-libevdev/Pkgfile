@@ -4,8 +4,8 @@
 # Depends on: python3
 
 name=xorg-libevdev
-version=1.8.0
-release=2
+version=1.9.0
+release=1
 source=(https://www.freedesktop.org/software/libevdev/libevdev-$version.tar.xz)
 
 build() {
