@@ -1,22 +1,21 @@
 # Description: Userspace interface to kernel DRM services
 # URL: http://dri.freedesktop.org/
 # Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
-# Depends on: libpthread-stubs xorg-libpciaccess
+# Depends on: meson ninja xorg-libpciaccess
 
 name=libdrm
-version=2.4.100
+version=2.4.101
 release=1
-source=(https://dri.freedesktop.org/libdrm/libdrm-$version.tar.bz2)
+source=(https://dri.freedesktop.org/libdrm/libdrm-$version.tar.xz)
 
 build() {
 	cd $name-$version
 
-	./configure \
+	meson build \
 		--prefix=/usr \
-		--disable-manpages \
-		--disable-valgrind \
-		--disable-cairo-tests
-
-	make
-	make DESTDIR=$PKG install
+		-Dman-pages=false \
+		-Dvalgrind=false \
+		-Dcairo-tests=false
+    
+    DESTDIR=$PKG ninja -C build -j ${JOBS:-1} install
 }
