@@ -11,7 +11,7 @@ source=(https://www.x.org/releases/individual/lib/libXfont2-$version.tar.bz2)
 build() {
 	cd libXfont2-$version
 
-	./configure --prefix=/usr
+	./configure --prefix=/usr --disable-selective-werror
 
 	make
 	make DESTDIR=$PKG install
