@@ -3,9 +3,9 @@
 # Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
 
 name=xorg-libpixman
-version=0.38.4
+version=0.40.0
 release=1
-source=(https://www.x.org/releases/individual/lib/pixman-$version.tar.bz2)
+source=(https://www.x.org/releases/individual/lib/pixman-$version.tar.xz)
 
 build() {
 	cd pixman-$version
