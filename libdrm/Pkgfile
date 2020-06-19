@@ -1,5 +1,5 @@
 # Description: Userspace interface to kernel DRM services
-# URL: http://dri.freedesktop.org/
+# URL: https://dri.freedesktop.org/
 # Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
 # Depends on: meson ninja xorg-libpciaccess
 

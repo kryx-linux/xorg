@@ -1,5 +1,5 @@
 # Description: Mesa OpenGL Utility library
-# URL: http://www.mesa3d.org
+# URL: https://www.mesa3d.org/
 # Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
 # Depends on: mesa3d
 
@@ -10,7 +10,7 @@ source=(https://mesa.freedesktop.org/archive/$name/$name-$version.tar.xz)
 
 build() {
     cd $name-$version
-    ./configure --prefix=/usr 
+    ./configure --prefix=/usr
     make
     make DESTDIR=$PKG install
 }
