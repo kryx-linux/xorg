@@ -4,7 +4,7 @@
 # Depends on:  eudev meson mtdev ninja xorg-libevdev
 
 name=libinput
-version=1.15.5
+version=1.15.6
 release=1
 source=(https://www.freedesktop.org/software/$name/$name-$version.tar.xz)
 
