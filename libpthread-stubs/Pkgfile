@@ -1,5 +1,5 @@
 # Description: pthread dummy implementation
-# URL: http://xcb.freedesktop.org
+# URL: https://xcb.freedesktop.org/
 # Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
 
 name=libpthread-stubs
