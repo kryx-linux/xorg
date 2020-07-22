@@ -1,7 +1,7 @@
 # Description: Mesa OpenGL Utility library
 # URL: https://www.mesa3d.org/
 # Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
-# Depends on: mesa3d
+# Depends on: mesa
 
 name=glu
 version=9.0.1
