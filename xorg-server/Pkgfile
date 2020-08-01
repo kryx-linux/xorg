@@ -5,11 +5,14 @@
 
 name=xorg-server
 version=1.20.8
-release=1
-source=(https://www.x.org/releases/individual/xserver/$name-$version.tar.bz2)
+release=2
+source=(https://www.x.org/releases/individual/xserver/$name-$version.tar.bz2 \
+	CVE-2020-14347.patch)
 
 build() {
     cd $name-$version
+
+    patch -p1 -i $SRC/CVE-2020-14347.patch
 
     ./configure --prefix=/usr \
                 --localstatedir=/var \
