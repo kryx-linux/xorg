@@ -5,12 +5,13 @@
 
 name=xorg-libxcb
 version=1.14
-release=1
+release=2
 source=(https://xorg.freedesktop.org/archive/individual/lib/libxcb-$version.tar.xz)
 
 build() {
 	cd libxcb-$version
 
+	PYTHON=/usr/bin/python3 \
 	./configure --prefix=/usr
 
 	make
