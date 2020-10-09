@@ -4,15 +4,12 @@
 # Depends on: python3
 
 name=xorg-xcb-proto
-version=1.14
-release=4
-source=(https://xorg.freedesktop.org/archive/individual/proto/xcb-proto-$version.tar.xz \
-	python-gcd.patch)
+version=1.14.1
+release=1
+source=(https://xorg.freedesktop.org/archive/individual/proto/xcb-proto-$version.tar.xz)
 
 build() {
 	cd xcb-proto-$version
-
-	patch -p1 -i $SRC/python-gcd.patch
 
 	PYTHON=/usr/bin/python3 \
 	./configure --prefix=/usr
