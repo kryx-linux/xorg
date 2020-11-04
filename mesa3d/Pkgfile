@@ -10,25 +10,25 @@ release=1
 source=(https://mesa.freedesktop.org/archive/mesa-$version.tar.xz)
 
 build() {
-	cd mesa-$version
-
-	meson build \
+	meson setup build mesa-$version \
 		--prefix=/usr \
 		--sysconfdir=/etc \
-		-Dllvm=true \
-		-Dgbm=true \
-		-Dgles1=true \
-		-Dgles2=true \
-		-Dosmesa=gallium \
-		-Dgallium-xa=true \
-		-Dgallium-vdpau=true \
-		-Dshared-llvm=true \
-		-Dplatforms=x11,drm \
-		-Dgallium-drivers=r300,r600,svga,swrast,radeonsi,nouveau \
-		-Dvulkan-drivers=amd,intel \
-		-Dglvnd=true
+		--buildtype=plain \
+		-D llvm=true \
+		-D gbm=true \
+		-D gles1=true \
+		-D gles2=true \
+		-D osmesa=gallium \
+		-D gallium-xa=true \
+		-D gallium-vdpau=true \
+		-D shared-llvm=true \
+		-D platforms=x11,drm \
+		-D gallium-drivers=r300,r600,svga,swrast,radeonsi,nouveau \
+		-D vulkan-drivers=amd,intel \
+		-D glvnd=true
 
-	DESTDIR=$PKG ninja -C build -j ${JOBS:-1} install
+	meson compile -C build -j ${JOBS:-1}
+	DESTDIR=$PKG meson install -C build
 
 	# indirect rendering symlink
 	ln -s libGLX_mesa.so.0 $PKG/usr/lib/libGLX_indirect.so.0
