@@ -5,7 +5,7 @@
 # Optional: libva
 
 name=mesa3d
-version=20.2.1
+version=20.2.2
 release=1
 source=(https://mesa.freedesktop.org/archive/mesa-$version.tar.xz)
 
@@ -14,15 +14,15 @@ build() {
 		--prefix=/usr \
 		--sysconfdir=/etc \
 		--buildtype=plain \
-		-D llvm=true \
-		-D gbm=true \
-		-D gles1=true \
-		-D gles2=true \
+		-D llvm=enabled \
+		-D shared-llvm=enabled \
+		-D gbm=enabled \
+		-D gles1=enabled \
+		-D gles2=enabled \
 		-D osmesa=gallium \
-		-D gallium-xa=true \
-		-D gallium-vdpau=true \
-		-D shared-llvm=true \
-		-D platforms=x11,drm \
+		-D gallium-xa=enabled \
+		-D gallium-vdpau=enabled \
+		-D platforms=x11 \
 		-D gallium-drivers=r300,r600,svga,swrast,radeonsi,nouveau \
 		-D vulkan-drivers=amd,intel \
 		-D glvnd=true
