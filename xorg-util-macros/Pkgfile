@@ -3,15 +3,12 @@
 # Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
 
 name=xorg-util-macros
-version=1.19.2
+version=1.19.3
 release=1
 source=(https://www.x.org/releases/individual/util/util-macros-$version.tar.bz2)
 
 build() {
 	cd util-macros-$version
-
 	./configure --prefix=/usr
-
-	make
 	make DESTDIR=$PKG install
 }
