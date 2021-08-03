@@ -4,15 +4,13 @@
 # Depends on: xorg-libxres
 
 name=xrestop
-version=0.4
-release=2
-source=(http://downloads.yoctoproject.org/releases/$name/$name-$version.tar.gz)
+version=0.5
+release=1
+source=(https://xorg.freedesktop.org/archive/individual/app/$name-$version.tar.bz2)
 
 build() {
 	cd xrestop-$version
-
-	./configure --prefix=/usr --mandir=/usr/share/man
-
+	./configure --prefix=/usr
 	make
 	make DESTDIR=$PKG install
 }
