@@ -4,21 +4,23 @@
 # Depends on: eudev meson mtdev ninja xorg-libevdev
 
 name=libinput
-version=1.18.1
+version=1.19.0
 release=1
 source=(https://www.freedesktop.org/software/$name/$name-$version.tar.xz)
 
 build() {
-	meson setup build $name-$version \
+	prt-get isinst zsh && \
+		PKGMK_LIBINPUT+=' -D zshcompletiondir=/usr/share/zsh/site-functions' || \
+		PKGMK_LIBINPUT+=' -D zshcompletiondir=no'
+	meson setup build $name-$version $PKGMK_LIBINPUT \
 		--prefix=/usr \
 		--libexecdir=/usr/lib \
 		--buildtype=plain \
+		-D udev-dir=/lib/udev \
 		-D debug-gui=false \
 		-D documentation=false \
 		-D tests=false \
-		-D libwacom=false \
-		-D udev-dir=/lib/udev \
-		-D zshcompletiondir=no
+		-D libwacom=false
 
 	meson compile -C build -j ${JOBS:-1}
 	DESTDIR=$PKG meson install -C build
