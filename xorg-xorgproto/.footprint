@@ -159,9 +159,6 @@ drwxr-xr-x	root/root	usr/include/X11/fonts/
 -rw-r--r--	root/root	usr/include/X11/keysym.h
 -rw-r--r--	root/root	usr/include/X11/keysymdef.h
 drwxr-xr-x	root/root	usr/share/
-drwxr-xr-x	root/root	usr/share/man/
-drwxr-xr-x	root/root	usr/share/man/man7/
--rw-r--r--	root/root	usr/share/man/man7/Xprint.7.gz
 drwxr-xr-x	root/root	usr/share/pkgconfig/
 -rw-r--r--	root/root	usr/share/pkgconfig/bigreqsproto.pc
 -rw-r--r--	root/root	usr/share/pkgconfig/compositeproto.pc

@@ -1,21 +1,23 @@
 # Description: Headers defining the core protocol and extensions for the X Window System
 # URL: http://xorg.freedesktop.org
 # Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
+# Depends on: meson ninja
 
 name=xorg-xorgproto
-version=2021.4
+version=2021.5
 release=1
 source=(https://xorg.freedesktop.org/archive/individual/proto/xorgproto-$version.tar.bz2)
 
 build() {
-	cd xorgproto-$version
-
-	./configure \
+	meson setup xorgproto-$version build \
 		--prefix=/usr \
-		--enable-legacy
-
-	make
-	make DESTDIR=$PKG install
+		--buildtype=plain \
+		--wrap-mode nodownload \
+		-D b_lto=true \
+		-D b_pie=true \
+		-D legacy=true
+	meson compile -C build
+	DESTDIR=$PKG meson install -C build
 
 	rm $PKG/usr/include/X11/extensions/{apple,windows}*
 	rm $PKG/usr/share/pkgconfig/{apple,windows}wmproto.pc
