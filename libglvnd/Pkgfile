@@ -5,17 +5,29 @@
 
 name=libglvnd
 version=1.3.4
-release=1
+release=2
 source=(https://github.com/NVIDIA/$name/archive/v$version/$name-$version.tar.gz \
-	eglplatform.h)
+	eglplatform.h
+    0001-glx-Add-another-fallback-library-name.patch)
 
 build() {
-	cd $name-$version
+	#prt-get isinst xorg-libx11 xorg-libxext xorg-xorgproto && PKGMK_GLVND+=' --enable-x11 --enable-glx'; patch -Np1 -d $name-$version -i $SRC/EGL_NO_X11.patch
+	PKGMK_GLVND+=' -D x11=enabled -D glx=enabled'
 
-	autoreconf -if
-	./configure --prefix=/usr
-	make
-	make DESTDIR=$PKG install
+	# https://src.fedoraproject.org/rpms/libglvnd/tree/rawhide
+	patch -Np1 -d $name-$version -i $SRC/0001-glx-Add-another-fallback-library-name.patch
+
+	meson setup $name-$version build $PKGMK_GLVND \
+		--prefix=/usr \
+		--buildtype=plain \
+		--wrap-mode nodownload \
+		-D b_lto=true \
+		-D b_pie=true \
+		-D gles1=false \
+		-D egl=true \
+		-D tls=disabled
+	meson compile -C build
+	DESTDIR=$PKG meson install -C build
 
 	# replace EGL/eglplatform.h with the newer mesa version
 	install -m 0644 $SRC/eglplatform.h $PKG/usr/include/EGL/
