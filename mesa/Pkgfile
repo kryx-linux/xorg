@@ -5,8 +5,8 @@
 # Optional: libva libvdpau wayland-protocols
 
 name=mesa
-version=21.2.1
-release=2
+version=21.2.2
+release=1
 source=(https://archive.mesa3d.org/$name-$version.tar.xz)
 
 build() {
