@@ -1,10 +1,11 @@
 # Description: library that handles input devices for display servers
 # URL: https://www.freedesktop.org/wiki/Software/libinput/
 # Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
-# Depends on: eudev meson mtdev ninja xorg-libevdev
+# Depends on: eudev mtdev xorg-libevdev
+# Optional: wayland-protocols
 
 name=libinput
-version=1.19.0
+version=1.19.1
 release=1
 source=(https://www.freedesktop.org/software/$name/$name-$version.tar.xz)
 
@@ -12,10 +13,13 @@ build() {
 	prt-get isinst zsh && \
 		PKGMK_LIBINPUT+=' -D zshcompletiondir=/usr/share/zsh/site-functions' || \
 		PKGMK_LIBINPUT+=' -D zshcompletiondir=no'
+
 	meson setup build $name-$version $PKGMK_LIBINPUT \
 		--prefix=/usr \
 		--libexecdir=/usr/lib \
 		--buildtype=plain \
+		--wrap-mode nodownload \
+		-D b_pie=true \
 		-D udev-dir=/lib/udev \
 		-D debug-gui=false \
 		-D documentation=false \
