@@ -1,7 +1,8 @@
 # Description: X keyboard configuration database
 # URL: https://cgit.freedesktop.org/xkeyboard-config/
 # Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
-# Depends on: intltool xorg-xkbcomp libxslt
+# Depends on: libxslt xorg-xkbcomp
+# Optional: intltool
 
 name=xkeyboard-config
 version=2.33
@@ -9,17 +10,17 @@ release=1
 source=(https://www.x.org/releases/individual/data/$name/$name-$version.tar.bz2)
 
 build() {
-	cd $name-$version
-
-	./configure \
+	meson setup $name-$version build \
 		--prefix=/usr \
-		--disable-nls \
-		--with-xkb-base=/usr/share/X11/xkb \
-		--with-xkb-rules-symlink=xorg
-
-	make -j1
-	make DESTDIR=$PKG install
+		--buildtype=plain \
+		--wrap-mode nodownload \
+		-D b_lto=true \
+		-D b_pie=true \
+		-D xorg-rules-symlinks=true
+	meson compile -C build
+	DESTDIR=$PKG meson install -C build
 
 	ln -s /var/lib/xkb $PKG/usr/share/X11/xkb/compiled
 	find $PKG -name README -delete
+	rm -r $PKG/usr/share/locale
 }
