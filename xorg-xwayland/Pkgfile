@@ -1,0 +1,25 @@
+# Description: X compat server to be used with wayland
+# URL: https://wayland.freedesktop.org/xserver.html
+# Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
+# Depends on: dbus pixman wayland-egl xorg-server
+
+name=xorg-xwayland
+version=21.1.2
+release=1
+source=(https://xorg.freedesktop.org/releases/individual/xserver/xwayland-$version.tar.xz)
+
+build() {
+	meson setup xwayland-$version build \
+		--prefix=/usr \
+		--buildtype=plain \
+		--wrap-mode nodownload \
+		-D b_lto=true \
+		-D b_pie=true \
+		-D xkb_dir=/usr/share/X11/xkb \
+		-D xkb_output_dir=/var/lib/xkb
+	meson compile -C build
+	DESTDIR=$PKG meson install -C build
+
+	rm -r $PKG/usr/lib/xorg/protocol.txt
+	rm -r $PKG/usr/share/man/man1/Xserver.1
+}
