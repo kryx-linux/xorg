@@ -1,8 +1,5 @@
 untrusted comment: verify with /etc/ports/xorg.pub
-RWTSGWF5Q7TndLhIOH9WW40ag9meVTBT41j2euy+39t6SxJab8pSahrslJVeJhmIieh98DbtnC+NbMiIDZ/S7xZaIu7AkkNb6gE=
-SHA256 (Pkgfile) = 1fe0ef5075fc94673aabf5a0bb1d76f8c79e32dd21462c597ae82d00c9f09051
-SHA256 (.footprint) = 55c554708443642282d937bc16b45a93bddece9c8be60df98596b140e6f5ba83
-SHA256 (xorg-server-1.20.13.tar.xz) = 40aa4e96a56a81a301f15a9b10e06a22700f12b42d9e0e453c7f11d354386300
-SHA256 (0001-v2-FS-58644.patch) = 6253fb5cf06cf650539be585d6ca13cfa00217b51ca9825476c8fd55c09341a4
-SHA256 (xserver-autobind-hotplug.patch) = cae1b7f296c18177de38f9b1215a4f916da2288b85f1fcb9e80373a42e2892b8
-SHA256 (0002-fix-libshadow-2.patch) = d07b2fe55828dad61517a80c77f6f183113916f5e1fce30ff43041550d58bd6e
+RWTSGWF5Q7TndDA+YSahr9yvaXD0qkVmuwYqPQ7wIBI/ImLm/DPQQVvZ9xBMo+HwPfKXlQr04QAaXckiAyhjjni/K8eu+Phbnwc=
+SHA256 (Pkgfile) = d1eedd89e1cb01fe42514c3ee1175c30d8991ef204ee6cf7f89acba35e7a83ff
+SHA256 (.footprint) = 6838beebf40c1bc6c7ea5e8863aed234277a59f1a4a1c733c715a89250c16755
+SHA256 (xserver-xorg-server-21.1.0.tar.bz2) = f8fe88731d8bde9b9d889ea9c4c397ffc7e963111b1feba6c4d935dd8a38ec92
