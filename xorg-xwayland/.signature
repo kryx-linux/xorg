@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xorg.pub
-RWTSGWF5Q7TndONfd+gEC4hdfAl5l/Hb9ARMTKAobxm7fQTWNjyGgrGay26Tm7qSgdoPuIz7+Uyqpp1MobcNskkk2m5Hm2ezFwI=
-SHA256 (Pkgfile) = 135f2baf2e4b838f9f3940d9acd90da35f84c1cc38728463ce4a646c0beeae5e
+RWTSGWF5Q7TndACinosMH/kZth1ugEUNTtmQFKO/pUfcAhPFz+oeF28/orFK0BPX1pAMu3l9RUx+hHJcOWRREwSWPvQHJJn7hw8=
+SHA256 (Pkgfile) = 6d858aed40484b4e2c1f9b0e575befb41ebd1e4a56b23837289457fac6685997
 SHA256 (.footprint) = a0f710b525178b1c96a2165cdd68d98915bc2bcecc4cc68be00ff7a105fb25d8
 SHA256 (xwayland-21.1.2.tar.xz) = b81cbdd5ad60b8b7ad8c3ecc7ec2a28c9bf021448670735cebb501f08bebd18b
