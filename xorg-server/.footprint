@@ -173,7 +173,7 @@ drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/xorg-server.pc
 drwxr-xr-x	root/root	usr/lib/xorg-server/
 -rwxr-xr-x	root/root	usr/lib/xorg-server/Xorg
--rwsr-xr-x	root/root	usr/lib/xorg-server/Xorg.wrap
+-r-xr-xr-x	root/root	usr/lib/xorg-server/Xorg.wrap
 drwxr-xr-x	root/root	usr/lib/xorg/
 drwxr-xr-x	root/root	usr/lib/xorg/modules/
 drwxr-xr-x	root/root	usr/lib/xorg/modules/drivers/
