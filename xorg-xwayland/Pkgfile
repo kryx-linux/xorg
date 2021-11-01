@@ -1,7 +1,7 @@
 # Description: X compat server to be used with wayland
 # URL: https://wayland.freedesktop.org/xserver.html
 # Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
-# Depends on: dbus egl-wayland pixman xorg-server
+# Depends on: dbus egl-wayland xorg-server
 
 name=xorg-xwayland
 version=21.1.2
