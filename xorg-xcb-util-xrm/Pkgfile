@@ -1,7 +1,7 @@
 # Description: XCB utility functions for the X resource manager
 # URL: https://github.com/Airblader/xcb-util-xrm
 # Maintainer: Matt Housh, jaeger at crux dot ninja
-# Depends on: xorg-xcb-util
+# Depends on: xorg-xcb-util xorg-libx11
 
 name=xorg-xcb-util-xrm
 version=1.3
