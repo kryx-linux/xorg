@@ -6,7 +6,7 @@
 name=xorg-server
 version=21.1.0
 release=2
-source=(https://gitlab.freedesktop.org/xorg/xserver/-/archive/xorg-server-21.1.0/xserver-xorg-server-21.1.0.tar.bz2)
+source=(https://gitlab.freedesktop.org/xorg/xserver/-/archive/xorg-server-$version/xserver-xorg-server-$version.tar.bz2)
 
 build() {
 	meson setup xserver-$name-$version build \
@@ -23,9 +23,6 @@ build() {
 		-D xorg=true
 	meson compile -C build
 	DESTDIR=$PKG meson install -C build
-
-	#ln -s Xorg $PKG/usr/bin/X
-	/bin/chmod 4555 $PKG/usr/lib/xorg-server/Xorg.wrap
 
 	install -m 755 -d $PKG/etc/X11/xorg.conf.d
 	echo "needs_root_rights = yes" >> $PKG/etc/X11/Xwrapper.config
