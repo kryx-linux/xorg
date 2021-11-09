@@ -4,7 +4,7 @@
 # Depends on: meson ninja xorg-libpciaccess
 
 name=libdrm
-version=2.4.107
+version=2.4.108
 release=1
 source=(https://dri.freedesktop.org/libdrm/libdrm-$version.tar.xz)
 
@@ -12,6 +12,9 @@ build() {
 	meson setup build $name-$version \
 		--prefix=/usr \
 		--buildtype=plain \
+		--wrap-mode nodownload \
+		-D b_lto=true \
+		-D b_pie=true \
 		-D man-pages=false \
 		-D valgrind=false \
 		-D cairo-tests=false
