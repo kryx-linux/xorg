@@ -4,7 +4,7 @@
 # Depends on: meson ninja
 
 name=xorg-libevdev
-version=1.11.0
+version=1.12.0
 release=1
 source=(https://www.freedesktop.org/software/libevdev/libevdev-$version.tar.xz)
 
@@ -12,6 +12,9 @@ build() {
 	meson setup build libevdev-$version \
 		--prefix=/usr \
 		--buildtype=plain \
+		--wrap-mode nodownload \
+		-D b_lto=true \
+		-D b_pie=true \
 		-D tests=disabled \
 		-D documentation=disabled
 
