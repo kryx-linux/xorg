@@ -1,7 +1,7 @@
 untrusted comment: verify with /etc/ports/xorg.pub
-RWTSGWF5Q7TndFpnf6Qyi8ydbNwfcUXTGc4UNWZBQGw9niKaoAjVaAvgwAMaKeq4aBFdQNd3ryNzTYJ7ykPJZkuHM1vq8B84kQI=
-SHA256 (Pkgfile) = 0b5e06fed9bd7f15eb89d4858e5038f0baf9258f9025a7115c6ab985cbf86dc8
-SHA256 (.footprint) = 6798d697285c16167537bef2780cd0682141672178ff89352fb055ce8c3e64bd
-SHA256 (libglvnd-1.3.4.tar.gz) = 8f4218d7cdaf89d5b7eced818e810ccbc76f4bb9cba36d66eddac5a7ca892bab
+RWTSGWF5Q7TndHP7yT/eK/ZB2m3B8B5qIqKKTVRSpoGdYSA52WbM9yW9CMEvzfWzjLXnfVAEKUm5spmqlS/NQPuXVTz9GEbhvgA=
+SHA256 (Pkgfile) = 5c1ab7a093c951193954e27fa7c0303ddbdbabfcf1b6339ba3fbbd2f0d5e1c56
+SHA256 (.footprint) = 07003e941903a50550a5a235ec32d6e1aff2dbe44d9406660a15b4fec7b70680
+SHA256 (libglvnd-1.4.0.tar.gz) = 1eb5c2be8d213ad5d31cfb4efbb331d42f3d9f5617c885ce7e89f572ec2bb4b8
 SHA256 (eglplatform.h) = fb6f2775ee3f3536de579b232b6bc48261a6678f91ab39bf8a1c1e05dde68d04
 SHA256 (0001-glx-Add-another-fallback-library-name.patch) = 87565356c31b20e60ded9f17ab76d442dd2cd36bfa4214a0de9699c49106ce43
