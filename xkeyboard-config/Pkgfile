@@ -5,22 +5,25 @@
 # Optional: intltool
 
 name=xkeyboard-config
-version=2.34
+version=2.35.1
 release=1
-source=(https://www.x.org/releases/individual/data/$name/$name-$version.tar.bz2)
+source=(https://www.x.org/releases/individual/data/$name/$name-$version.tar.xz)
 
 build() {
 	meson setup $name-$version build \
 		--prefix=/usr \
-		--buildtype=plain \
+		--buildtype plain \
 		--wrap-mode nodownload \
 		-D b_lto=true \
 		-D b_pie=true \
+		-D xkb-base="/usr/share/X11/xkb" \
+		-D compat-rules=true \
 		-D xorg-rules-symlinks=true
+
 	meson compile -C build
 	DESTDIR=$PKG meson install -C build
 
-	ln -s /var/lib/xkb $PKG/usr/share/X11/xkb/compiled
+	install -m755 -d $PKG/var/lib/xkb
 	find $PKG -name README -delete
 	rm -r $PKG/usr/share/locale
 }
