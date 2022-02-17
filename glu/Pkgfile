@@ -5,12 +5,17 @@
 
 name=glu
 version=9.0.2
-release=1
+release=2
 source=(https://mesa.freedesktop.org/archive/$name/$name-$version.tar.xz)
 
 build() {
-	cd $name-$version
-	./configure --prefix=/usr
-	make
-	make DESTDIR=$PKG install
+	meson build $name-$version \
+		--prefix /usr \
+		--wrap-mode nodownload \
+		-D b_lto=true \
+		-D b_pie=true \
+		-D default_library=shared
+
+	meson compile -C build
+	DESTDIR=$PKG meson install -C build
 }
