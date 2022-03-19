@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xorg.pub
-RWTSGWF5Q7TndGDmKAaBlmxnIl2xdfEL0PxuuoI850epMidywLRpqAJGvPo2WpR9pil++vdG3OmlNSlVl6HDcHfy93u+3rr+jQM=
-SHA256 (Pkgfile) = cbd9677421a33595ae44c77b9ba0e26ff96ce3c65c64a922bf1b9acb337854c9
+RWTSGWF5Q7TndJ/hbdSQJWRVeRfWkXnuCFcP/bas9+Sj/qKo/nLHKfnO7o3SAxWtlcRr4suz+nvJmBjEbfogonA5e84fxFKpzA0=
+SHA256 (Pkgfile) = ba88dbdc4ddc211ab5fbe1dd5b4a81e7e8386151b992f59b0891e800ad18d998
 SHA256 (.footprint) = 471c84aa338d410fb303769346694314be9654be0e8690f3f2b3a893f28aa2d7
-SHA256 (libepoxy-1.5.9.tar.xz) = d168a19a6edfdd9977fef1308ccf516079856a4275cf876de688fb7927e365e4
+SHA256 (libepoxy-1.5.10.tar.gz) = a7ced37f4102b745ac86d6a70a9da399cc139ff168ba6b8002b4d8d43c900c15
