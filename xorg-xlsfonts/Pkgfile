@@ -4,9 +4,9 @@
 # Depends on: xorg-libx11
 
 name=xorg-xlsfonts
-version=1.0.6
+version=1.0.7
 release=1
-source=(https://www.x.org/releases/individual/app/xlsfonts-$version.tar.bz2)
+source=(https://www.x.org/releases/individual/app/xlsfonts-$version.tar.xz)
 
 build() {
 	cd xlsfonts-$version
