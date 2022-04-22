@@ -59,6 +59,7 @@ drwxr-xr-x	root/root	usr/lib/pkgconfig/
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/drirc.d/
 -rw-r--r--	root/root	usr/share/drirc.d/00-mesa-defaults.conf
+-rw-r--r--	root/root	usr/share/drirc.d/00-radv-defaults.conf
 drwxr-xr-x	root/root	usr/share/glvnd/
 drwxr-xr-x	root/root	usr/share/glvnd/egl_vendor.d/
 -rw-r--r--	root/root	usr/share/glvnd/egl_vendor.d/50_mesa.json
