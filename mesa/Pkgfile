@@ -5,8 +5,8 @@
 # Optional: libva libvdpau wayland-protocols
 
 name=mesa
-version=22.0.1
-release=1
+version=22.0.2
+release=2
 source=(https://archive.mesa3d.org/$name-$version.tar.xz)
 
 build() {
@@ -34,7 +34,7 @@ build() {
 		-D glx=dri \
 		-D osmesa=true \
 		-D gallium-xa=enabled \
-		-D gallium-drivers=r300,r600,svga,swrast,radeonsi,nouveau,iris,virgl \
+		-D gallium-drivers=r300,r600,svga,swrast,radeonsi,nouveau,iris,virgl,crocus \
 		-D platforms=${PKGMK_MESA_PLATFORMS#,} \
 		-D shared-glapi=enabled \
 		-D vulkan-drivers=amd,intel \
