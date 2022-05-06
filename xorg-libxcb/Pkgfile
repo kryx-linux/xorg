@@ -4,8 +4,8 @@
 # Depends on: xorg-libxau xorg-libxdmcp xorg-xcb-proto
 
 name=xorg-libxcb
-version=1.14
-release=2
+version=1.15
+release=1
 source=(https://xorg.freedesktop.org/archive/individual/lib/libxcb-$version.tar.xz)
 
 build() {
