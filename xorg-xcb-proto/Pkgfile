@@ -4,7 +4,7 @@
 # Depends on: python3
 
 name=xorg-xcb-proto
-version=1.15
+version=1.15.2
 release=1
 source=(https://xorg.freedesktop.org/archive/individual/proto/xcb-proto-$version.tar.xz)
 
