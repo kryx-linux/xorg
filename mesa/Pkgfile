@@ -5,8 +5,8 @@
 # Optional: libva libvdpau wayland-protocols
 
 name=mesa
-version=22.1.2
-release=2
+version=22.1.3
+release=1
 source=(https://archive.mesa3d.org/$name-$version.tar.xz)
 
 build() {
@@ -26,7 +26,6 @@ build() {
 		--sysconfdir=/etc \
 		--buildtype=plain \
 		--wrap-mode nodownload \
-		-D b_lto=true \
 		-D b_pie=true \
 		-D dri3=enabled \
 		-D egl=enabled \
