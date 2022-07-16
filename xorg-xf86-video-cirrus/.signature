@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xorg.pub
-RWTSGWF5Q7TndGzamnHrcyGygNCGzkJzNRT75ZIQvDi8d+Flo5o109gD8L6X2R/QSIbpnoR+bL1KG1CrR+lwBTTdjLd9YzxZMgw=
-SHA256 (Pkgfile) = a3d09ebb059ae4e7ca3bd316cdebe16d650d7e3b17178e49747c4140c46c71dc
-SHA256 (.footprint) = 4a3ee1247ab7b19ef39756ff8c5d6c495b6a6e6ea054dc7ea27f9faa4b10032e
-SHA256 (xf86-video-cirrus-1.5.3.tar.bz2) = edc87b20a55259126b5239b5c1ef913419eab7ded0ed12ae9ae989460d7351ab
+RWTSGWF5Q7TndHbzNFpMhlxfGnpkwaOM3txatlF3D5NajNbitGZJMGbONZnRsgsWVtYHyu0tbENSGVf6wumhjUi07BtLT/G/IwE=
+SHA256 (Pkgfile) = 04a3b4803ec5c3c35edd0f55502cccdcbc24e6652431d457ea631b8080cce134
+SHA256 (.footprint) = 59d7e133c233cd678fd2316457bc6ab066c1478e8af18150c91276a94f01a959
+SHA256 (xf86-video-cirrus-1.6.0.tar.xz) = 0ef3fa0083de3d9a040f11b3af38598d8405f1165b908fdd6712c30038326401
