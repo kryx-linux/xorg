@@ -4,9 +4,9 @@
 # Depends on: meson ninja
 
 name=xorg-xorgproto
-version=2022.1
+version=2022.2
 release=1
-source=(https://xorg.freedesktop.org/archive/individual/proto/xorgproto-$version.tar.bz2)
+source=(https://xorg.freedesktop.org/archive/individual/proto/xorgproto-$version.tar.xz)
 
 build() {
 	meson setup xorgproto-$version build \
