@@ -4,14 +4,14 @@
 # Depends on: bzip2 freetype xorg-libfontenc xorg-xtrans
 
 name=xorg-libxfont2
-version=2.0.5
+version=2.0.6
 release=1
-source=(https://www.x.org/releases/individual/lib/libXfont2-$version.tar.bz2)
+source=(https://www.x.org/releases/individual/lib/libXfont2-$version.tar.xz)
 
 build() {
 	cd libXfont2-$version
 
-	./configure --prefix=/usr --disable-selective-werror
+	./configure --prefix=/usr
 
 	make
 	make DESTDIR=$PKG install
