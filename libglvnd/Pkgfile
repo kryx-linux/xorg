@@ -4,8 +4,8 @@
 # Depends on: xorg-libxext
 
 name=libglvnd
-version=1.4.0
-release=2
+version=1.5.0
+release=1
 source=(https://github.com/NVIDIA/$name/archive/v$version/$name-$version.tar.gz \
 	eglplatform.h
     0001-glx-Add-another-fallback-library-name.patch)
