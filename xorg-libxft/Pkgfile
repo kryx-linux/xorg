@@ -4,7 +4,7 @@
 # Depends on: harfbuzz util-linux
 
 name=xorg-libxft
-version=2.3.5
+version=2.3.6
 release=1
 source=(https://www.x.org/releases/individual/lib/libXft-$version.tar.xz)
 
