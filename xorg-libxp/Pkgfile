@@ -4,12 +4,13 @@
 # Depends on: xorg-libxext
 
 name=xorg-libxp
-version=1.0.3
-release=3
-source=(https://www.x.org/releases/individual/lib/libXp-$version.tar.bz2)
+version=1.0.4
+release=1
+source=(https://www.x.org/releases/individual/lib/libXp-$version.tar.xz)
 
 build() {
 	cd libXp-$version
+	ls
 
 	./configure --prefix=/usr
 
