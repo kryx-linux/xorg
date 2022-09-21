@@ -5,19 +5,24 @@
 
 name=xorg-libx11
 version=1.8.1
-release=1
+release=2
 source=(https://www.x.org/releases/individual/lib/libX11-$version.tar.xz)
 
 build() {
 	cd libX11-$version
 
-	./configure --prefix=/usr
+	# https://gitlab.freedesktop.org/xorg/lib/libx11/-/issues/157
+	# https://bugs.gentoo.org/862115
+	# https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1016363
+	# https://www.mail-archive.com/tech@openbsd.org/msg71386.html
+	# https://gitlab.freedesktop.org/mesa/demos/-/issues/27
+	# --disable-thread-safety-constructor as per LFS Debian Alpine OpenBSD
+
+	./configure \
+		--prefix=/usr \
+		--disable-specs \
+		--disable-thread-safety-constructor
 
 	make
-	make DESTDIR=$PKG install
-
-	# Conflict with xorg-xorgproto
-	rm $PKG/usr/include/X11/extensions/XKBgeom.h
-
-	rm -r $PKG/usr/share/doc
+	make DESTDIR="$PKG" install
 }
