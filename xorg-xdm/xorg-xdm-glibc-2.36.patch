@@ -1,0 +1,21 @@
+diff --git a/xdm/genauth.c b/xdm/genauth.c
+index 38a021599fe26f0b3d73549df3d3f9c7d405adb6..de7abfc87b3a163e69661720d386d59ca0e6aa43 100644
+--- a/xdm/genauth.c
++++ b/xdm/genauth.c
+@@ -42,7 +42,15 @@ from The Open Group.
+ 
+ #ifdef HAVE_ARC4RANDOM
+ # ifdef __linux__
+-#  include <bsd/stdlib.h>
++#  if defined(__GLIBC__) && defined(__GLIBC_PREREQ)
++#   if __GLIBC_PREREQ(2, 36)
++#    include <stdlib.h>
++#   else
++#    include <bsd/stdlib.h>
++#   endif
++#  else
++#   include <bsd/stdlib.h>
++#  endif
+ # else
+ #  include <stdlib.h>
+ # endif
