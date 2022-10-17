@@ -4,9 +4,9 @@
 # Depends on: harfbuzz
 
 name=xorg-bdftopcf
-version=1.1
+version=1.1.1
 release=1
-source=(https://www.x.org/releases/individual/app/bdftopcf-$version.tar.bz2)
+source=(https://www.x.org/archive/individual/util/bdftopcf-$version.tar.xz)
 
 build() {
 	cd bdftopcf-$version
