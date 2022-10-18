@@ -3,15 +3,17 @@
 # Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
 
 name=xorg-libpciaccess
-version=0.16
+version=0.17
 release=1
-source=(https://www.x.org/releases/individual/lib/libpciaccess-$version.tar.bz2)
+source=(https://www.x.org/releases/individual/lib/libpciaccess-$version.tar.xz)
 
 build() {
-	cd libpciaccess-$version
-
-	./configure --prefix=/usr
-
-	make
-	make DESTDIR=$PKG install
+	meson setup libpciaccess-$version build \
+		--prefix=/usr \
+		--buildtype=plain \
+		--wrap-mode nodownload \
+		-D b_lto=true \
+		-D b_pie=true
+	meson compile -C build
+	DESTDIR=$PKG meson install -C build
 }
