@@ -4,15 +4,13 @@
 # Depends on: xorg-libxcb
 
 name=xorg-xcb-util-wm
-version=0.4.1
+version=0.4.2
 release=1
-source=(https://xcb.freedesktop.org/dist/xcb-util-wm-$version.tar.bz2)
+source=(https://xcb.freedesktop.org/dist/xcb-util-wm-$version.tar.xz)
 
 build() {
 	cd xcb-util-wm-$version
-
 	./configure --prefix=/usr
-
 	make
 	make DESTDIR=$PKG install
 }
