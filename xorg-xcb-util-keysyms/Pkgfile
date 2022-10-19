@@ -4,15 +4,13 @@
 # Depends on: xorg-libxcb
 
 name=xorg-xcb-util-keysyms
-version=0.4.0
+version=0.4.1
 release=1
-source=(https://xcb.freedesktop.org/dist/xcb-util-keysyms-$version.tar.bz2)
+source=(https://xcb.freedesktop.org/dist/xcb-util-keysyms-$version.tar.xz)
 
 build() {
 	cd xcb-util-keysyms-$version
-
 	./configure --prefix=/usr
-
 	make
 	make DESTDIR=$PKG install
 }
