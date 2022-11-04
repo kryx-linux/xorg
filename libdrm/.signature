@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xorg.pub
-RWTSGWF5Q7TndBmNa5ltrUpafSuYsM7A5IuIjVpxN6yAZIfJGrK2WNjVE+cFCWgr8y2NFw1jHWsHIBJigW+j9WqLp2wKrjQDhgY=
-SHA256 (Pkgfile) = 62e5ff135bc6079181e455224aee15b9f8b8810ac1553c3884d13038e9b6e077
+RWTSGWF5Q7TndIawgv2oGgVZqxc3jVP8Ry6jg/mwN+lvD+Uvr80BgtrkwabxtH4TOcE+RrmOnvil6ezmKGV2cwlem9TdLB7hfgA=
+SHA256 (Pkgfile) = c1eac71e2713bb2dd9f7517a6f27ecf6db9224b963d1c67746746bf6fe923897
 SHA256 (.footprint) = 9c34397a9d89ba2cce5de09a4c7e00c8729b84120058b3a84b5b00e329ed8833
-SHA256 (libdrm-2.4.113.tar.xz) = 7fd7eb2967f63beb4606f22d50e277d993480d05ef75dd88a9bd8e677323e5e1
+SHA256 (libdrm-2.4.114.tar.xz) = 3049cf843a47d12e5eeefbc3be3496d782fa09f42346bf0b7defe3d1e598d026
