@@ -4,15 +4,13 @@
 # Depends on: xorg-libxft xorg-libxmu
 
 name=xorg-x11perf
-version=1.6.1
+version=1.6.2
 release=1
-source=(https://www.x.org/releases/individual/app/x11perf-$version.tar.bz2)
+source=(https://www.x.org/releases/individual/test/x11perf-$version.tar.xz)
 
 build() {
 	cd x11perf-$version
-
 	./configure --prefix=/usr
-
 	make
 	make DESTDIR=$PKG install
 }
