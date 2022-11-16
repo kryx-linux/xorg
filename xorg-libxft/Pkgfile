@@ -4,15 +4,13 @@
 # Depends on: harfbuzz util-linux
 
 name=xorg-libxft
-version=2.3.6
+version=2.3.7
 release=1
 source=(https://www.x.org/releases/individual/lib/libXft-$version.tar.xz)
 
 build() {
 	cd libXft-$version
-
 	./configure --prefix=/usr
-
 	make
 	make DESTDIR=$PKG install
 }
