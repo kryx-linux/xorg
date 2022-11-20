@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xorg.pub
+RWTSGWF5Q7TndLn+UwI/LQj/qXtnYbwjEs1FOQlsOAsQIBX4Cz4plwnkR0v9jnwdWtivndx1UJxtpSQBgVohbyMGDMGOAlpM0Aw=
+SHA256 (Pkgfile) = 3e1dd0ae013259f3dd55f3c9fec2568b9f1e8a9186eadf3cfa195b832acb69db
+SHA256 (.footprint) = 0b2e99e78b2cb7915c33269fc48ae699970ad466330a3d9e442e7cbe2d3ea84b
+SHA256 (libXpresent-1.0.1.tar.xz) = b964df9e5a066daa5e08d2dc82692c57ca27d00b8cc257e8e960c9f1cf26231b
