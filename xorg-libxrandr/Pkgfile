@@ -4,9 +4,9 @@
 # Depends on: xorg-libxext xorg-libxrender
 
 name=xorg-libxrandr
-version=1.5.2
+version=1.5.3
 release=1
-source=(https://www.x.org/releases/individual/lib/libXrandr-$version.tar.bz2)
+source=(https://www.x.org/releases/individual/lib/libXrandr-$version.tar.xz)
 
 build() {
 	cd libXrandr-$version
