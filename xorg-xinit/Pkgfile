@@ -4,9 +4,9 @@
 # Depends on: xorg-server
 
 name=xorg-xinit
-version=1.4.1
+version=1.4.2
 release=1
-source=(https://www.x.org/releases/individual/app/xinit-$version.tar.bz2)
+source=(https://www.x.org/releases/individual/app/xinit-$version.tar.xz)
 
 build() {
 	cd xinit-$version
