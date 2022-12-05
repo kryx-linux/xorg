@@ -4,15 +4,13 @@
 # Depends on: xorg-libxext
 
 name=xorg-libxres
-version=1.2.1
+version=1.2.2
 release=1
-source=(https://www.x.org/releases/individual/lib/libXres-$version.tar.bz2)
+source=(https://www.x.org/releases/individual/lib/libXres-$version.tar.xz)
 
 build() {
 	cd libXres-$version
-
 	./configure --prefix=/usr
-
 	make
 	make DESTDIR=$PKG install
 }
