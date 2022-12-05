@@ -4,15 +4,13 @@
 # Depends on: xorg-libxext
 
 name=xorg-libxscrnsaver
-version=1.2.3
+version=1.2.4
 release=1
-source=(https://www.x.org/releases/individual/lib/libXScrnSaver-$version.tar.bz2)
+source=(https://www.x.org/releases/individual/lib/libXScrnSaver-$version.tar.xz)
 
 build() {
 	cd libXScrnSaver-$version
-
 	./configure --prefix=/usr
-
 	make
 	make DESTDIR=$PKG install
 }
