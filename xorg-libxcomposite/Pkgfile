@@ -4,15 +4,13 @@
 # Depends on: xorg-libxext xorg-libxfixes
 
 name=xorg-libxcomposite
-version=0.4.5
+version=0.4.6
 release=1
-source=(https://www.x.org/releases/individual/lib/libXcomposite-$version.tar.bz2)
+source=(https://www.x.org/releases/individual/lib/libXcomposite-$version.tar.xz)
 
 build() {
 	cd libXcomposite-$version
-
 	./configure --prefix=/usr
-
 	make
 	make DESTDIR=$PKG install
 }
