@@ -4,15 +4,13 @@
 # Depends on: xorg-libxext
 
 name=xorg-libxv
-version=1.0.11
+version=1.0.12
 release=1
-source=(https://www.x.org/releases/individual/lib/libXv-$version.tar.bz2)
+source=(https://www.x.org/releases/individual/lib/libXv-$version.tar.xz)
 
 build() {
 	cd libXv-$version
-
 	./configure --prefix=/usr
-
 	make
 	make DESTDIR=$PKG install
 }
