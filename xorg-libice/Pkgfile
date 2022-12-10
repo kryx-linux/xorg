@@ -1,10 +1,10 @@
 # Description: xorg lib libICE
-# URL: http://xorg.freedesktop.org
+# URL: https://xorg.freedesktop.org
 # Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
 # Depends on: xorg-xorgproto xorg-xtrans
 
 name=xorg-libice
-version=1.1.0
+version=1.1.1
 release=1
 source=(https://www.x.org/releases/individual/lib/libICE-$version.tar.xz)
 
