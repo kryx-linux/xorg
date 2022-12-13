@@ -4,15 +4,13 @@
 # Depends on: xorg-libxmu
 
 name=xorg-xhost
-version=1.0.8
+version=1.0.9
 release=1
-source=(https://www.x.org/releases/individual/app/xhost-$version.tar.bz2)
+source=(https://www.x.org/releases/individual/app/xhost-$version.tar.xz)
 
 build() {
 	cd xhost-$version
-
 	./configure --prefix=/usr
-
 	make
 	make DESTDIR=$PKG install
 }
