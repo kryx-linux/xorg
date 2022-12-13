@@ -4,15 +4,13 @@
 # Depends on: xorg-xorgproto
 
 name=xorg-makedepend
-version=1.0.7
+version=1.0.8
 release=1
 source=(https://www.x.org/releases/individual/util/makedepend-$version.tar.xz)
 
 build() {
 	cd makedepend-$version
-
 	./configure --prefix=/usr
-
 	make
 	make DESTDIR=$PKG install
 }
