@@ -4,24 +4,16 @@
 # Depends on: xorg-libxcb xorg-xtrans
 
 name=xorg-libx11
-version=1.8.2
+version=1.8.3
 release=1
 source=(https://www.x.org/releases/individual/lib/libX11-$version.tar.xz)
 
 build() {
 	cd libX11-$version
 
-	# https://gitlab.freedesktop.org/xorg/lib/libx11/-/issues/157
-	# https://bugs.gentoo.org/862115
-	# https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1016363
-	# https://www.mail-archive.com/tech@openbsd.org/msg71386.html
-	# https://gitlab.freedesktop.org/mesa/demos/-/issues/27
-	# --disable-thread-safety-constructor as per LFS Debian Alpine OpenBSD
-
 	./configure \
 		--prefix=/usr \
-		--disable-specs \
-		#--disable-thread-safety-constructor
+		--disable-specs
 
 	make
 	make DESTDIR="$PKG" install
