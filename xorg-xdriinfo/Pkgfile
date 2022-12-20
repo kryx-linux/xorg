@@ -4,15 +4,13 @@
 # Depends on: mesa
 
 name=xorg-xdriinfo
-version=1.0.6
+version=1.0.7
 release=1
-source=(https://www.x.org/releases/individual/app/xdriinfo-$version.tar.bz2)
+source=(https://xorg.freedesktop.org/archive/individual/app/xdriinfo-$version.tar.xz)
 
 build() {
 	cd xdriinfo-$version
-
 	./configure --prefix=/usr
-
 	make
 	make DESTDIR=$PKG install
 }
