@@ -5,9 +5,10 @@
 # Optional: libva libvdpau wayland-protocols
 
 name=mesa
-version=22.3.1
+version=22.3.2
 release=1
-source=(https://archive.mesa3d.org/$name-$version.tar.xz)
+source=(https://archive.mesa3d.org/$name-$version.tar.xz
+  0001-anv-force-MEDIA_INTERFACE_DESCRIPTOR_LOAD-reemit-aft.patch)
 
 build() {
 	prt-get isinst vulkan-loader && PKGMK_MESA_GALLIUM+='zink,'
@@ -20,11 +21,14 @@ build() {
 	CFLAGS+=' -mtls-dialect=gnu'
 	CXXFLAGS+=' -mtls-dialect=gnu'
 
+	patch -Np1 -d mesa-$version -i $SRC/0001-anv-force-MEDIA_INTERFACE_DESCRIPTOR_LOAD-reemit-aft.patch
+
 	meson setup build mesa-$version $PKGMK_MESA \
 		--prefix=/usr \
 		--sysconfdir=/etc \
 		--buildtype=plain \
 		--wrap-mode nodownload \
+		-D b_lto=false \
 		-D b_pie=true \
 		-D dri3=enabled \
 		-D egl=enabled \
