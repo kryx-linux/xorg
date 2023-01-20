@@ -4,15 +4,13 @@
 # Depends on: xorg-libxext xorg-libxt
 
 name=xorg-libxpm
-version=3.5.14
+version=3.5.15
 release=1
 source=(https://www.x.org/releases/individual/lib/libXpm-$version.tar.xz)
 
 build() {
 	cd libXpm-$version
-
-	./configure --prefix=/usr
-
+	./configure --prefix=/usr --disable-open-zfile
 	make
 	make DESTDIR=$PKG install
 }
