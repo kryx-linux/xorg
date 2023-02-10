@@ -4,7 +4,7 @@
 # Depends on: dbus egl-wayland xorg-server
 
 name=xorg-xwayland
-version=22.1.7
+version=22.1.8
 release=1
 source=(https://xorg.freedesktop.org/releases/individual/xserver/xwayland-$version.tar.xz)
 
