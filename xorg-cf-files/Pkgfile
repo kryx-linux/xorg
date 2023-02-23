@@ -4,15 +4,13 @@
 # Depends on: xorg-util-macros
 
 name=xorg-cf-files
-version=1.0.7
+version=1.0.8
 release=1
-source=(https://www.x.org/releases/individual/util/$name-$version.tar.bz2)
+source=(https://www.x.org/releases/individual/util/$name-$version.tar.xz)
 
 build() {
 	cd $name-$version
-
 	./configure --prefix=/usr
-
 	make
 	make DESTDIR=$PKG install
 }
