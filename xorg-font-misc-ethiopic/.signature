@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xorg.pub
-RWTSGWF5Q7TndMe6ghqkxXrNxNx0HIq84emtLXLsIOGz/G4ugDYavWf0+L5cExt2TVF/OWsxTqswjVr8j1HkmQpPDiWJ4ryFtwI=
-SHA256 (Pkgfile) = 2a2b9ec9755dd4347c70c6a65367775f1fa0f85cc8a237ca20003f68f60fc1a5
+RWTSGWF5Q7TndGCjG4sd7gq/suh8zq3910dpCxO7Dy19d/vQGHJ/oIAiBYbyjNfQWBglmD3jQvTnwX3skaq7HqmPNKY9e062DAE=
+SHA256 (Pkgfile) = 2a64fc5651a0d74c03c0d0eae558f866027bf629a154036a016ea5e2706757a2
 SHA256 (.footprint) = a7e0d7fffc9a3cc6df30192735e034b07f935be26e06c401496878c82e33032c
-SHA256 (font-misc-ethiopic-1.0.4.tar.bz2) = 698c0f6ddf9ca482250bdafa08293893148393bb9cb23e0a9ca313c6dbfc4ae0
+SHA256 (font-misc-ethiopic-1.0.5.tar.xz) = 4749a7e6e1a1eef6c91fcc9a04e8b1c0ed027d40c1599e5a6c93270d8469b612
