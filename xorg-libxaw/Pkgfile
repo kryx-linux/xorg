@@ -4,9 +4,9 @@
 # Depends on: xorg-libxmu xorg-libxpm
 
 name=xorg-libxaw
-version=1.0.14
+version=1.0.15
 release=1
-source=(https://www.x.org/releases/individual/lib/libXaw-$version.tar.bz2)
+source=(https://www.x.org/releases/individual/lib/libXaw-$version.tar.xz)
 
 build() {
 	cd libXaw-$version
