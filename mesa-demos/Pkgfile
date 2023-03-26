@@ -4,9 +4,9 @@
 # Depends on: glew glu meson ninja
 
 name=mesa-demos
-version=8.5.0
-release=2
-source=(https://archive.mesa3d.org/demos/$version/$name-$version.tar.bz2)
+version=9.0.0
+release=1
+source=(https://archive.mesa3d.org/demos/$name-$version.tar.xz)
 
 build() {
 	meson setup build $name-$version \
