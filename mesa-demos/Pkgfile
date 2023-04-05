@@ -2,6 +2,7 @@
 # URL: https://www.mesa3d.org/
 # Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
 # Depends on: glew glu meson ninja
+# Optional: libdecor wayland
 
 name=mesa-demos
 version=9.0.0
@@ -9,7 +10,8 @@ release=1
 source=(https://archive.mesa3d.org/demos/$name-$version.tar.xz)
 
 build() {
-	meson setup build $name-$version \
+	prt-get isinst libdecor wayland && PKGMK_MESA_DEMOS+=' -D wayland=disabled'
+	meson setup build $name-$version $PKGMK_MESA_DEMOS \
 		--prefix=/usr \
 		--buildtype=plain \
 		--wrap-mode nodownload \
