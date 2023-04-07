@@ -10,7 +10,8 @@ release=1
 source=(https://archive.mesa3d.org/demos/$name-$version.tar.xz)
 
 build() {
-	prt-get isinst libdecor wayland && PKGMK_MESA_DEMOS+=' -D wayland=disabled'
+	prt-get isinst libdecor wayland || PKGMK_MESA_DEMOS+=' -D wayland=disabled'
+
 	meson setup build $name-$version $PKGMK_MESA_DEMOS \
 		--prefix=/usr \
 		--buildtype=plain \
