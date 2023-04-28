@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xorg.pub
-RWTSGWF5Q7TndA2ecZ+QQi5v5K72nDaA+mjEdjAd9n84m8FJ+soZkvIcOgVabp/tesDYbPfYrGfRlnJiKw7LuqNkk4THliksAAE=
-SHA256 (Pkgfile) = 687385f31f721cd1efc10e0fb69412bcbcb4b579b0dc021c510a13b253f05232
+RWTSGWF5Q7TndGY6TV3XYNtBIHaqOnQYMP9iSEjiYBdiFasnk7MwTTkzen04M1IuR39z03A3W8dDrfJ4HiVZUwBrdTvbh5XdvQs=
+SHA256 (Pkgfile) = 938bf02beec99b716da07544599b7375f8264531fe1bb4a6c80c57f345da5939
 SHA256 (.footprint) = 334a2417c3d74e161623bff5e05729edc75ec7b7ebfce760bfbfc923911b4448
-SHA256 (xrestop-0.5.tar.bz2) = 89d0a5d99d1f4b290a79c5ba0d6142d8591262f167165d1bc468abaa9c18d51b
+SHA256 (xrestop-0.6.tar.xz) = 2e2ec111c4b2798b5dc2dc2b3ec7af4f6b261946e903b8e14db046831d203b29
