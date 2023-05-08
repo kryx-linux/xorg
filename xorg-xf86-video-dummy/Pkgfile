@@ -6,14 +6,11 @@
 name=xorg-xf86-video-dummy
 version=0.4.0
 release=1
-source=(https://gitlab.freedesktop.org/xorg/driver/xf86-video-dummy/-/archive/xf86-video-dummy-$version/xf86-video-dummy-xf86-video-dummy-$version.tar.bz2)
+source=(https://xorg.freedesktop.org/archive/individual/driver/xf86-video-dummy-$version.tar.xz)
 
 build() {
-	cd xf86-video-dummy-xf86-video-dummy-$version
-
-	autoreconf -v --install
+	cd xf86-video-dummy-$version
 	./configure --prefix=/usr
-
 	make
 	make DESTDIR=$PKG install
 }
