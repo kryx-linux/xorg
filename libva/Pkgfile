@@ -1,5 +1,5 @@
 # Description: Video Acceleration API to enable hardware accelerated video decode/encode.
-# URL: https://01.org/linuxmedia/vaapi
+# URL: https://github.com/intel/libva
 # Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
 # Depends on: libdrm libglvnd meson ninja xorg-libxfixes
 # Optional: wayland-protocols
