@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xorg.pub
-RWTSGWF5Q7TndH8DZQX4pGXfntdA2tQPl8pjl4D7C5afXOH8HWLHDkQs84LSIYizUWq2oQzIh99AodkCC1IK4EVI39FP7lkiLQw=
-SHA256 (Pkgfile) = 48e45a403313d5f7a322cff455c17c2f7f4dfd777e03d047cc202ebbffe4fd6c
+RWTSGWF5Q7TndP8/O9irs+TWZCEGpWtVE9e+Vrqx3fsIGAfjl6NOc5vYqZOB4eZTd1zRthud+NklcLj/x6wLqplnzfRFOeQEgg8=
+SHA256 (Pkgfile) = 0ec393dd0186c9dea3f49e6f09daf5ad4b4abc9ec3acb610b048157b6d8c103a
 SHA256 (.footprint) = 4c27b51e09695066f98ad89cfc3f1e4becc59ccaa39387c56ee010bb8700295f
-SHA256 (libX11-1.8.4.tar.xz) = c9a287a5aefa9804ce3cfafcf516fe96ed3f7e8e45c0e2ee59e84c86757df518
+SHA256 (libX11-1.8.5.tar.xz) = e362c6f03c793171becd1ce2078c64789504c7d7ff48ee40a76ff76b59f6b561
