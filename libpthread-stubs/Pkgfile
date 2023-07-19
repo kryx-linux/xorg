@@ -3,9 +3,9 @@
 # Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
 
 name=libpthread-stubs
-version=0.4
+version=0.5
 release=1
-source=(https://xcb.freedesktop.org/dist/$name-$version.tar.bz2)
+source=(https://xorg.freedesktop.org/archive/individual/lib/$name-$version.tar.xz)
 
 build() {
 	cd $name-$version
