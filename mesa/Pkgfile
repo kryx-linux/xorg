@@ -6,7 +6,7 @@
 
 name=mesa
 version=23.1.8
-release=1
+release=2
 source=(https://archive.mesa3d.org/$name-$version.tar.xz)
 
 build() {
@@ -19,6 +19,9 @@ build() {
 
 	CFLAGS+=' -mtls-dialect=gnu'
 	CXXFLAGS+=' -mtls-dialect=gnu'
+
+	sed '/Scalar.h/d;/Utils.h/d' \
+		-i mesa-$version/src/gallium/auxiliary/gallivm/lp_bld_init.c
 
 	meson setup build mesa-$version $PKGMK_MESA \
 		--prefix=/usr \
