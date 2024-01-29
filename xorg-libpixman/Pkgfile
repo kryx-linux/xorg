@@ -1,9 +1,9 @@
 # Description: Pixel manipulation library
-# URL: http://xorg.freedesktop.org
+# URL: https://xorg.freedesktop.org/wiki/
 # Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
 
 name=xorg-libpixman
-version=0.43.0
+version=0.43.2
 release=1
 source=(https://www.x.org/releases/individual/lib/pixman-$version.tar.xz)
 
