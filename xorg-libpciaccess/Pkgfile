@@ -1,19 +1,24 @@
 # Description: Generic PCI access library
 # URL: http://xorg.freedesktop.org
 # Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
+# Depends on: zlib
+# Optional: hwdata
 
 name=xorg-libpciaccess
-version=0.17
-release=1
+version=0.18
+release=2
 source=(https://www.x.org/releases/individual/lib/libpciaccess-$version.tar.xz)
 
 build() {
-	meson setup libpciaccess-$version build \
+	prt-get isinst hwdata && PKGMK_LIBPCIA+=' -D pci-ids=hwdata'
+
+	meson setup libpciaccess-$version build $PKGMK_LIBPCIA \
 		--prefix=/usr \
 		--buildtype=plain \
 		--wrap-mode nodownload \
 		-D b_lto=true \
-		-D b_pie=true
+		-D b_pie=true \
+		-D zlib=enabled
 	meson compile -C build
 	DESTDIR=$PKG meson install -C build
 }
