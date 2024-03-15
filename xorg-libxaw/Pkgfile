@@ -4,7 +4,7 @@
 # Depends on: xorg-libxmu xorg-libxpm
 
 name=xorg-libxaw
-version=1.0.15
+version=1.0.16
 release=1
 source=(https://www.x.org/releases/individual/lib/libXaw-$version.tar.xz)
 
@@ -13,7 +13,7 @@ build() {
 
 	./configure \
 		--prefix=/usr \
-		--disable-specs 
+		--disable-specs
 
 	make
 	make DESTDIR=$PKG install
