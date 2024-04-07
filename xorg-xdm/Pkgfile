@@ -1,10 +1,10 @@
 # Description: X display manager
-# URL: http://xorg.freedesktop.org
+# URL: https://xorg.freedesktop.org
 # Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
 # Depends on: linux-pam xorg-server xorg-xrdb
 
 name=xorg-xdm
-version=1.1.15
+version=1.1.16
 release=1
 source=(https://www.x.org/releases/individual/app/xdm-$version.tar.xz
 	xdm xdm.pam)
