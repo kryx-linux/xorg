@@ -5,7 +5,7 @@
 # Optional: directx-headers glslang libclc libunwind libva libvdpau lm_sensors rust-bindgen spirv-llvm-translator vulkan-loader wayland-protocols
 
 name=mesa
-version=24.1.0
+version=24.0.8
 release=1
 source=(https://archive.mesa3d.org/$name-$version.tar.xz)
 
@@ -14,7 +14,6 @@ build() {
 	prt-get isinst libclc spirv-llvm-translator && PKGMK_MESA+=' -D gallium-opencl=icd'
 	prt-get isinst libclc rust-bindgen spirv-llvm-translator && PKGMK_MESA+=' -D gallium-rusticl=true'
 	prt-get isinst glslang && PKGMK_MESA+=' -D vulkan-drivers=auto -D vulkan-layers=device-select,intel-nullhw,overlay' || PKGMK_MESA+=' -D vulkan-drivers='
-	prt-get isinst libclc && PKGMK_MESA_GALLIUM+='iris,'
 	prt-get isinst libunwind && PKGMK_MESA+=' -D libunwind=enabled'
 	prt-get isinst libva && PKGMK_MESA+=' -D gallium-va=enabled' || PKGMK_MESA+=' -D gallium-va=disabled'
 	prt-get isinst libvdpau && PKGMK_MESA+=' -D gallium-vdpau=enabled' || PKGMK_MESA+=' -D gallium-vdpau=disabled'
@@ -42,7 +41,7 @@ build() {
 		-D glx=dri \
 		-D osmesa=true \
 		-D gallium-xa=enabled \
-		-D gallium-drivers=${PKGMK_MESA_GALLIUM}crocus,nouveau,r300,r600,radeonsi,svga,swrast,virgl,i915 \
+		-D gallium-drivers=${PKGMK_MESA_GALLIUM}crocus,iris,nouveau,r300,r600,radeonsi,svga,swrast,virgl,i915 \
 		-D platforms=${PKGMK_MESA_PLATFORMS#,} \
 		-D shared-glapi=enabled \
 		-D video-codecs=vc1dec,h264dec,h264enc,h265dec,h265enc \
