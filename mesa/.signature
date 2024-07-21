@@ -1,5 +1,6 @@
 untrusted comment: verify with /etc/ports/xorg.pub
-RWTSGWF5Q7TndB7PiQFUDMdil3yEcZNLa/rEa0bKp2Sl2b/8jkHOwNhhJ/+yQMt3oNOjfPNbhJdXn/GEf6nzhqxmbbRLiKwwSAg=
-SHA256 (Pkgfile) = a0cfe72103b3c7d4628964615ef95e07ea65d91aedf642da385826a4acb358ef
-SHA256 (.footprint) = 6924460d44cdb41ff53cb50c2c805ea5a8d2fa2b38127c474fa859b200f82f1c
-SHA256 (mesa-24.0.9.tar.xz) = 51aa686ca4060e38711a9e8f60c8f1efaa516baf411946ed7f2c265cd582ca4c
+RWTSGWF5Q7TndIkUOKzrA4DsEBHfvVLNBMOTiKB/Fw9yOnf8/Mpommo9koo+sSgoOCNBJjtK0eGDBCMLbhGIymJs00wA+e4RZwI=
+SHA256 (Pkgfile) = dc510f57f769ff0c68b347bfe90c50cd5b017acfde9e798d01b74a975d935950
+SHA256 (.footprint) = 292574297df461fc888f42badb9e2c5b28e03d54c78284928042ca8a4e4a64e3
+SHA256 (mesa-24.1.4.tar.xz) = 7cf7c6f665263ad0122889c1d4b076654c1eedea7a2f38c69c8c51579937ade1
+SHA256 (0001-Revert-frontends-va-Fix-AV1-slice_data_offset-with-m.patch) = db209e829f8888396dc89f06cc650048170ab8a830247a8a243de206a8121937

@@ -4,16 +4,13 @@
 # Depends on: xorg-server
 
 name=xorg-xf86-video-nouveau
-version=1.0.17
-release=2
-source=(https://www.x.org/archive/individual/driver/xf86-video-nouveau-$version.tar.bz2
-	xorg-abi.patch)
+version=1.0.17-7
+release=1
+source=(https://crux.nu/files/distfiles/xf86-video-nouveau-$version.tar.xz)
 
 build() {
 	export CFLAGS+=" -Wno-implicit-function-declaration"
 	cd xf86-video-nouveau-$version
-
-	patch -p1 -i $SRC/xorg-abi.patch
 
 	./configure --prefix=/usr
 
