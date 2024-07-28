@@ -1,7 +1,7 @@
 # Description: Set the keyboard using the X Keyboard Extension
-# URL: http://xorg.freedesktop.org
+# URL: https://xorg.freedesktop.org/wiki/
 # Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
-# Depends on: xorg-libxkbfile
+# Depends on: xorg-libxkbfile xorg-xrandr
 
 name=xorg-setxkbmap
 version=1.3.4
