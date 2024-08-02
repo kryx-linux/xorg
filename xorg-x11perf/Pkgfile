@@ -4,7 +4,7 @@
 # Depends on: xorg-libxft xorg-libxmu
 
 name=xorg-x11perf
-version=1.6.2
+version=1.7.0
 release=1
 source=(https://www.x.org/releases/individual/test/x11perf-$version.tar.xz)
 
