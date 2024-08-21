@@ -5,10 +5,9 @@
 # Optional: cbindgen directx-headers glslang libclc libunwind libva libvdpau lm_sensors lua python3-ply rust-bindgen spirv-llvm-translator vulkan-loader wayland-protocols
 
 name=mesa
-version=24.1.4
-release=2
-source=(https://archive.mesa3d.org/$name-$version.tar.xz
-	0001-Revert-frontends-va-Fix-AV1-slice_data_offset-with-m.patch)
+version=24.1.6
+release=1
+source=(https://archive.mesa3d.org/$name-$version.tar.xz)
 
 build() {
 	prt-get isinst directx-headers && PKGMK_MESA_GALLIUM+='d3d12,'
@@ -34,7 +33,6 @@ build() {
 	#prt-get isinst xorg-libxdamage xorg-libxrandr xorg-libxshmfence xorg-libxvmc xorg-libxxf86vm && PKGMK_MESA_PLATFORMS+=',x11'
 	PKGMK_MESA_PLATFORMS+=',x11'
 
-	patch -Np1 -d $name-$version -i $SRC/0001-Revert-frontends-va-Fix-AV1-slice_data_offset-with-m.patch
 	printf '%s' "$version-$release" > $name-$version/VERSION
 
 	meson setup build $name-$version $PKGMK_MESA \
