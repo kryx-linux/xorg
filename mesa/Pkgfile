@@ -7,7 +7,8 @@
 name=mesa
 version=24.2.1
 release=1
-source=(https://archive.mesa3d.org/$name-$version.tar.xz)
+source=(https://archive.mesa3d.org/$name-$version.tar.xz
+	30710.patch)
 
 build() {
 	prt-get isinst directx-headers && PKGMK_MESA_GALLIUM+='d3d12,'
@@ -34,6 +35,8 @@ build() {
 	PKGMK_MESA_PLATFORMS+=',x11'
 
 	printf '%s' "$version-$release" > $name-$version/VERSION
+
+	patch -Np1 -d $name-$version -i $SRC/30710.patch
 
 	meson setup build $name-$version $PKGMK_MESA \
 		--prefix=/usr \
