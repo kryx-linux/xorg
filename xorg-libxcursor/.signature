@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xorg.pub
-RWTSGWF5Q7TndFREtGPCstvWpuIP22h6CNCuzKIXAUzVYqqiwP66gbOuhx8On4EePk9mKTjeCAr1PNy5L6treWX53eE+fW7GKAI=
-SHA256 (Pkgfile) = 25a6e58285969412ba7c3f2180ac822f02dccf221ee238d62158c1feb674d285
+RWTSGWF5Q7TndDHtb1m+4H72U5AmUgh5jO0i7Ieg3kQQyN40qx/L2B+WmFHcci/lhkXJNGAHv/p2k4LF9tOgPlNv7FB26wFrnAU=
+SHA256 (Pkgfile) = 28a59d791e01f127dc3fe7bf572581f62680e56446c31ce6ce8a1461d9075a2b
 SHA256 (.footprint) = 79c6f71900c6c73c154c2d98810ea311ecbe0ada71de960e9c5c1cff4b056f09
-SHA256 (libXcursor-1.2.2.tar.xz) = 53d071bd2cc56e517a30998d5e685c8a74556ddada43c6985d14da9a023a88ee
+SHA256 (libXcursor-1.2.3.tar.xz) = fde9402dd4cfe79da71e2d96bb980afc5e6ff4f8a7d74c159e1966afb2b2c2c0
