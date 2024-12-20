@@ -1,8 +1,5 @@
 untrusted comment: verify with /etc/ports/xorg.pub
-RWTSGWF5Q7TndFG+NoKanWP//hE8uh7h/TDRNq34kZXMqYKLWfN1cT2DJdHOiBp+QnHQverI4MS24uEuf7I5fsKUjCRD2I9+DAQ=
-SHA256 (Pkgfile) = 88f464207f96429eecb26b9e12682be44e5d04aa21e867d6e104ec3ec66563fe
-SHA256 (.footprint) = a276b5ad90f8d412fa6228d226dc3d1f86378fccd21c740d425aa6e1e563cfb7
-SHA256 (mesa-24.3.1.tar.xz) = 9c795900449ce5bc7c526ba0ab3532a22c3c951cab7e0dd9de5fcac41b0843af
-SHA256 (0001-dri-don-t-fetch-X11-modifiers-if-we-don-t-support-th.patch) = 2c20fee505be9a1f08546b63457b8378b0f1fcff58e60c03378b7de0a87a1e81
-SHA256 (0002-egl-wayland-only-supply-LINEAR-modifier-when-support.patch) = a58e6d0631da6dd077530136bb44f0233cd279fc75e3b65b495ec90be16db91a
-SHA256 (0003-egl-wayland-fallback-to-implicit-modifiers-if-advert.patch) = 606acb4073f46c7ca7edec96b6af06619642f3bbcd6afab2c57bff26266b917f
+RWTSGWF5Q7TndCudb2ceN7+zrzQ9AWdQzFltxo5f5MzfYX0nIqC5UOx+RqFu958R6YiDWLlYls+vc5/cbPadhNqJ356gVKZ1BwQ=
+SHA256 (Pkgfile) = 5b0458423570dacc51921b9f123e37f41bc3024d73944928b7360b497e73f3b4
+SHA256 (.footprint) = 2053ba4142f14fb9a2a6a513958844493ab02b56f81fcc29721f46758495ebe4
+SHA256 (mesa-24.3.2.tar.xz) = ad9f5f3a6d2169e4786254ee6eb5062f746d11b826739291205d360f1f3ff716
