@@ -1,7 +1,7 @@
 # Description: Xlib-based library for the X Present Extension
 # URL: https://gitlab.freedesktop.org/xorg/lib/libxpresent
 # Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
-# Depends on: xorg-libxrandr xorg-libxrender xorg-libxfixes xorg-libxext xorg-libx11 xorg-libxcb xorg-libxau xorg-libxdmcp
+# Depends on: xorg-libxfixes xorg-libxrandr
 
 name=xorg-libxpresent
 version=1.0.1
