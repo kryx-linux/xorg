@@ -4,15 +4,16 @@
 # Depends on: xorg-server
 
 name=xorg-xinit
-version=1.4.2
+version=1.4.3
 release=1
 source=(https://www.x.org/releases/individual/app/xinit-$version.tar.xz)
 
 build() {
 	cd xinit-$version
 
-	./configure --prefix=/usr \
-	            --sysconfdir=/etc
+	./configure \
+		--prefix=/usr \
+		--sysconfdir=/etc
 
 	make
 	make DESTDIR=$PKG install
