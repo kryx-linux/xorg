@@ -4,7 +4,7 @@
 # Depends on: xorg-server xorg-libevdev
 
 name=xorg-xf86-input-synaptics
-version=1.9.2
+version=1.10.0
 release=1
 source=(https://www.x.org/releases/individual/driver/xf86-input-synaptics-$version.tar.xz)
 
