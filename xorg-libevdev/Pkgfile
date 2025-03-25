@@ -1,10 +1,10 @@
 # Description: Wrapper library for evdev devices
 # URL: http://xorg.freedesktop.org
 # Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
-# Depends on: meson ninja
+# Depends on:
 
 name=xorg-libevdev
-version=1.13.3
+version=1.13.4
 release=1
 source=(https://www.freedesktop.org/software/libevdev/libevdev-$version.tar.xz)
 
