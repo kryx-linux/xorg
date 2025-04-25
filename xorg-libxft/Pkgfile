@@ -1,10 +1,10 @@
 # Description: X font rendering client library
-# URL: http://xorg.freedesktop.org
+# URL: https://xorg.freedesktop.org
 # Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
 # Depends on: harfbuzz
 
 name=xorg-libxft
-version=2.3.8
+version=2.3.9
 release=1
 source=(https://www.x.org/releases/individual/lib/libXft-$version.tar.xz)
 
