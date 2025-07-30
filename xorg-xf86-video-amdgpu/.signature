@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xorg.pub
-RWTSGWF5Q7TndDr1gUkXYvd4US26r8NL9LwK4nEmgi+XV1PF/2l7hRCNDBIPD8bwoGBb/1y8mMUXvzieTOIZiMSw61H2sGrhYwI=
-SHA256 (Pkgfile) = 0b78d3edc3be0e193becde5e348f8898665fc00325ecc6087b1c2230ffa1ddf0
-SHA256 (.footprint) = e9feb77a0318e21499ab39b7415c1be48a9bdc2d3b84fcc8bbbf3dfaf424bbed
-SHA256 (xf86-video-amdgpu-23.0.0.tar.xz) = 4f04f0ea66f3ced0dcc58f617409860163a19c4e8c285cfb5285f36ba09cc061
+RWTSGWF5Q7TndG7etjeq2SOfZIo/EgQo6tptghrmVdZYDX4COLp7ydk42Aw7Hto/rSkMv7kcYKtDzdxkx2U2LcwDYJvzhVrTxAg=
+SHA256 (Pkgfile) = 98b587ac6cda5c14bb82d2a82e7974847b3932a13787c723dd8862c98abcb87b
+SHA256 (.footprint) = cfc8957f19bceb1d0b20ecf1a28db8934dbfba43c080f9fc2ec6a93e2277a64e
+SHA256 (xf86-video-amdgpu-25.0.0.tar.xz) = 7653cead024a6820ed1139958503278d78b4b3f80befcacf54ce87a5199b0ce2
