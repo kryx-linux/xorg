@@ -1,5 +1,5 @@
 # Description: Utility to configure and test XInput devices
-# URL: http://xorg.freedesktop.org
+# URL: https://xorg.freedesktop.org
 # Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
 # Depends on: xorg-libxi xorg-libxinerama xorg-libxrandr
 

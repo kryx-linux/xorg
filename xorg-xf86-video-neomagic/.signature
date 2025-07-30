@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xorg.pub
-RWTSGWF5Q7TndOwZWN2kWPNmyS3lToQn5nT3rxrd6SkQtZPg0ZoGg6brckalgwJhKks6Eg59tBLOtuVza1ZWdFXrraoSLcarYQo=
-SHA256 (Pkgfile) = 86b76da06fa2cc3ea4eadc045de30af466cf56daa8975384fe7381cb4819f5c4
+RWTSGWF5Q7TndOj2r7dNRJ7a4QrUjNbfTSPW8D13NC4H9UTgeG3LFjFYdJGSx+Uuu4SzAVX/sphJH+VR1iymMQcQdjIiBg/WPQw=
+SHA256 (Pkgfile) = cb50b9773e82c47ee3ff8a7cb99403a849fbb503b5d64999f6bb75c1311bbb34
 SHA256 (.footprint) = b9864e14b1bf88ca00fbd85cede0d421fa561073f39e80c494c33e80b0156fd3
 SHA256 (xf86-video-neomagic-1.3.1.tar.xz) = b61fac7ec32971e92e34cfd51f88fef169e272a210455e0e1a0faa0d30fc7494

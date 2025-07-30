@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xorg.pub
-RWTSGWF5Q7TndHljJzCHo0YCv5cv2KUwhmolgkDj9UjheZRlK2jsU0mRFUsnFC7cva/AEJp7Im4QXO/EhvzjupLkEBbCmpyFNQM=
-SHA256 (Pkgfile) = 50a0290f46a7798cecd9dc77146426f45c26952029ee7a623b6a930e1146a344
+RWTSGWF5Q7TndLgk+avfD5yxR30azKWB2tGZMOML0gSNASmkyTNJ+Fug+j3ckucGdbccSkMEjY1RSVrj3eAHUSwwVVj0dRYbmAo=
+SHA256 (Pkgfile) = 0ae71dab93dd7d553ab5ac7ae7ae98ab73ae5c357a0aeb17679ed755e4aa9d10
 SHA256 (.footprint) = 2097c1a2badda167640613d21ca522a71557cdf6df7496cdb1355db3aa1526ea
 SHA256 (makedepend-1.0.9.tar.xz) = 92d0deb659fff6d8ddbc1d27fc4ca8ceb2b6dbe15d73f0a04edc09f1c5782dd4

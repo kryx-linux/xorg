@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xorg.pub
-RWTSGWF5Q7TndC0qdkt9F4jWom936JuIcQOTxPVWCeCGT1c4dS9CYS7vTbhqrV+LKBqppyjqiY2je4GbWU3s+V/DOI1+l4K9/gA=
-SHA256 (Pkgfile) = 85e2a4e3f40a72ff85094708f830cf3ed35a6a7fafc4e75491a815a2dc14e366
+RWTSGWF5Q7TndJIMhfLjEAk5GjDLVQBsh6KZ3yGEMRtek7aVG2apJo4443u3nxCJ1XdoaBVhREHUgW0AIvvraYMO34GfKfuAOQ4=
+SHA256 (Pkgfile) = f94c3b960bcedc525da6229bfcc6eba9006f6ea89c34d0c03b186d208c66021e
 SHA256 (.footprint) = 6c52a8c79fc9ce96da543de8a61bf44274dec24e754bc0a60491e24e1389aeb5
 SHA256 (xorg-cf-files-1.0.8.tar.xz) = 7408955defcfab0f44d1bedd4ec0c20db61914917ad17bfc1f1c9bf56acc17b9

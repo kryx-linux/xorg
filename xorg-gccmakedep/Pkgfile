@@ -1,5 +1,5 @@
 # Description: creates dependencies in Makefiles
-# URL: http://xorg.freedesktop.org
+# URL: https://xorg.freedesktop.org
 # Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
 
 name=xorg-gccmakedep

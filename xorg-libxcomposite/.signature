@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xorg.pub
-RWTSGWF5Q7TndPNFp8CjzRnHL3ng1z/ucDXku44bBTbtB3TPMDMlxPv7+AopJUAEBXhPphiCQNcuQ9hltyulQq2msKri2Rw46w4=
-SHA256 (Pkgfile) = 8956c2e5282fdc232fdcb5583a68c3b64befe1160a1081608ca8fe7990fac529
+RWTSGWF5Q7TndLtN6q8eyGcqT46ZRpt6HJb63cltck6KmY8KQl0+8Zc2yklYC8WtG0QB99e3LteCYqX9gP29PAA+wG3KmjAMPg0=
+SHA256 (Pkgfile) = 2503dd4a312a52ab64307f6559cfe7bd0bc5d8ddfdc3598e471def2340748a05
 SHA256 (.footprint) = 5dea3b77c6c5c70b31ceddfcd61f3eca5534206c02055b3bea0cb71e3a5bc9b7
 SHA256 (libXcomposite-0.4.6.tar.xz) = fe40bcf0ae1a09070eba24088a5eb9810efe57453779ec1e20a55080c6dc2c87

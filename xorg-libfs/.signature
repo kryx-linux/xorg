@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xorg.pub
-RWTSGWF5Q7TndMQTKxMNxibIbe+TkkhLY7OdGMzkSjy9GMusnQILy7SK1cYbtZLYGmogDsWlPhHdGtpuqKmJedNitiNXMDk6+wA=
-SHA256 (Pkgfile) = eb5dbc53624dcffe58d2e7f354c355aa271cbd1fede698e022d60340edbd3ba5
+RWTSGWF5Q7TndNNHIeieFH+3F2oct2ZgqrKCZRv/3kFzubcuOsmx5URzAXJv0BK7jk798daX5FixFiEvi0wCshJXWBT1llIKqQE=
+SHA256 (Pkgfile) = 2f30a550387cd2a2c0d65819d62785195e748a2713f424a4e09c40b2d5c3f435
 SHA256 (.footprint) = 3c68e8a916f80f5d81153bc9c448e9509b968221da2aef6d77c973cb7296feae
 SHA256 (libFS-1.0.10.tar.xz) = 9babbd3c86069c98563da044045fdc0ece4ec0c93dcdd2c68aa74eb34b4f3b77

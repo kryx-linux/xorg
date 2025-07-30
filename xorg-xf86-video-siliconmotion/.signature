@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xorg.pub
-RWTSGWF5Q7TndBnQb+ALbubLqnPHgnXlHmAopT8MXCRZmlyTg57nn/ULcIJE1i7GbuMl6u3evmtNX1iTCVfEQxr746udUvlHlw8=
-SHA256 (Pkgfile) = 12148ca81f42e444d3aefcf8bb8363773cf79aea9c85f15f7c493cdb50e5aba6
+RWTSGWF5Q7TndFjB7JjmKlS1H9R9Oak32ztgTPjfLsdItHYSSSjciWHwlihcvGa6exZY0+pJbAuIkzMHgVESuNPjwH9rFItxsgg=
+SHA256 (Pkgfile) = 881e5e56b0a82f0fa0dedeeabbf3e48e6eb6dff07e86d916eaa1e9545263ef92
 SHA256 (.footprint) = dd29802de113aba03a50a09e71672d12d31d0ebf5c76760213c1e64aeceb49da
 SHA256 (xf86-video-siliconmotion-1.7.10.tar.xz) = 16059c7833a288da43b1d179f5edd2b633e3b102bc5113488c5d41dd71158fc0
