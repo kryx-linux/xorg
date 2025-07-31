@@ -5,28 +5,28 @@
 # Optional: wayland-protocols
 
 name=libinput
-version=1.28.1
+version=1.29.0
 release=1
 source=(https://gitlab.freedesktop.org/libinput/libinput/-/archive/$version/$name-$version.tar.bz2)
 
 build() {
-	prt-get isinst zsh && \
-		PKGMK_LIBINPUT+=' -D zshcompletiondir=/usr/share/zsh/site-functions' || \
-		PKGMK_LIBINPUT+=' -D zshcompletiondir=no'
+    prt-get isinst zsh && \
+        PKGMK_LIBINPUT+=' -D zshcompletiondir=/usr/share/zsh/site-functions' || \
+        PKGMK_LIBINPUT+=' -D zshcompletiondir=no'
 
-	meson setup build $name-$version $PKGMK_LIBINPUT \
-		--prefix=/usr \
-		--libexecdir=/usr/lib \
-		--buildtype=plain \
-		--wrap-mode nodownload \
-		-D b_pie=true \
-		-D b_lto=true \
-		-D udev-dir=/lib/udev \
-		-D debug-gui=false \
-		-D documentation=false \
-		-D tests=false \
-		-D libwacom=false
+    meson setup build $name-$version $PKGMK_LIBINPUT \
+        --prefix=/usr \
+        --libexecdir=/usr/lib \
+        --buildtype=plain \
+        --wrap-mode nodownload \
+        -D b_pie=true \
+        -D b_lto=true \
+        -D udev-dir=/lib/udev \
+        -D debug-gui=false \
+        -D documentation=false \
+        -D tests=false \
+        -D libwacom=false
 
-	meson compile -C build -j ${JOBS:-1}
-	DESTDIR=$PKG meson install -C build
+    meson compile -C build -j ${JOBS:-1}
+    DESTDIR=$PKG meson install -C build
 }
