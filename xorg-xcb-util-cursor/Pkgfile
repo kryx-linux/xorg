@@ -4,15 +4,15 @@
 # Depends on: xorg-xcb-util-image xorg-xcb-util-renderutil
 
 name=xorg-xcb-util-cursor
-version=0.1.5
+version=0.1.6
 release=1
 source=(https://xorg.freedesktop.org/archive/individual/lib/xcb-util-cursor-$version.tar.xz)
 
 build() {
-	cd xcb-util-cursor-$version
+    cd xcb-util-cursor-$version
 
-	./configure --prefix=/usr
+    ./configure --prefix=/usr
 
-	make
-	make DESTDIR=$PKG install
+    make
+    make DESTDIR=$PKG install
 }
