@@ -4,13 +4,18 @@
 # Depends on: xorg-util-macros
 
 name=xorg-cf-files
-version=1.0.8
+version=1.0.9
 release=1
 source=(https://www.x.org/releases/individual/util/$name-$version.tar.xz)
 
 build() {
-	cd $name-$version
-	./configure --prefix=/usr
-	make
-	make DESTDIR=$PKG install
+    meson setup build $name-$version \
+        --prefix=/usr \
+        --buildtype=plain \
+        --wrap-mode nodownload \
+        -D b_lto=true \
+        -D b_pie=true
+
+    meson compile -C build -j ${JOBS:-1}
+    DESTDIR=$PKG meson install -C build
 }
