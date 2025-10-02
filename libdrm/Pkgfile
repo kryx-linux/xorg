@@ -2,6 +2,7 @@
 # URL: https://dri.freedesktop.org/
 # Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
 # Depends on: xorg-libpciaccess
+# Optional: python3-docutils
 
 name=libdrm
 version=2.4.126
@@ -9,17 +10,18 @@ release=1
 source=(https://dri.freedesktop.org/libdrm/libdrm-$version.tar.xz)
 
 build() {
-	meson setup build $name-$version \
-		--prefix=/usr \
-		--buildtype=plain \
-		--wrap-mode nodownload \
-		-D b_lto=true \
-		-D b_pie=true \
-		-D man-pages=disabled \
-		-D valgrind=disabled \
-		-D cairo-tests=disabled \
-		-D intel=enabled
+    prt-get isinst python3-docutils && PKGMK_LIBDRM+=' -D man-pages=enabled' || PKGMK_LIBDRM+=' -D man-pages=disabled'
 
-	meson compile -C build -j ${JOBS:-1}
-	DESTDIR=$PKG meson install -C build
+    meson setup build $name-$version $PKGMK_LIBDRM \
+        --prefix=/usr \
+        --buildtype=plain \
+        --wrap-mode nodownload \
+        -D b_lto=true \
+        -D b_pie=true \
+        -D intel=enabled \
+        -D valgrind=disabled \
+        -D cairo-tests=disabled
+
+    meson compile -C build -j ${JOBS:-1}
+    DESTDIR=$PKG meson install -C build
 }
