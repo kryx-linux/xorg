@@ -4,15 +4,19 @@
 # Depends on: xorg-server
 
 name=xorg-xf86-video-openchrome
-version=0.6.0
-release=2
-source=(https://xorg.freedesktop.org/archive/individual/driver/xf86-video-openchrome-$version.tar.bz2)
+version=0.6.225
+release=1
+source=(https://xorg.freedesktop.org/archive/individual/driver/xf86-video-openchrome-0.6.0.tar.bz2
+  225.patch)
 
 build() {
-	cd xf86-video-openchrome-$version
+	cd xf86-video-openchrome-0.6.0
 
+    patch -Np1 -i $SRC/225.patch
+
+    autoreconf -fvi
 	./configure --prefix=/usr
 
-	make CFLAGS+=" -fcommon"
+	make
 	make DESTDIR=$PKG install
 }
