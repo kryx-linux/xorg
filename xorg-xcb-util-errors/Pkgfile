@@ -3,14 +3,15 @@
 # Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
 # Depends on: xorg-xcb-util
 
-name=xorg-xcb-util-error
+name=xorg-xcb-util-errors
 version=1.0.1
 release=1
 source=(https://xcb.freedesktop.org/dist/xcb-util-errors-$version.tar.xz)
 
 build() {
-	cd xcb-util-errors-$version
-	./configure --prefix=/usr
-	make
-	make DESTDIR=$PKG install
+    cd xcb-util-errors-$version
+
+    ./configure --prefix=/usr
+    make
+    make DESTDIR=$PKG install
 }
