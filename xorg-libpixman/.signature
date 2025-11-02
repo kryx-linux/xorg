@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xorg.pub
-RWTSGWF5Q7TndAs6sPwhzo1tTeGYDXKvORoTy8+a44z4Qh/+DoxEzrYUDU1mxKcy+kemogT/Pel5ACsHiBgb/PLK/Hptf83bBw8=
-SHA256 (Pkgfile) = 556dd0d30fc77eea5a07fd3ba257af8faddc463798cfd7317cc0db8619fba118
+RWTSGWF5Q7TndHeP0m/OcV4Hevl/661BZ8l7SxVR4kF7mCo5FihrzB1np9jKp5+QOH0Nh+/DCR37qoJFzSVfOeAnKCxje0WC7gU=
+SHA256 (Pkgfile) = b54d3d787df238c473e20d7cd4018a52de9cfd613c29f64ed71e748ad1ad5427
 SHA256 (.footprint) = c1c6f30912d172a669a188278625065ee527d056c903579d845fe79d4b7bfc2d
 SHA256 (pixman-0.46.4.tar.xz) = a098c33924754ad43f981b740f6d576c70f9ed1006e12221b1845431ebce1239
