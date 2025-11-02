@@ -1,7 +1,7 @@
 # Description: X font rendering client library
 # URL: https://xorg.freedesktop.org
 # Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
-# Depends on: harfbuzz
+# Depends on: fontconfig harfbuzz xorg-libxrender
 
 name=xorg-libxft
 version=2.3.9
@@ -9,8 +9,9 @@ release=1
 source=(https://www.x.org/releases/individual/lib/libXft-$version.tar.xz)
 
 build() {
-	cd libXft-$version
-	./configure --prefix=/usr
-	make
-	make DESTDIR=$PKG install
+    cd libXft-$version
+
+    ./configure --prefix=/usr
+    make
+    make DESTDIR=$PKG install
 }
