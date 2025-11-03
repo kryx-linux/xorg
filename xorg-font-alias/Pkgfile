@@ -3,15 +3,15 @@
 # Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
 
 name=xorg-font-alias
-version=1.0.4
+version=1.0.5
 release=1
-source=(https://www.x.org/releases/individual/font/font-alias-$version.tar.bz2)
+source=(https://www.x.org/releases/individual/font/font-alias-$version.tar.xz)
 
 build() {
-	cd font-alias-$version
+    cd font-alias-$version
 
-	./configure --prefix=/usr
+    ./configure --prefix=/usr
 
-	make
-	make DESTDIR=$PKG install
+    make
+    make DESTDIR=$PKG install
 }
