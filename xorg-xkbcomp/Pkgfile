@@ -4,7 +4,7 @@
 # Depends on: xorg-libxkbfile
 
 name=xorg-xkbcomp
-version=1.4.7
+version=1.5.0
 release=1
 source=(https://www.x.org/releases/individual/app/xkbcomp-$version.tar.xz)
 
