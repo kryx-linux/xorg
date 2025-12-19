@@ -1,10 +1,10 @@
 # Description: Headers defining the core protocol and extensions for the X Window System
 # URL: https://xorg.freedesktop.org
 # Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
-# Depends on: meson ninja
+# Depends on:
 
 name=xorg-xorgproto
-version=2024.1
+version=2025.1
 release=1
 source=(https://xorg.freedesktop.org/archive/individual/proto/xorgproto-$version.tar.xz)
 
