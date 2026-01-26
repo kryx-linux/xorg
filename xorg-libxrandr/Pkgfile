@@ -4,15 +4,18 @@
 # Depends on: xorg-libxext xorg-libxrender
 
 name=xorg-libxrandr
-version=1.5.4
+version=1.5.5
 release=1
 source=(https://www.x.org/releases/individual/lib/libXrandr-$version.tar.xz)
 
 build() {
-	cd libXrandr-$version
+    meson setup build libXrandr-$version \
+        --prefix=/usr \
+        --buildtype=plain \
+        --wrap-mode nodownload \
+        -D b_lto=true \
+        -D b_pie=true
 
-	./configure --prefix=/usr
-
-	make
-	make DESTDIR=$PKG install
+    meson compile -C build -j ${JOBS:-1}
+    DESTDIR=$PKG meson install -C build
 }
