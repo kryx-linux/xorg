@@ -4,7 +4,7 @@
 # Depends on: xorg-libxv
 
 name=xorg-libxvmc
-version=1.0.14
+version=1.0.15
 release=1
 source=(https://www.x.org/releases/individual/lib/libXvMC-$version.tar.xz)
 
