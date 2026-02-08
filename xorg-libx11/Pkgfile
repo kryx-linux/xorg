@@ -4,17 +4,17 @@
 # Depends on: xorg-libxcb xorg-xtrans
 
 name=xorg-libx11
-version=1.8.12
+version=1.8.13
 release=1
 source=(https://www.x.org/releases/individual/lib/libX11-$version.tar.xz)
 
 build() {
-	cd libX11-$version
+    cd libX11-$version
 
-	./configure \
-		--prefix=/usr \
-		--disable-specs
+    ./configure \
+        --prefix=/usr \
+        --disable-specs
 
-	make
-	make DESTDIR="$PKG" install
+    make
+    make DESTDIR="$PKG" install
 }
