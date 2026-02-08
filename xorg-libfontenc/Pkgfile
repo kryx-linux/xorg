@@ -4,15 +4,15 @@
 # Depends on: xorg-xorgproto zlib
 
 name=xorg-libfontenc
-version=1.1.8
+version=1.1.9
 release=1
 source=(https://www.x.org/releases/individual/lib/libfontenc-$version.tar.xz)
 
 build() {
-	cd libfontenc-$version
+    cd libfontenc-$version
 
-	./configure --prefix=/usr
+    ./configure --prefix=/usr
 
-	make
-	make DESTDIR=$PKG install
+    make
+    make DESTDIR=$PKG install
 }
