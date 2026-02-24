@@ -5,24 +5,24 @@
 # Optional: intltool
 
 name=xkeyboard-config
-version=2.46
+version=2.47
 release=1
 source=(https://gitlab.freedesktop.org/$name/$name/-/archive/$name-$version/$name-$name-$version.tar.bz2)
 
 build() {
-	meson setup $name-$name-$version build \
-		--prefix=/usr \
-		--buildtype plain \
-		--wrap-mode nodownload \
-		-D b_lto=true \
-		-D b_pie=true \
-		-D compat-rules=true \
-		-D xorg-rules-symlinks=true
+    meson setup $name-$name-$version build \
+        --prefix=/usr \
+        --buildtype plain \
+        --wrap-mode nodownload \
+        -D b_lto=true \
+        -D b_pie=true \
+        -D compat-rules=true \
+        -D xorg-rules-symlinks=true
 
-	meson compile -C build -j ${JOBS:-1}
-	DESTDIR=$PKG meson install -C build
+    meson compile -C build -j ${JOBS:-1}
+    DESTDIR=$PKG meson install -C build
 
-	install -m755 -d $PKG/var/lib/xkb
-	find $PKG -name README -delete
-	rm -r $PKG/usr/share/locale
+    install -m755 -d $PKG/var/lib/xkb
+    find $PKG -name README -delete
+    rm -r $PKG/usr/share/locale
 }
