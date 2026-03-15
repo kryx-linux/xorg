@@ -5,20 +5,20 @@
 # Optional: hwdata
 
 name=xorg-libpciaccess
-version=0.18.1
+version=0.19
 release=1
 source=(https://www.x.org/releases/individual/lib/libpciaccess-$version.tar.xz)
 
 build() {
-	prt-get isinst hwdata && PKGMK_LIBPCIA+=' -D pci-ids=hwdata'
+    prt-get isinst hwdata && PKGMK_LIBPCIA+=' -D pci-ids=hwdata'
 
-	meson setup libpciaccess-$version build $PKGMK_LIBPCIA \
-		--prefix=/usr \
-		--buildtype=plain \
-		--wrap-mode nodownload \
-		-D b_lto=true \
-		-D b_pie=true \
-		-D zlib=enabled
-	meson compile -C build
-	DESTDIR=$PKG meson install -C build
+    meson setup libpciaccess-$version build $PKGMK_LIBPCIA \
+        --prefix=/usr \
+        --buildtype=plain \
+        --wrap-mode nodownload \
+        -D b_lto=true \
+        -D b_pie=true \
+        -D zlib=enabled
+    meson compile -C build
+    DESTDIR=$PKG meson install -C build
 }
