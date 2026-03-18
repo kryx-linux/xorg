@@ -22,7 +22,8 @@ build() {
         prt-get isinst directx-headers && PKGMK_MESA_VULKAN_DRIVERS+='microsoft-experimental,'
         prt-get isinst glslang && PKGMK_MESA_VULKAN_DRIVERS+='amd,' PKGMK_MESA_VULKAN_LAYERS+='overlay,'
         prt-get isinst glslang libclc python3-ply lua && PKGMK_MESA_VULKAN_DRIVERS+='intel,' PKGMK_MESA_VULKAN_LAYERS+='intel-nullhw,'
-        VULKAN_DRIVERS=${PKGMK_MESA_VULKAN_DRIVERS#,}intel_hasvk,virtio
+        prt-get isinst libclc && PKGMK_MESA_VULKAN_DRIVERS+='intel_hasvk,'
+        VULKAN_DRIVERS=${PKGMK_MESA_VULKAN_DRIVERS#,}virtio
         PKGMK_MESA_GALLIUM+='zink,'
     else
         VULKAN_DRIVERS=""
