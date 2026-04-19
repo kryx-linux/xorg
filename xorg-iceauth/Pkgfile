@@ -4,15 +4,15 @@
 # Depends on: xorg-server
 
 name=xorg-iceauth
-version=1.0.10
+version=1.0.11
 release=1
 source=(https://www.x.org/releases/individual/app/iceauth-$version.tar.xz)
 
 build() {
-	cd iceauth-$version
+    cd iceauth-$version
 
-	./configure --prefix=/usr
+    ./configure --prefix=/usr
 
-	make
-	make DESTDIR=$PKG install
+    make
+    make DESTDIR=$PKG install
 }
