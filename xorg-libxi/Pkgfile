@@ -4,15 +4,15 @@
 # Depends on: xorg-libxext xorg-libxfixes
 
 name=xorg-libxi
-version=1.8.2
+version=1.8.3
 release=1
 source=(https://www.x.org/releases/individual/lib/libXi-$version.tar.xz)
 
 build() {
-	cd libXi-$version
+    cd libXi-$version
 
-	./configure --prefix=/usr --disable-{docs,specs}
+    ./configure --prefix=/usr --disable-{docs,specs}
 
-	make
-	make DESTDIR=$PKG install
+    make
+    make DESTDIR=$PKG install
 }
