@@ -1,15 +1,19 @@
-# Description: Video Acceleration API to enable hardware accelerated video decode/encode.
+# Description: Libva is an implementation for VA-API (Video Acceleration API)
 # URL: https://github.com/intel/libva
 # Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
 # Depends on: libdrm libglvnd xorg-libxfixes
 # Optional: wayland-protocols
 
 name=libva
-version=2.23.0
+version=2.24.0
 release=1
 source=(https://github.com/intel/libva/archive/$version/$name-$version.tar.gz)
 
 build() {
+    #prt-get isinst xorg-libxfixes && PKGMK_LIBVA+=' -D with_x11=yes'
+    #prt-get isinst libglvnd xorg-libxfixes && PKGMK_LIBVA+=' -D with_glx=yes'
+    #prt-get isinst wayland-protocols && PKGMK_LIBVA+=' -D with_wayland=yes'
+
     CFLAGS+=" -DENABLE_VA_MESSAGING" \
     meson setup build $name-$version \
         --prefix=/usr \
