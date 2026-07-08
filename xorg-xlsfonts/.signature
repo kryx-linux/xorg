@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xorg.pub
-RWTSGWF5Q7TndIUIUGc1wIQyvG7iOIZW5Xkh62wJeHnm5ltfOHxSaNw2wxwj6zhT8EKjoOt5YCo/5ZAdLBiz9a6slCwRD2rDkw4=
-SHA256 (Pkgfile) = 99ca06fa02e25e23cacaeb69b85496edd03a8f521ac1d6e0bf0547a67051b0fa
+RWTSGWF5Q7TndFqBB4O84eyNUCaC7+3V4kB8DFyl93BJ6Hs9o54oDui9E5/HAfW0PMmr5Kr+ykdzM3RhaazK7Zl1/h09JyOeGww=
+SHA256 (Pkgfile) = 091eed779df9a68dfcd3a7dbd0510906609fe83de747a67b39d4e05a6da92f72
 SHA256 (.footprint) = 1302b8ebd9f742f63946e21f691bc9a9e49aea71cd8c2f4d2ea751ca6a18ba3a
-SHA256 (xlsfonts-1.0.8.tar.xz) = 807f909eace684b866fc63b3e962729c120822a6c96e051ff51cf350b3ffb6cd
+SHA256 (xlsfonts-1.0.9.tar.xz) = a6a2e291801458d92510263b175d16f98024dc3816ebddbde79b5009f6c3b065
