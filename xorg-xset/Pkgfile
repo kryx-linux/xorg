@@ -4,7 +4,7 @@
 # Depends on: xorg-libxmu
 
 name=xorg-xset
-version=1.2.5
+version=1.2.6
 release=1
 source=(https://www.x.org/releases/individual/app/xset-$version.tar.xz)
 
