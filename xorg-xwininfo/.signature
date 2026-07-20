@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xorg.pub
-RWTSGWF5Q7TndGZh4fwZ+KZ1mE+hWkI3bhS6sB+2geAVD5VjY8kh8u8ec6Ljh4H27FUmapRR10AdZelJqkx1JkyuPZ7qR2sWOA0=
-SHA256 (Pkgfile) = d8e4b1ee3def6605fcb831caa2c20e7bdfbaec62309fcd1b80b38bb509453128
+RWTSGWF5Q7TndI6s/wkfm9NB9rmpZC+qEcoXAeoE2uJE5XJL7GPS/jirk0lPaLPJSsybwqavnKAq6dUHXmh6Qu8jsZPHP1ahHQw=
+SHA256 (Pkgfile) = 4486b7a478eaa823fe707f6cef16576836b4bfecee5ffbf6bd88f3afc21d0d78
 SHA256 (.footprint) = 61f4019732cab4147d97581aaf328fad3d616c008673f832949098cf98655735
-SHA256 (xwininfo-1.1.6.tar.xz) = 3518897c17448df9ba99ad6d9bb1ca0f17bc0ed7c0fd61281b34ceed29a9253f
+SHA256 (xwininfo-1.1.7.tar.xz) = bee14d594cc86cc59aae1015c1b452a71bf60c304131e2716ca1cf0df733b4ac
