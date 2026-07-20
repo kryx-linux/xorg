@@ -4,15 +4,15 @@
 # Depends on: xorg-libx11
 
 name=xorg-xmodmap
-version=1.0.11
+version=1.0.12
 release=1
 source=(https://www.x.org/releases/individual/app/xmodmap-$version.tar.xz)
 
 build() {
-	cd xmodmap-$version
+    cd xmodmap-$version
 
-	./configure --prefix=/usr
+    ./configure --prefix=/usr
 
-	make
-	make DESTDIR=$PKG install
+    make
+    make DESTDIR=$PKG install
 }
