@@ -4,7 +4,7 @@
 # Depends on: freetype xorg-libfontenc xorg-xtrans
 
 name=xorg-libxfont2
-version=2.0.8
+version=2.0.9
 release=1
 source=(https://www.x.org/releases/individual/lib/libXfont2-$version.tar.xz)
 

@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xorg.pub
-RWTSGWF5Q7TndPgOMHvDuuAo8RuszUgd+dZMudhbpS4HRJjXenXuQstdGGOAZ9N9s0UzPJpbRYb5k4Wd0ay3SBNSbu/Pinga/QM=
-SHA256 (Pkgfile) = 98beca27fe843f8230ce98008b911e155cae9554816ff0efe23931b9eabffc49
+RWTSGWF5Q7TndDZ9rTVGNG3RKmd2eWg/kDiOxbZSu0ov7JtKdmRDsxoRnStzQv22SjU7sypROh7OeqU0Gh71fUr8zxjiexjppwk=
+SHA256 (Pkgfile) = 497b24574a42c5497fa48241786af4050c26b9022de1a6e6b0639a0974d33edc
 SHA256 (.footprint) = dc140cda3b16fb7a5b446a303695090542a6625ecd69cc23fe2bf16ff2b6153a
-SHA256 (libXfont2-2.0.8.tar.xz) = f556c0e1093a4e6911cc90bc4b106d201902ee187fd74af206ff162f7e6a24d5
+SHA256 (libXfont2-2.0.9.tar.xz) = f042a370666815e7b941e9b7019024755bd1c6c2954afbfa515af378251799e2
