@@ -4,13 +4,17 @@
 # Depends on: xorg-xorgproto
 
 name=xorg-makedepend
-version=1.0.9
+version=1.0.10
 release=1
 source=(https://www.x.org/releases/individual/util/makedepend-$version.tar.xz)
 
 build() {
-	cd makedepend-$version
-	./configure --prefix=/usr
-	make
-	make DESTDIR=$PKG install
+    meson setup makedepend-$version build \
+      --prefix=/usr \
+      --buildtype=plain \
+      --wrap-mode nodownload \
+      -D b_lto=true \
+      -D b_pie=true
+    meson compile -C build
+    DESTDIR=$PKG meson install -C build
 }
