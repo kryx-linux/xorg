@@ -1,0 +1,23 @@
+# Description: This is a fork of LLVM's libclc applying some fixes of a known good state
+# URL: https://gitlab.freedesktop.org/karolherbst/mesa-libclc
+# Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
+# Depends on: clang lld spirv-llvm-translator
+
+name=mesa-libclc
+version=22.1.8.3
+release=1
+
+source=(https://gitlab.freedesktop.org/karolherbst/mesa-libclc/-/archive/$version/mesa-libclc-$version.tar.gz)
+
+build() {
+    cmake -S mesa-libclc-$version -B build -G Ninja \
+        -D CMAKE_INSTALL_PREFIX=/usr \
+        -D CMAKE_INSTALL_LIBDIR=lib \
+        -D CMAKE_BUILD_TYPE=Release \
+        -D CMAKE_CXX_FLAGS_RELEASE="$CXXFLAGS" \
+        -D CMAKE_C_FLAGS_RELEASE="$CFLAGS" \
+        -D LIBCLC_TARGETS_TO_BUILD='spirv-mesa3d-;spirv64-mesa3d-' \
+        -Wno-dev
+    cmake --build build
+    DESTDIR=$PKG cmake --install build
+}
