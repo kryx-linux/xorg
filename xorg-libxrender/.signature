@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xorg.pub
-RWTSGWF5Q7TndDwaW6KLlWbs4eDZQQWM0U9GSamLLJi3iLuDoSCvQcWqPGqcsi2iP28Lee2PdGC+O6Y+VAYm3zsbIPp0l/C+5Ak=
-SHA256 (Pkgfile) = f4ab67ecaa8ba3af227807a7c2c163d709fc8680f0819c4f803f39ce0dd16237
+RWTSGWF5Q7TndMp/cxv/CzrRkzjg4F/6EtGgdfOv6z/1YokW5HXHsK6sCMb0Pg+RLZrJSgHkqr+vs+71jUxVkC8z/j9LGq8QDQM=
+SHA256 (Pkgfile) = 7389c821923374e32e1caf4df23b792561640035d2abc04c1f28de21711cae48
 SHA256 (.footprint) = 0249d5ad64f0167ea3a577dbb9cadd4e617bddbf8cf1755a30fff93b1f3a1a71
-SHA256 (libXrender-0.9.12.tar.xz) = b832128da48b39c8d608224481743403ad1691bf4e554e4be9c174df171d1b97
+SHA256 (libXrender-0.9.13.tar.xz) = 3fe88c609df6782e1e7af2e4de36b2563d70cd70ff7dcb1cda561ad64912bb64
