@@ -4,17 +4,17 @@
 # Depends on: xorg-libxi
 
 name=xorg-libxtst
-version=1.2.5
+version=1.2.6
 release=1
 source=(https://www.x.org/releases/individual/lib/libXtst-$version.tar.xz)
 
 build() {
-	cd libXtst-$version
+    cd libXtst-$version
 
-	./configure --prefix=/usr
+    ./configure --prefix=/usr
 
-	make
-	make DESTDIR=$PKG install
+    make
+    make DESTDIR=$PKG install
 
-	rm -r $PKG/usr/share/doc
+    rm -r $PKG/usr/share/doc
 }
