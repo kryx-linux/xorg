@@ -3,7 +3,7 @@
 # Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
 
 name=xorg-font-alias
-version=1.0.5
+version=1.0.6
 release=1
 source=(https://www.x.org/releases/individual/font/font-alias-$version.tar.xz)
 
