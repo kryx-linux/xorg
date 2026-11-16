@@ -4,15 +4,17 @@
 # Depends on: xorg-libxaw
 
 name=xorg-xmag
-version=1.0.8
+version=1.0.9
 release=1
 source=(https://www.x.org/releases/individual/app/xmag-$version.tar.xz)
 
 build() {
-	cd xmag-$version
-
-	./configure --prefix=/usr
-
-	make
-	make DESTDIR=$PKG install
+    meson setup xmag-$version build \
+        --prefix=/usr \
+        --buildtype=plain \
+        --wrap-mode nodownload \
+        -D b_lto=true \
+        -D b_pie=true
+    meson compile -C build
+    DESTDIR=$PKG meson install -C build
 }
