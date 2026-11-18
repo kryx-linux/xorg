@@ -4,7 +4,7 @@
 # Depends on: xorg-xorgproto zlib
 
 name=xorg-libfontenc
-version=1.1.9
+version=1.1.10
 release=1
 source=(https://www.x.org/releases/individual/lib/libfontenc-$version.tar.xz)
 
