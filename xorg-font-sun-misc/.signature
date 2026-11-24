@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xorg.pub
-RWTSGWF5Q7TndCqaC0POlqz2e2wVU4naPskkIfA4XUB6Lnfx2gKRROSbidUhBdQYmYCaLopmmH6fnR5lgLlfJXZdf+1LFQJtsg0=
-SHA256 (Pkgfile) = 9f1e6bc5dc63a3bb09ab09c988dab73e9b486912b2759328b01fb062900d84bc
+RWTSGWF5Q7TndGobeFdAcDuETKpGqclta2YH8RTIa+BYXxMBpCv9g/yWXg2y44mhSeWglUS0NdZpEIYkpZENaBnB+N0i64wlXQ8=
+SHA256 (Pkgfile) = 35e11f0e2f74cfd4978d217557ba7d6d227197111943d0ae051add84e2ab4243
 SHA256 (.footprint) = 9ae5a55fb166bb8868919ce1feb0dbc704e3ae378ece0dadc6e3fd880c0a0ba6
-SHA256 (font-sun-misc-1.0.3.tar.bz2) = 481f4fcbbf7005658b080b3cf342c8c76de752e77f47958b2b383de73266d2e0
+SHA256 (font-sun-misc-1.0.4.tar.xz) = dd84dd116d927affa4fa0fa29727b3ecfc0f064238817c0a1e552a0ac384db9f
