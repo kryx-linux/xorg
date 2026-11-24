@@ -4,17 +4,17 @@
 # Depends on: fontconfig xorg-mkfontscale
 
 name=xorg-font-misc-meltho
-version=1.0.3
+version=1.0.4
 release=1
-source=(https://www.x.org/releases/individual/font/font-misc-meltho-$version.tar.bz2)
+source=(https://www.x.org/releases/individual/font/font-misc-meltho-$version.tar.xz)
 
 build() {
-	cd font-misc-meltho-$version
+    cd font-misc-meltho-$version
 
-	./configure --prefix=/usr
+    ./configure --prefix=/usr
 
-	make
-	make DESTDIR=$PKG install
+    make
+    make DESTDIR=$PKG install
 
-	rm $PKG/usr/share/fonts/X11/OTF/fonts.{dir,scale}
+    rm $PKG/usr/share/fonts/X11/OTF/fonts.{dir,scale}
 }
