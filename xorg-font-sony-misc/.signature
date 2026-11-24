@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xorg.pub
-RWTSGWF5Q7TndCHm8BBRjm9YXtgvVMnLHY/9SR/rNAi5T958LhTBylpPerTMS8KfoKdiZOCd9/agcT8E8MAIFtLfTBWySHBp7wo=
-SHA256 (Pkgfile) = e3b7dab9379a8a54f69dc5ec2656502f13ad98accf5ffd3e7e47cc2eb43124e3
+RWTSGWF5Q7TndNvFvMGUGrxuL9klc6u8dXsDensw0n9lf+KxWcnmfKvoTe5inlETRiukVMg9NWLWm1zuh8ggefBbXPXOWa885AA=
+SHA256 (Pkgfile) = 394e9fac43cd31fd892a14d5b5ce2cabb3732ae0384ce7a29ecbd50eb753cc9b
 SHA256 (.footprint) = 7c32d0cdf807ebc1f30dd9184850da23f9112802d5adaee3e1d174532c1f362b
-SHA256 (font-sony-misc-1.0.3.tar.bz2) = 2043a326ba347c9da5ca1e9bc363e2521c3ea40b43b1f9662d333efd4867cff5
+SHA256 (font-sony-misc-1.0.4.tar.xz) = e6b09f823fccb06e0bd0b2062283b6514153323bd8a7486e9c2e3f55ab84946b
