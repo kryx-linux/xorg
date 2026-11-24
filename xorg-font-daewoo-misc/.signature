@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xorg.pub
-RWTSGWF5Q7TndOfeBnPs2GcxEBo6eS3fLM8cw899neMOiQLsiE2ebNcsu9asLumzp9jupO/F8CbiBbCIV1caF/kU+WNBfsmmFAo=
-SHA256 (Pkgfile) = 4777a2f8582887345195e936f0588f7b63e30d15ecdd4e7a34a9f30344a88da7
+RWTSGWF5Q7TndH0BtlhJLymqdS7Jdm8c9l6D7wjuy0/+sF4bTEkgdUfh7FqSrmnjW/mNFmTHCmHRlr5JmJRmJC1Q8hjToboz7wY=
+SHA256 (Pkgfile) = 65eca94ca2ac79e4024fdb4c0708e142cc5634f15a8ea93fe3e007f0287244f5
 SHA256 (.footprint) = 902445ac586b96ff984a2a0a7c00df526299a7ea89825d3a861dd1f7649f273a
-SHA256 (font-daewoo-misc-1.0.3.tar.bz2) = bc65de70bee12698caa95b523d3b652c056347e17b68cc8b5d6bbdff235c4be8
+SHA256 (font-daewoo-misc-1.0.4.tar.xz) = f63c8b3dc8f30098cb868b7db2c2c0c8b5b3fd2cefd044035697a43d4c7a4f31
